@@ -3,6 +3,15 @@
 (() => {
   'use strict'
 
+  fetch('/api/data', {
+    method: 'GET',
+    headers: {
+      'Accept': 'application/json',
+    },
+  })
+    .then(response => response.json())
+    .then(response => console.log(response))
+
   // Graphs
   const ctx = document.getElementById('myChart')
   // eslint-disable-next-line no-unused-vars
