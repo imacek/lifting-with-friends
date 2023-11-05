@@ -3,17 +3,18 @@ package main
 import (
 	"encoding/csv"
 	"fmt"
+	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
 	"log"
+	"math"
 	"net/http"
-	os "os"
+	"os"
+	"path"
 	"path/filepath"
 	"strconv"
 	"strings"
 	"time"
 )
-
-var uploadDirectory = "storage/"
 
 func readCsv(fileName string, skipFirstLine bool) ([][]string, error) {
 	f, err := os.Open(fileName)
@@ -44,22 +45,22 @@ func readCsv(fileName string, skipFirstLine bool) ([][]string, error) {
 type LiftingSet struct {
 	timestamp    time.Time
 	exerciseName string
-	weight       float32
+	weight       float64
 	reps         int
-	oneRepMax    float32
+	oneRepMax    float64
 }
 
-func (ls LiftingSet) calcOneRepMax() float32 {
-	return ls.weight * (36 / (37 - float32(ls.reps)))
+func (ls LiftingSet) calcOneRepMax() float64 {
+	return ls.weight * (36 / (37 - float64(ls.reps)))
 }
 
 func (ls LiftingSet) calcNormalizedExerciseName() string {
 	return strings.Trim(strings.Replace(ls.exerciseName, "(Barbell)", "", -1), " ")
 }
 
-func parseAppleCsvStyleRecords(records [][]string) ([]LiftingSet, error) {
-	// Input: Date,Workout Name,Duration,Exercise Name,Set Order,Weight,Reps,Distance,Seconds,Notes,Workout Notes,RPE
-	// Output: Date,Exercise Name,Weight,Reps
+func parseStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
+	// Expects input headers:
+	// Date,Workout Name,Duration,Exercise Name,Set Order,Weight,Reps,Distance,Seconds,Notes,Workout Notes,RPE
 
 	noHeaderRecords := records[1:]
 	cleanRecords := make([]LiftingSet, len(noHeaderRecords))
@@ -70,7 +71,7 @@ func parseAppleCsvStyleRecords(records [][]string) ([]LiftingSet, error) {
 			return []LiftingSet{}, err
 		}
 
-		weight, err := strconv.ParseFloat(record[5], 32)
+		weight, err := strconv.ParseFloat(record[5], 64)
 		if err != nil {
 			return []LiftingSet{}, err
 		}
@@ -83,7 +84,7 @@ func parseAppleCsvStyleRecords(records [][]string) ([]LiftingSet, error) {
 		ls := LiftingSet{
 			timestamp:    time,
 			exerciseName: record[3],
-			weight:       float32(weight),
+			weight:       weight,
 			reps:         int(reps),
 		}
 		ls.oneRepMax = ls.calcOneRepMax()
@@ -95,30 +96,88 @@ func parseAppleCsvStyleRecords(records [][]string) ([]LiftingSet, error) {
 	return cleanRecords, nil
 }
 
+type ExerciseAggData struct {
+	MaxWeight    float64 `json:"maxWeight"`
+	MaxOneRepMax float64 `json:"maxOneRepMax"`
+	TotalVolume  float64 `json:"totalVolume"`
+}
+
+type UserExerciseTimeSeries = map[string]map[time.Time]ExerciseAggData
+
+func calculateExerciseTimeSeries(liftingSets []LiftingSet) UserExerciseTimeSeries {
+	m := make(map[string]map[time.Time]ExerciseAggData)
+
+	for _, ls := range liftingSets {
+		if _, contains := m[ls.exerciseName]; !contains {
+			m[ls.exerciseName] = make(map[time.Time]ExerciseAggData)
+		}
+		if _, contains := m[ls.exerciseName][ls.timestamp]; !contains {
+			m[ls.exerciseName][ls.timestamp] = ExerciseAggData{}
+		}
+
+		data := m[ls.exerciseName][ls.timestamp]
+		m[ls.exerciseName][ls.timestamp] = ExerciseAggData{
+			MaxWeight:    math.Max(data.MaxWeight, ls.weight),
+			MaxOneRepMax: math.Max(data.MaxOneRepMax, ls.oneRepMax),
+			TotalVolume:  data.TotalVolume + ls.weight*float64(ls.reps),
+		}
+	}
+
+	return m
+}
+
+var storagePath = "storage/"
+var userData map[string]UserExerciseTimeSeries
+
+func loadStorage() {
+	files, err := os.ReadDir(storagePath)
+	if err != nil {
+		log.Fatal(err)
+		return
+	}
+
+	userData = make(map[string]UserExerciseTimeSeries)
+
+	for _, file := range files {
+		records, err := readCsv(path.Join(storagePath, file.Name()), false)
+		if err != nil {
+			log.Println(err)
+			continue
+		}
+
+		listingSets, err := parseStrongCsvRecords(records)
+		if err != nil {
+			log.Println(err)
+			continue
+		}
+
+		userData[file.Name()] = calculateExerciseTimeSeries(listingSets)
+	}
+}
+
 func main() {
+	loadStorage()
+
 	router := gin.Default()
-	router.GET("/ping", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message": "pong",
-		})
+	router.Use(gzip.Gzip(gzip.DefaultCompression))
+
+	router.GET("/api/data", func(c *gin.Context) {
+		c.JSON(200, userData)
 	})
 
 	router.MaxMultipartMemory = 10 << 20 // 10 MiB
 	router.POST("/upload", func(c *gin.Context) {
-		// single file
 		username := c.PostForm("user")
 		log.Println(username)
 
-		// single file
 		file, _ := c.FormFile("file")
 		log.Println(file.Filename)
 
-		// Upload the file to specific dst.
-		saveFilePath := filepath.Join(uploadDirectory, username)
+		saveFilePath := filepath.Join(storagePath, username)
 		c.SaveUploadedFile(file, saveFilePath)
 
 		c.String(http.StatusOK, fmt.Sprintf("'%s' uploaded!", file.Filename))
 	})
 
-	router.Run(":8080")
+	router.Run()
 }
