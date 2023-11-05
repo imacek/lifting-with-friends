@@ -1,0 +1,1522 @@
+Date;Workout Name;Exercise Name;Set Order;Weight;Weight Unit;Reps;RPE;Distance;Distance Unit;Seconds;Notes;Workout Notes;Workout Duration
+2022-02-16 17:40:08;"Kod Ivana 1st";"Overhead Press (Barbell)";1;45;lbs;2;;;;0;"";"Kod Mahera zvanog Ivan";58m
+2022-02-16 17:40:08;"Kod Ivana 1st";"Overhead Press (Barbell)";2;65;lbs;3;;;;0;;;58m
+2022-02-16 17:40:08;"Kod Ivana 1st";"Overhead Press (Barbell)";3;65;lbs;3;;;;0;;;58m
+2022-02-16 17:40:08;"Kod Ivana 1st";"Bench Press (Barbell)";1;45;lbs;6;;;;0;"";;58m
+2022-02-16 17:40:08;"Kod Ivana 1st";"Bench Press (Barbell)";2;65;lbs;6;;;;0;;;58m
+2022-02-16 17:40:08;"Kod Ivana 1st";"Bench Press (Barbell)";3;85;lbs;6;;;;0;;;58m
+2022-02-16 17:40:08;"Kod Ivana 1st";"Bent Over Row (Barbell)";1;65;lbs;6;;;;0;"";;58m
+2022-02-16 17:40:08;"Kod Ivana 1st";"Bent Over Row (Barbell)";2;85;lbs;6;;;;0;;;58m
+2022-02-16 17:40:08;"Kod Ivana 1st";"Bent Over Row (Barbell)";3;95;lbs;6;;;;0;;;58m
+2022-02-16 17:40:08;"Kod Ivana 1st";"Deadlift (Barbell)";1;65;lbs;5;;;;0;"";;58m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Overhead Press (Barbell)";1;65;lbs;6;;;;0;"";"";1h 7m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Overhead Press (Barbell)";2;55;lbs;6;;;;0;;;1h 7m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Overhead Press (Barbell)";3;65;lbs;6;;;;0;;;1h 7m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Overhead Press (Barbell)";4;65;lbs;6;;;;0;;;1h 7m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Bench Press (Barbell)";1;65;lbs;6;;;;0;"";;1h 7m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Bench Press (Barbell)";2;85;lbs;6;;;;0;;;1h 7m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Bench Press (Barbell)";3;105;lbs;4;;;;0;;;1h 7m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Bench Press (Barbell)";4;95;lbs;5;;;;0;;;1h 7m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Bent Over Row (Barbell)";1;75;lbs;6;;;;0;"";;1h 7m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Bent Over Row (Barbell)";2;95;lbs;6;;;;0;;;1h 7m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Bent Over Row (Barbell)";3;115;lbs;6;;;;0;;;1h 7m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Squat (Barbell)";1;0;lbs;6;;;;0;"";;1h 7m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Squat (Barbell)";2;0;lbs;6;;;;0;;;1h 7m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Squat (Barbell)";3;0;lbs;6;;;;0;;;1h 7m
+2022-02-19 13:44:17;"Kod Ivana 2nd";"Squat (Barbell)";4;0;lbs;6;;;;0;;;1h 7m
+2022-02-21 16:09:15;"Kod Ivana 3rd";"Overhead Press (Barbell)";1;45;lbs;6;;;;0;"";"";42m
+2022-02-21 16:09:15;"Kod Ivana 3rd";"Overhead Press (Barbell)";2;65;lbs;6;;;;0;;;42m
+2022-02-21 16:09:15;"Kod Ivana 3rd";"Overhead Press (Barbell)";3;75;lbs;5;;;;0;;;42m
+2022-02-21 16:09:15;"Kod Ivana 3rd";"Overhead Press (Barbell)";4;75;lbs;4;;;;0;;;42m
+2022-02-21 16:09:15;"Kod Ivana 3rd";"Overhead Press (Barbell)";5;65;lbs;5;;;;0;;;42m
+2022-02-21 16:09:15;"Kod Ivana 3rd";"Bench Press (Barbell)";1;85;lbs;5;;;;0;"";;42m
+2022-02-21 16:09:15;"Kod Ivana 3rd";"Bench Press (Barbell)";2;85;lbs;6;;;;0;;;42m
+2022-02-21 16:09:15;"Kod Ivana 3rd";"Bench Press (Barbell)";3;95;lbs;4;;;;0;;;42m
+2022-02-21 16:09:15;"Kod Ivana 3rd";"Bench Press (Barbell)";4;95;lbs;6;;;;0;;;42m
+2022-02-24 19:34:51;"kod Ivana 4";"Bench Press (Barbell)";1;65;lbs;6;;;;0;"";"";1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Bench Press (Barbell)";2;75;lbs;11;;;;0;;;1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Bench Press (Barbell)";3;95;lbs;6;;;;0;;;1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Bench Press (Barbell)";4;105;lbs;4;;;;0;;;1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Overhead Press (Barbell)";1;65;lbs;8;;;;0;"";;1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Overhead Press (Barbell)";4;95;lbs;1;;;;0;;;1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Bent Over Row (Barbell)";1;95;lbs;6;;;;0;"";;1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Bent Over Row (Barbell)";2;85;lbs;10;;;;0;;;1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Bent Over Row (Barbell)";3;95;lbs;6;;;;0;;;1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Bent Over Row (Barbell)";4;95;lbs;4;;;;0;;;1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Squat (Dumbbell)";1;0;lbs;6;;;;0;"";;1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Squat (Dumbbell)";2;0;lbs;6;;;;0;;;1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Squat (Dumbbell)";3;20;lbs;10;;;;0;;;1h 54m
+2022-02-24 19:34:51;"kod Ivana 4";"Squat (Dumbbell)";4;20;lbs;10;;;;0;;;1h 54m
+2022-03-03 18:44:59;"kod Ivana 5";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 34m
+2022-03-03 18:44:59;"kod Ivana 5";"Bench Press (Barbell)";2;105;lbs;6;;;;0;;;1h 34m
+2022-03-03 18:44:59;"kod Ivana 5";"Bench Press (Barbell)";3;115;lbs;5;;;;0;;;1h 34m
+2022-03-03 18:44:59;"kod Ivana 5";"Bench Press (Barbell)";4;115;lbs;4;;;;0;;;1h 34m
+2022-03-03 18:44:59;"kod Ivana 5";"Overhead Press (Barbell)";1;75;lbs;6;;;;0;"";;1h 34m
+2022-03-03 18:44:59;"kod Ivana 5";"Overhead Press (Barbell)";2;85;lbs;5;;;;0;;;1h 34m
+2022-03-03 18:44:59;"kod Ivana 5";"Overhead Press (Barbell)";3;85;lbs;3;;;;0;;;1h 34m
+2022-03-03 18:44:59;"kod Ivana 5";"Overhead Press (Barbell)";4;75;lbs;5;;;;0;;;1h 34m
+2022-03-03 18:44:59;"kod Ivana 5";"Deadlift (Barbell)";1;65;lbs;5;;;;0;"";;1h 34m
+2022-03-03 18:44:59;"kod Ivana 5";"Deadlift (Barbell)";2;65;lbs;4;;;;0;;;1h 34m
+2022-03-03 18:44:59;"kod Ivana 5";"Deadlift (Barbell)";3;75;lbs;4;;;;0;;;1h 34m
+2022-03-03 18:44:59;"kod Ivana 5";"Deadlift (Barbell)";4;95;lbs;6;;;;0;;;1h 34m
+2022-03-07 17:28:09;"kod Ivana 6";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 55m
+2022-03-07 17:28:09;"kod Ivana 6";"Bench Press (Barbell)";2;105;lbs;5;;;;0;;;1h 55m
+2022-03-07 17:28:09;"kod Ivana 6";"Bench Press (Barbell)";3;105;lbs;4;;;;0;;;1h 55m
+2022-03-07 17:28:09;"kod Ivana 6";"Bench Press (Barbell)";4;105;lbs;2;;;;0;;;1h 55m
+2022-03-07 17:28:09;"kod Ivana 6";"Overhead Press (Barbell)";1;75;lbs;6;;;;0;"";;1h 55m
+2022-03-07 17:28:09;"kod Ivana 6";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;1h 55m
+2022-03-07 17:28:09;"kod Ivana 6";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;1h 55m
+2022-03-07 17:28:09;"kod Ivana 6";"Overhead Press (Barbell)";4;95;lbs;3;;;;0;;;1h 55m
+2022-03-07 17:28:09;"kod Ivana 6";"Bent Over Row (Barbell)";1;95;lbs;6;;;;0;"";;1h 55m
+2022-03-07 17:28:09;"kod Ivana 6";"Bent Over Row (Barbell)";2;95;lbs;14;;;;0;;;1h 55m
+2022-03-07 17:28:09;"kod Ivana 6";"Bent Over Row (Barbell)";3;85;lbs;14;;;;0;;;1h 55m
+2022-03-07 17:28:09;"kod Ivana 6";"Bent Over Row (Barbell)";4;85;lbs;12;;;;0;;;1h 55m
+2022-03-07 17:28:09;"kod Ivana 6";"Bent Over Row (Barbell)";5;95;lbs;12;;;;0;;;1h 55m
+2022-03-07 17:28:09;"kod Ivana 6";"Bent Over Row (Barbell)";6;95;lbs;6;;;;0;;;1h 55m
+2022-03-10 18:10:18;"kod Ivana 7";"Bench Press (Barbell)";1;85;lbs;6;;;;0;"";"";1h 14m
+2022-03-10 18:10:18;"kod Ivana 7";"Bench Press (Barbell)";2;95;lbs;6;;;;0;;;1h 14m
+2022-03-10 18:10:18;"kod Ivana 7";"Bench Press (Barbell)";3;105;lbs;6;;;;0;;;1h 14m
+2022-03-10 18:10:18;"kod Ivana 7";"Bench Press (Barbell)";4;115;lbs;1;;;;0;;;1h 14m
+2022-03-10 18:10:18;"kod Ivana 7";"Bench Press (Barbell)";5;115;lbs;4;;;;0;;;1h 14m
+2022-03-10 18:10:18;"kod Ivana 7";"Overhead Press (Barbell)";1;75;lbs;6;;;;0;"";;1h 14m
+2022-03-10 18:10:18;"kod Ivana 7";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;1h 14m
+2022-03-10 18:10:18;"kod Ivana 7";"Overhead Press (Barbell)";3;75;lbs;2;;;;0;;;1h 14m
+2022-03-10 18:10:18;"kod Ivana 7";"Bent Over Row (Barbell)";1;95;lbs;6;;;;0;"";;1h 14m
+2022-03-10 18:10:18;"kod Ivana 7";"Bent Over Row (Barbell)";2;95;lbs;6;;;;0;;;1h 14m
+2022-03-10 18:10:18;"kod Ivana 7";"Bent Over Row (Barbell)";3;95;lbs;14;;;;0;;;1h 14m
+2022-03-10 18:10:18;"kod Ivana 7";"Bent Over Row (Barbell)";4;95;lbs;6;;;;0;;;1h 14m
+2022-03-10 18:10:18;"kod Ivana 7";"Bent Over Row (Barbell)";5;95;lbs;6;;;;0;;;1h 14m
+2022-03-10 18:10:18;"kod Ivana 7";"Deadlift (Barbell)";1;95;lbs;8;8;;;0;"";;1h 14m
+2022-03-13 09:12:33;"kod Ivana 8";"Bench Press (Barbell)";1;85;lbs;6;;;;0;"";"";1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Bench Press (Barbell)";2;95;lbs;6;;;;0;;;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Bench Press (Barbell)";3;105;lbs;5;;;;0;;;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Bench Press (Barbell)";4;105;lbs;5;;;;0;;;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Overhead Press (Barbell)";1;75;lbs;6;;;;0;"";;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Overhead Press (Barbell)";2;85;lbs;6;;;;0;;;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Overhead Press (Barbell)";3;85;lbs;5;;;;0;;;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Overhead Press (Barbell)";4;75;lbs;6;;;;0;;;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Bent Over Row (Barbell)";1;95;lbs;6;;;;0;"";;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Bent Over Row (Barbell)";2;85;lbs;10;;;;0;;;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Bent Over Row (Barbell)";3;85;lbs;16;;;;0;;;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Bent Over Row (Barbell)";4;95;lbs;10;;;;0;;;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Bent Over Row (Barbell)";5;95;lbs;10;;;;0;;;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Squat (Barbell)";1;0;lbs;6;;;;0;"";;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Squat (Barbell)";2;0;lbs;11;;;;0;;;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Squat (Barbell)";3;0;lbs;9;;;;0;;;1h 34m
+2022-03-13 09:12:33;"kod Ivana 8";"Squat (Barbell)";4;0;lbs;6;;;;0;;;1h 34m
+2022-03-15 18:25:01;"kod Ivana 9";"Bench Press (Barbell)";1;85;lbs;6;;;;0;"";"";1h 16m
+2022-03-15 18:25:01;"kod Ivana 9";"Bench Press (Barbell)";2;85;lbs;6;;;;0;;;1h 16m
+2022-03-15 18:25:01;"kod Ivana 9";"Bench Press (Barbell)";3;95;lbs;6;;;;0;;;1h 16m
+2022-03-15 18:25:01;"kod Ivana 9";"Bench Press (Barbell)";4;105;lbs;5;;;;0;;;1h 16m
+2022-03-15 18:25:01;"kod Ivana 9";"Overhead Press (Barbell)";1;75;lbs;6;;;;0;"";;1h 16m
+2022-03-15 18:25:01;"kod Ivana 9";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;1h 16m
+2022-03-15 18:25:01;"kod Ivana 9";"Overhead Press (Barbell)";3;75;lbs;6;;;;0;;;1h 16m
+2022-03-15 18:25:01;"kod Ivana 9";"Overhead Press (Barbell)";4;75;lbs;6;;;;0;;;1h 16m
+2022-03-15 18:25:01;"kod Ivana 9";"Bent Over Row (Barbell)";1;95;lbs;7;;;;0;"";;1h 16m
+2022-03-15 18:25:01;"kod Ivana 9";"Bent Over Row (Barbell)";2;95;lbs;6;;;;0;;;1h 16m
+2022-03-15 18:25:01;"kod Ivana 9";"Bent Over Row (Barbell)";3;105;lbs;6;;;;0;;;1h 16m
+2022-03-15 18:25:01;"kod Ivana 9";"Bent Over Row (Barbell)";4;115;lbs;6;;;;0;;;1h 16m
+2022-03-15 18:25:01;"kod Ivana 9";"Squat (Barbell)";1;0;lbs;6;;;;0;"";;1h 16m
+2022-03-15 18:25:01;"kod Ivana 9";"Squat (Barbell)";2;0;lbs;6;;;;0;;;1h 16m
+2022-03-18 17:51:58;"kod Ivana 10";"Bench Press (Barbell)";1;85;lbs;6;;;;0;"";"";1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Bench Press (Barbell)";2;95;lbs;6;;;;0;;;1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Bench Press (Barbell)";3;105;lbs;6;;;;0;;;1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Bench Press (Barbell)";4;115;lbs;6;;;;0;;;1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Overhead Press (Barbell)";1;75;lbs;6;;;;0;"";;1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Overhead Press (Barbell)";2;85;lbs;5;;;;0;;;1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Overhead Press (Barbell)";3;75;lbs;5;;;;0;;;1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Overhead Press (Barbell)";4;75;lbs;5;;;;0;;;1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Bent Over Row (Barbell)";1;75;lbs;5;;;;0;"";;1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Bent Over Row (Barbell)";2;85;lbs;6;;;;0;;;1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Bent Over Row (Barbell)";3;85;lbs;5;;;;0;;;1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Bent Over Row (Barbell)";4;95;lbs;6;;;;0;;;1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Squat (Barbell)";1;0;lbs;6;;;;0;"";;1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Squat (Barbell)";2;0;lbs;5;;;;0;;;1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Squat (Barbell)";3;0;lbs;6;;;;0;;;1h 29m
+2022-03-18 17:51:58;"kod Ivana 10";"Squat (Barbell)";4;0;lbs;4;;;;0;;;1h 29m
+2022-03-28 17:03:34;"kod Ivana 11";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Bench Press (Barbell)";2;105;lbs;6;;;;0;;;1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Bench Press (Barbell)";4;125;lbs;2;;;;0;;;1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Overhead Press (Barbell)";1;75;lbs;6;;;;0;"";;1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Overhead Press (Barbell)";3;85;lbs;4;;;;0;;;1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Overhead Press (Barbell)";4;85;lbs;6;;;;0;;;1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Bent Over Row (Barbell)";1;105;lbs;6;;;;0;"";;1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Bent Over Row (Barbell)";2;105;lbs;6;;;;0;;;1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Bent Over Row (Barbell)";3;85;lbs;6;;;;0;;;1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Bent Over Row (Barbell)";4;75;lbs;6;;;;0;;;1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Squat (Barbell)";1;0;lbs;6;;;;0;"";;1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Squat (Barbell)";2;0;lbs;6;;;;0;;;1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Squat (Barbell)";3;0;lbs;6;;;;0;;;1h 16m
+2022-03-28 17:03:34;"kod Ivana 11";"Squat (Barbell)";4;0;lbs;6;;;;0;;;1h 16m
+2022-03-31 16:38:31;"kod Ivana 12";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 17m
+2022-03-31 16:38:31;"kod Ivana 12";"Bench Press (Barbell)";2;105;lbs;6;;;;0;;;1h 17m
+2022-03-31 16:38:31;"kod Ivana 12";"Bench Press (Barbell)";3;115;lbs;3;;;;0;;;1h 17m
+2022-03-31 16:38:31;"kod Ivana 12";"Bench Press (Barbell)";4;115;lbs;3;;;;0;;;1h 17m
+2022-03-31 16:38:31;"kod Ivana 12";"Overhead Press (Barbell)";1;85;lbs;6;;;;0;"";;1h 17m
+2022-03-31 16:38:31;"kod Ivana 12";"Overhead Press (Barbell)";2;85;lbs;6;;;;0;;;1h 17m
+2022-03-31 16:38:31;"kod Ivana 12";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;1h 17m
+2022-03-31 16:38:31;"kod Ivana 12";"Overhead Press (Barbell)";4;85;lbs;6;;;;0;;;1h 17m
+2022-03-31 16:38:31;"kod Ivana 12";"Bent Over Row (Barbell)";1;75;lbs;6;;;;0;"";;1h 17m
+2022-03-31 16:38:31;"kod Ivana 12";"Bent Over Row (Barbell)";2;75;lbs;16;;;;0;;;1h 17m
+2022-03-31 16:38:31;"kod Ivana 12";"Bent Over Row (Barbell)";3;85;lbs;10;;;;0;;;1h 17m
+2022-03-31 16:38:31;"kod Ivana 12";"Bent Over Row (Barbell)";4;95;lbs;9;;;;0;;;1h 17m
+2022-03-31 16:38:31;"kod Ivana 12";"Deadlift (Barbell)";1;95;lbs;3;;;;0;"";;1h 17m
+2022-03-31 16:38:31;"kod Ivana 12";"Deadlift (Barbell)";2;75;lbs;1;;;;0;;;1h 17m
+2022-03-31 16:38:31;"kod Ivana 12";"Squat (Barbell)";1;0;lbs;6;;;;0;"";;1h 17m
+2022-04-04 18:37:42;"kod Ivana 13";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 20m
+2022-04-04 18:37:42;"kod Ivana 13";"Bench Press (Barbell)";2;105;lbs;6;;;;0;;;1h 20m
+2022-04-04 18:37:42;"kod Ivana 13";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;1h 20m
+2022-04-04 18:37:42;"kod Ivana 13";"Bench Press (Barbell)";4;125;lbs;4;;;;0;;;1h 20m
+2022-04-04 18:37:42;"kod Ivana 13";"Overhead Press (Barbell)";1;85;lbs;6;;;;0;"";;1h 20m
+2022-04-04 18:37:42;"kod Ivana 13";"Overhead Press (Barbell)";2;85;lbs;6;;;;0;;;1h 20m
+2022-04-04 18:37:42;"kod Ivana 13";"Overhead Press (Barbell)";3;85;lbs;7;;;;0;;;1h 20m
+2022-04-04 18:37:42;"kod Ivana 13";"Overhead Press (Barbell)";4;95;lbs;4;;;;0;;;1h 20m
+2022-04-04 18:37:42;"kod Ivana 13";"Squat (Barbell)";1;0;lbs;6;;;;0;"";;1h 20m
+2022-04-04 18:37:42;"kod Ivana 13";"Squat (Barbell)";2;45;lbs;6;;;;0;;;1h 20m
+2022-04-04 18:37:42;"kod Ivana 13";"Squat (Barbell)";3;45;lbs;6;;;;0;;;1h 20m
+2022-04-04 18:37:42;"kod Ivana 13";"Squat (Barbell)";4;45;lbs;6;;;;0;;;1h 20m
+2022-04-08 19:10:24;"kod Ivana 14";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 27m
+2022-04-08 19:10:24;"kod Ivana 14";"Bench Press (Barbell)";2;105;lbs;6;;;;0;;;1h 27m
+2022-04-08 19:10:24;"kod Ivana 14";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;1h 27m
+2022-04-08 19:10:24;"kod Ivana 14";"Bench Press (Barbell)";4;125;lbs;4;;;;0;;;1h 27m
+2022-04-08 19:10:24;"kod Ivana 14";"Overhead Press (Barbell)";1;85;lbs;6;;;;0;"";;1h 27m
+2022-04-08 19:10:24;"kod Ivana 14";"Overhead Press (Barbell)";2;85;lbs;6;;;;0;;;1h 27m
+2022-04-08 19:10:24;"kod Ivana 14";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;1h 27m
+2022-04-08 19:10:24;"kod Ivana 14";"Overhead Press (Barbell)";4;85;lbs;5;;;;0;;;1h 27m
+2022-04-08 19:10:24;"kod Ivana 14";"Bent Over Row (Barbell)";1;75;lbs;6;;;;0;"";;1h 27m
+2022-04-08 19:10:24;"kod Ivana 14";"Bent Over Row (Barbell)";2;85;lbs;6;;;;0;;;1h 27m
+2022-04-08 19:10:24;"kod Ivana 14";"Bent Over Row (Barbell)";3;95;lbs;6;;;;0;;;1h 27m
+2022-04-08 19:10:24;"kod Ivana 14";"Bent Over Row (Barbell)";4;105;lbs;6;;;;0;;;1h 27m
+2022-04-14 17:29:57;"kod Ivana 15";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Bench Press (Barbell)";2;115;lbs;6;;;;0;;;1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Bench Press (Barbell)";4;115;lbs;5;;;;0;;;1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Overhead Press (Barbell)";1;85;lbs;6;;;;0;"";;1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Overhead Press (Barbell)";2;95;lbs;6;;;;0;;;1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Overhead Press (Barbell)";3;95;lbs;5;;;;0;;;1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Overhead Press (Barbell)";4;95;lbs;4;;;;0;;;1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Bent Over Row (Barbell)";1;95;lbs;6;;;;0;"";;1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Bent Over Row (Barbell)";2;95;lbs;6;;;;0;;;1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Bent Over Row (Barbell)";3;95;lbs;6;;;;0;;;1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Bent Over Row (Barbell)";4;105;lbs;6;;;;0;;;1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Squat (Barbell)";1;45;lbs;6;;;;0;"";;1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Squat (Barbell)";2;55;lbs;6;;;;0;;;1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Squat (Barbell)";3;65;lbs;6;;;;0;;;1h 11m
+2022-04-14 17:29:57;"kod Ivana 15";"Squat (Barbell)";4;65;lbs;5;;;;0;;;1h 11m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Bench Press (Barbell)";1;99.21;lbs;6;;;;0;"";"";1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Bench Press (Barbell)";2;105.82;lbs;6;;;;0;;;1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Bench Press (Barbell)";3;110.23;lbs;6;;;;0;;;1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Bench Press (Barbell)";4;114.64;lbs;6;;;;0;;;1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Overhead Press (Barbell)";1;88.18;lbs;6;;;;0;"";;1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Overhead Press (Barbell)";2;88.18;lbs;6;;;;0;;;1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Overhead Press (Barbell)";3;88.18;lbs;4;;;;0;;;1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Overhead Press (Barbell)";4;82.67;lbs;6;;;;0;;;1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Bent Over Row (Barbell)";1;110.23;lbs;6;;;;0;"";;1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Bent Over Row (Barbell)";2;115.74;lbs;6;;;;0;;;1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Bent Over Row (Barbell)";3;121.25;lbs;6;;;;0;;;1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Bent Over Row (Barbell)";4;121.25;lbs;2;;;;0;;;1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Squat (Barbell)";1;0;lbs;6;;;;0;"";;1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Squat (Barbell)";2;44.09;lbs;6;;;;0;;;1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Squat (Barbell)";3;66.14;lbs;6;;;;0;;;1h 13m
+2022-04-26 04:26:28;"Hrvatska s Vinkom 1 (16)";"Squat (Barbell)";4;77.16;lbs;6;;;;0;;;1h 13m
+2022-04-29 05:18:58;"Hrvatska s Vinkom 2 (17)";"Bench Press (Barbell)";1;110.23;lbs;6;;;;0;"";"";1h 1m
+2022-04-29 05:18:58;"Hrvatska s Vinkom 2 (17)";"Bench Press (Barbell)";2;110.23;lbs;6;;;;0;;;1h 1m
+2022-04-29 05:18:58;"Hrvatska s Vinkom 2 (17)";"Bench Press (Barbell)";3;110.23;lbs;6;;;;0;;;1h 1m
+2022-04-29 05:18:58;"Hrvatska s Vinkom 2 (17)";"Bench Press (Barbell)";4;121.25;lbs;3;;;;0;;;1h 1m
+2022-04-29 05:18:58;"Hrvatska s Vinkom 2 (17)";"Overhead Press (Barbell)";1;77.16;lbs;6;;;;0;"";;1h 1m
+2022-04-29 05:18:58;"Hrvatska s Vinkom 2 (17)";"Overhead Press (Barbell)";2;82.67;lbs;6;;;;0;;;1h 1m
+2022-04-29 05:18:58;"Hrvatska s Vinkom 2 (17)";"Overhead Press (Barbell)";3;82.67;lbs;6;;;;0;;;1h 1m
+2022-04-29 05:18:58;"Hrvatska s Vinkom 2 (17)";"Overhead Press (Barbell)";4;88.18;lbs;5;;;;0;;;1h 1m
+2022-04-29 05:18:58;"Hrvatska s Vinkom 2 (17)";"Bent Over Row (Barbell)";1;110.23;lbs;6;;;;0;"";;1h 1m
+2022-04-29 05:18:58;"Hrvatska s Vinkom 2 (17)";"Bent Over Row (Barbell)";2;115.74;lbs;4;;;;0;;;1h 1m
+2022-04-29 05:18:58;"Hrvatska s Vinkom 2 (17)";"Squat (Barbell)";1;66.14;lbs;6;;;;0;"";;1h 1m
+2022-04-29 05:18:58;"Hrvatska s Vinkom 2 (17)";"Squat (Barbell)";2;77.16;lbs;6;;;;0;;;1h 1m
+2022-04-29 05:18:58;"Hrvatska s Vinkom 2 (17)";"Squat (Barbell)";3;88.18;lbs;6;;;;0;;;1h 1m
+2022-04-29 05:18:58;"Hrvatska s Vinkom 2 (17)";"Squat (Barbell)";4;99.21;lbs;6;;;;0;;;1h 1m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Bench Press (Barbell)";1;110.23;lbs;6;;;;0;"";"";1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Bench Press (Barbell)";2;110.23;lbs;6;;;;0;;;1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Bench Press (Barbell)";3;115.74;lbs;6;;;;0;;;1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Bench Press (Barbell)";4;121.25;lbs;4;;;;0;;;1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Overhead Press (Barbell)";1;82.67;lbs;6;;;;0;"";;1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Overhead Press (Barbell)";2;82.67;lbs;6;;;;0;;;1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Overhead Press (Barbell)";3;88.18;lbs;6;;;;0;;;1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Overhead Press (Barbell)";4;93.7;lbs;5;;;;0;;;1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Bent Over Row (Barbell)";1;121.25;lbs;6;;;;0;"";;1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Bent Over Row (Barbell)";2;121.25;lbs;6;;;;0;;;1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Bent Over Row (Barbell)";3;115.74;lbs;6;;;;0;;;1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Bent Over Row (Barbell)";4;115.74;lbs;6;;;;0;;;1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Squat (Barbell)";1;88.18;lbs;6;;;;0;"";;1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Squat (Barbell)";2;99.21;lbs;6;;;;0;;;1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Squat (Barbell)";3;110.23;lbs;6;;;;0;;;1h 33m
+2022-05-02 03:53:33;"Hrvatska s Vinkom 3 (18)";"Squat (Barbell)";4;121.25;lbs;6;;;;0;;;1h 33m
+2022-05-05 17:51:53;"Kod senseia (18)";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";1h 6m
+2022-05-05 17:51:53;"Kod senseia (18)";"Bench Press (Barbell)";2;115;lbs;6;;;;0;;;1h 6m
+2022-05-05 17:51:53;"Kod senseia (18)";"Bench Press (Barbell)";3;125;lbs;6;;;;0;;;1h 6m
+2022-05-05 17:51:53;"Kod senseia (18)";"Bench Press (Barbell)";4;135;lbs;5;;;;0;;;1h 6m
+2022-05-05 17:51:53;"Kod senseia (18)";"Overhead Press (Barbell)";1;85;lbs;6;;;;0;"";;1h 6m
+2022-05-05 17:51:53;"Kod senseia (18)";"Overhead Press (Barbell)";2;85;lbs;6;;;;0;;;1h 6m
+2022-05-05 17:51:53;"Kod senseia (18)";"Overhead Press (Barbell)";3;95;lbs;4;;;;0;;;1h 6m
+2022-05-05 17:51:53;"Kod senseia (18)";"Overhead Press (Barbell)";4;95;lbs;6;;;;0;;;1h 6m
+2022-05-05 17:51:53;"Kod senseia (18)";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 6m
+2022-05-05 17:51:53;"Kod senseia (18)";"Bent Over Row (Barbell)";2;115;lbs;6;;;;0;;;1h 6m
+2022-05-05 17:51:53;"Kod senseia (18)";"Bent Over Row (Barbell)";3;125;lbs;6;;;;0;;;1h 6m
+2022-05-05 17:51:53;"Kod senseia (18)";"Bent Over Row (Barbell)";4;135;lbs;6;;;;0;;;1h 6m
+2022-05-09 20:26:02;"Silicon Valley 1st - 19";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";1h 20m
+2022-05-09 20:26:02;"Silicon Valley 1st - 19";"Bench Press (Barbell)";2;125;lbs;5;;;;0;;;1h 20m
+2022-05-09 20:26:02;"Silicon Valley 1st - 19";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;1h 20m
+2022-05-09 20:26:02;"Silicon Valley 1st - 19";"Bench Press (Barbell)";4;115;lbs;6;;;;0;;;1h 20m
+2022-05-09 20:26:02;"Silicon Valley 1st - 19";"Overhead Press (Barbell)";1;88.18;lbs;6;;;;0;"";;1h 20m
+2022-05-09 20:26:02;"Silicon Valley 1st - 19";"Overhead Press (Barbell)";2;88.18;lbs;6;;;;0;;;1h 20m
+2022-05-09 20:26:02;"Silicon Valley 1st - 19";"Overhead Press (Barbell)";3;88.18;lbs;6;;;;0;;;1h 20m
+2022-05-09 20:26:02;"Silicon Valley 1st - 19";"Overhead Press (Barbell)";4;99.21;lbs;4;;;;0;;;1h 20m
+2022-05-09 20:26:02;"Silicon Valley 1st - 19";"Bent Over Row (Barbell)";1;110.23;lbs;6;;;;0;"";;1h 20m
+2022-05-09 20:26:02;"Silicon Valley 1st - 19";"Bent Over Row (Barbell)";2;132.28;lbs;6;;;;0;;;1h 20m
+2022-05-09 20:26:02;"Silicon Valley 1st - 19";"Bent Over Row (Barbell)";3;132.28;lbs;6;;;;0;;;1h 20m
+2022-05-09 20:26:02;"Silicon Valley 1st - 19";"Bent Over Row (Barbell)";4;132.28;lbs;6;;;;0;;;1h 20m
+2022-05-11 21:41:47;"Silicon Valley 2nd - 20";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";1h
+2022-05-11 21:41:47;"Silicon Valley 2nd - 20";"Bench Press (Barbell)";2;125;lbs;3;;;;0;;;1h
+2022-05-11 21:41:47;"Silicon Valley 2nd - 20";"Bench Press (Barbell)";3;120;lbs;6;;;;0;;;1h
+2022-05-11 21:41:47;"Silicon Valley 2nd - 20";"Bench Press (Barbell)";4;125;lbs;6;;;;0;;;1h
+2022-05-11 21:41:47;"Silicon Valley 2nd - 20";"Overhead Press (Barbell)";1;88.18;lbs;6;;;;0;"";;1h
+2022-05-11 21:41:47;"Silicon Valley 2nd - 20";"Overhead Press (Barbell)";2;88.18;lbs;6;;;;0;;;1h
+2022-05-11 21:41:47;"Silicon Valley 2nd - 20";"Overhead Press (Barbell)";3;99.21;lbs;5;;;;0;;;1h
+2022-05-11 21:41:47;"Silicon Valley 2nd - 20";"Overhead Press (Barbell)";4;99.21;lbs;6;;;;0;;;1h
+2022-05-11 21:41:47;"Silicon Valley 2nd - 20";"Bent Over Row (Barbell)";1;110.23;lbs;6;;;;0;"";;1h
+2022-05-11 21:41:47;"Silicon Valley 2nd - 20";"Bent Over Row (Barbell)";2;110.23;lbs;6;;;;0;;;1h
+2022-05-11 21:41:47;"Silicon Valley 2nd - 20";"Bent Over Row (Barbell)";3;121.25;lbs;6;;;;0;;;1h
+2022-05-11 21:41:47;"Silicon Valley 2nd - 20";"Bent Over Row (Barbell)";4;121.25;lbs;6;;;;0;;;1h
+2022-05-15 19:09:06;"Solo 1st- 21";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";56m
+2022-05-15 19:09:06;"Solo 1st- 21";"Bench Press (Barbell)";2;120;lbs;6;;;;0;;;56m
+2022-05-15 19:09:06;"Solo 1st- 21";"Bench Press (Barbell)";3;125;lbs;6;;;;0;;;56m
+2022-05-15 19:09:06;"Solo 1st- 21";"Bench Press (Barbell)";4;130;lbs;5;;;;0;;;56m
+2022-05-15 19:09:06;"Solo 1st- 21";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";;56m
+2022-05-15 19:09:06;"Solo 1st- 21";"Overhead Press (Barbell)";2;95;lbs;6;;;;0;;;56m
+2022-05-15 19:09:06;"Solo 1st- 21";"Overhead Press (Barbell)";3;95;lbs;5;;;;0;;;56m
+2022-05-15 19:09:06;"Solo 1st- 21";"Overhead Press (Barbell)";4;95;lbs;5;;;;0;;;56m
+2022-05-15 19:09:06;"Solo 1st- 21";"Squat (Barbell)";1;90;lbs;6;;;;0;"";;56m
+2022-05-15 19:09:06;"Solo 1st- 21";"Squat (Barbell)";2;90;lbs;6;;;;0;;;56m
+2022-05-15 19:09:06;"Solo 1st- 21";"Squat (Barbell)";3;90;lbs;9;;;;0;;;56m
+2022-05-15 19:09:06;"Solo 1st- 21";"Squat (Barbell)";4;90;lbs;8;;;;0;;;56m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Overhead Press (Barbell)";2;95;lbs;6;;;;0;;;1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Overhead Press (Barbell)";3;100;lbs;6;;;;0;;;1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Overhead Press (Barbell)";4;105;lbs;4;;;;0;;;1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Squat (Barbell)";1;105;lbs;6;;;;0;"";;1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Squat (Barbell)";2;105;lbs;6;;;;0;;;1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Squat (Barbell)";3;105;lbs;6;;;;0;;;1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Squat (Barbell)";4;105;lbs;6;;;;0;;;1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Bent Over Row (Barbell)";2;135;lbs;5;;;;0;;;1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Bent Over Row (Barbell)";3;135;lbs;6;;;;0;;;1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Bent Over Row (Barbell)";4;135;lbs;4;;;;0;;;1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";;1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Bench Press (Barbell)";2;120;lbs;6;;;;0;;;1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Bench Press (Barbell)";3;120;lbs;6;;;;0;;;1h 19m
+2022-05-20 18:39:23;"Zscaler 1st - 22";"Bench Press (Barbell)";4;125;lbs;6;;;;0;;;1h 19m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Bench Press (Barbell)";2;125;lbs;6;;;;0;;;1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Bench Press (Barbell)";3;130;lbs;6;;;;0;;;1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Bench Press (Barbell)";4;135;lbs;5;;;;0;;;1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";;1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Overhead Press (Barbell)";2;100;lbs;6;;;;0;;;1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Overhead Press (Barbell)";3;100;lbs;4;;;;0;;;1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Overhead Press (Barbell)";4;105;lbs;5;;;;0;;;1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Squat (Barbell)";1;115;lbs;6;;;;0;"";;1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Squat (Barbell)";2;115;lbs;8;;;;0;;;1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Squat (Barbell)";3;115;lbs;9;;;;0;;;1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Squat (Barbell)";4;115;lbs;6;;;;0;;;1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Bent Over Row (Barbell)";2;135;lbs;6;;;;0;;;1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Bent Over Row (Barbell)";3;135;lbs;5;;;;0;;;1h 20m
+2022-05-23 19:09:36;"Zscaler 2nd- 23";"Bent Over Row (Barbell)";4;135;lbs;5;;;;0;;;1h 20m
+2022-05-30 18:41:37;"Maintenance - 24";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Overhead Press (Barbell)";2;100;lbs;6;;;;0;;;1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Overhead Press (Barbell)";3;105;lbs;6;;;;0;;;1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Overhead Press (Barbell)";4;105;lbs;2;;;;0;;;1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Bench Press (Barbell)";1;120;lbs;6;;;;0;"";;1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Bench Press (Barbell)";2;125;lbs;6;;;;0;;;1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Bench Press (Barbell)";3;130;lbs;6;;;;0;;;1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Bench Press (Barbell)";4;130;lbs;6;;;;0;;;1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Squat (Barbell)";1;115;lbs;6;;;;0;"";;1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Squat (Barbell)";2;115;lbs;7;;;;0;;;1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Squat (Barbell)";3;115;lbs;9;;;;0;;;1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Squat (Barbell)";4;115;lbs;7;;;;0;;;1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Bent Over Row (Barbell)";1;125;lbs;6;;;;0;"";;1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Bent Over Row (Barbell)";2;125;lbs;5;;;;0;;;1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Bent Over Row (Barbell)";3;125;lbs;4;;;;0;;;1h 33m
+2022-05-30 18:41:37;"Maintenance - 24";"Bent Over Row (Barbell)";4;125;lbs;6;;;;0;;;1h 33m
+2022-06-01 18:35:17;"Bench push";"Bench Press (Barbell)";1;125;lbs;6;;;;0;"";"";1h 3m
+2022-06-01 18:35:17;"Bench push";"Bench Press (Barbell)";2;130;lbs;6;;;;0;;;1h 3m
+2022-06-01 18:35:17;"Bench push";"Bench Press (Barbell)";3;135;lbs;6;;;;0;;;1h 3m
+2022-06-01 18:35:17;"Bench push";"Bench Press (Barbell)";4;140;lbs;4;;;;0;;;1h 3m
+2022-06-01 18:35:17;"Bench push";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";;1h 3m
+2022-06-01 18:35:17;"Bench push";"Overhead Press (Barbell)";2;100;lbs;4;;;;0;;;1h 3m
+2022-06-01 18:35:17;"Bench push";"Overhead Press (Barbell)";3;95;lbs;4;;;;0;;;1h 3m
+2022-06-01 18:35:17;"Bench push";"Overhead Press (Barbell)";4;95;lbs;4;;;;0;;;1h 3m
+2022-06-01 18:35:17;"Bench push";"Squat (Barbell)";1;115;lbs;6;;;;0;"";;1h 3m
+2022-06-01 18:35:17;"Bench push";"Squat (Barbell)";2;115;lbs;10;;;;0;;;1h 3m
+2022-06-01 18:35:17;"Bench push";"Squat (Barbell)";3;115;lbs;11;;;;0;;;1h 3m
+2022-06-01 18:35:17;"Bench push";"Squat (Barbell)";4;115;lbs;9;;;;0;;;1h 3m
+2022-06-04 20:26:20;"Maintenance";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 34m
+2022-06-04 20:26:20;"Maintenance";"Overhead Press (Barbell)";2;100;lbs;6;;;;0;;;1h 34m
+2022-06-04 20:26:20;"Maintenance";"Overhead Press (Barbell)";3;105;lbs;5;;;;0;;;1h 34m
+2022-06-04 20:26:20;"Maintenance";"Overhead Press (Barbell)";4;100;lbs;4;;;;0;;;1h 34m
+2022-06-04 20:26:20;"Maintenance";"Bench Press (Barbell)";1;125;lbs;6;;;;0;"";;1h 34m
+2022-06-04 20:26:20;"Maintenance";"Bench Press (Barbell)";2;130;lbs;6;;;;0;;;1h 34m
+2022-06-04 20:26:20;"Maintenance";"Bench Press (Barbell)";3;135;lbs;6;;;;0;;;1h 34m
+2022-06-04 20:26:20;"Maintenance";"Bench Press (Barbell)";4;140;lbs;6;;;;0;;;1h 34m
+2022-06-04 20:26:20;"Maintenance";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 34m
+2022-06-04 20:26:20;"Maintenance";"Bent Over Row (Barbell)";2;120;lbs;6;;;;0;;;1h 34m
+2022-06-04 20:26:20;"Maintenance";"Bent Over Row (Barbell)";3;120;lbs;6;;;;0;;;1h 34m
+2022-06-04 20:26:20;"Maintenance";"Bent Over Row (Barbell)";4;125;lbs;6;;;;0;;;1h 34m
+2022-06-04 20:26:20;"Maintenance";"Squat (Barbell)";1;115;lbs;8;;;;0;"";;1h 34m
+2022-06-04 20:26:20;"Maintenance";"Squat (Barbell)";2;125;lbs;7;;;;0;;;1h 34m
+2022-06-04 20:26:20;"Maintenance";"Squat (Barbell)";3;125;lbs;6;;;;0;;;1h 34m
+2022-06-04 20:26:20;"Maintenance";"Squat (Barbell)";4;125;lbs;7;;;;0;;;1h 34m
+2022-06-07 20:33:10;"Tipsy Workout";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Overhead Press (Barbell)";2;100;lbs;6;;;;0;;;1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Overhead Press (Barbell)";3;100;lbs;5;;;;0;;;1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Overhead Press (Barbell)";4;100;lbs;5;;;;0;;;1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Bench Press (Barbell)";1;125;lbs;6;;;;0;"";;1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Bench Press (Barbell)";2;130;lbs;5;;;;0;;;1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Bench Press (Barbell)";3;130;lbs;6;;;;0;;;1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Bench Press (Barbell)";4;135;lbs;5;;;;0;;;1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Bent Over Row (Barbell)";2;120;lbs;6;;;;0;;;1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Bent Over Row (Barbell)";3;120;lbs;6;;;;0;;;1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Bent Over Row (Barbell)";4;125;lbs;6;;;;0;;;1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Squat (Barbell)";1;45;lbs;9;;;;0;"";;1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Squat (Barbell)";2;45;lbs;7;;;;0;;;1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Squat (Barbell)";3;45;lbs;6;;;;0;;;1h 18m
+2022-06-07 20:33:10;"Tipsy Workout";"Squat (Barbell)";4;45;lbs;6;;;;0;;;1h 18m
+2022-06-14 18:16:53;"Back after isolation";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Overhead Press (Barbell)";2;100;lbs;6;;;;0;;;1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Overhead Press (Barbell)";3;100;lbs;6;;;;0;;;1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Overhead Press (Barbell)";4;100;lbs;5;;;;0;;;1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Bench Press (Barbell)";1;125;lbs;6;;;;0;"";;1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Bench Press (Barbell)";2;130;lbs;6;;;;0;;;1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Bench Press (Barbell)";3;135;lbs;6;;;;0;;;1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Bench Press (Barbell)";4;135;lbs;5;;;;0;;;1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Bent Over Row (Barbell)";2;120;lbs;6;;;;0;;;1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Bent Over Row (Barbell)";3;120;lbs;6;;;;0;;;1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Bent Over Row (Barbell)";4;120;lbs;6;;;;0;;;1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Squat (Barbell)";1;45;lbs;6;;;;0;"";;1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Squat (Barbell)";2;55;lbs;6;;;;0;;;1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Squat (Barbell)";3;60;lbs;6;;;;0;;;1h 12m
+2022-06-14 18:16:53;"Back after isolation";"Squat (Barbell)";4;60;lbs;6;;;;0;;;1h 12m
+2022-06-18 19:34:47;"Let's go";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 15m
+2022-06-18 19:34:47;"Let's go";"Overhead Press (Barbell)";2;100;lbs;6;;;;0;;;1h 15m
+2022-06-18 19:34:47;"Let's go";"Overhead Press (Barbell)";3;105;lbs;6;;;;0;;;1h 15m
+2022-06-18 19:34:47;"Let's go";"Overhead Press (Barbell)";4;105;lbs;6;;;;0;;;1h 15m
+2022-06-18 19:34:47;"Let's go";"Squat (Barbell)";1;95;lbs;6;;;;0;"";;1h 15m
+2022-06-18 19:34:47;"Let's go";"Squat (Barbell)";2;95;lbs;6;;;;0;;;1h 15m
+2022-06-18 19:34:47;"Let's go";"Squat (Barbell)";3;95;lbs;6;;;;0;;;1h 15m
+2022-06-18 19:34:47;"Let's go";"Squat (Barbell)";4;95;lbs;6;;;;0;;;1h 15m
+2022-06-18 19:34:47;"Let's go";"Bench Press (Barbell)";1;125;lbs;6;;;;0;"";;1h 15m
+2022-06-18 19:34:47;"Let's go";"Bench Press (Barbell)";2;125;lbs;6;;;;0;;;1h 15m
+2022-06-18 19:34:47;"Let's go";"Bench Press (Barbell)";3;130;lbs;4;;;;0;;;1h 15m
+2022-06-18 19:34:47;"Let's go";"Bench Press (Barbell)";4;130;lbs;6;;;;0;;;1h 15m
+2022-06-18 19:34:47;"Let's go";"Goblet Squat (Kettlebell)";1;44.09;lbs;6;;;;0;"Vuci kettlebell prema iza, tako da se leđa aktiviraju, leđa ravna, možeš skočiti ";;1h 15m
+2022-06-18 19:34:47;"Let's go";"Goblet Squat (Kettlebell)";2;44.09;lbs;6;;;;0;;;1h 15m
+2022-06-18 19:34:47;"Let's go";"Goblet Squat (Kettlebell)";3;44.09;lbs;6;;;;0;;;1h 15m
+2022-06-21 17:14:34;"Face pull 1st";"Bench Press (Barbell)";1;125;lbs;6;;;;0;"";"";1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Bench Press (Barbell)";2;130;lbs;6;;;;0;;;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Bench Press (Barbell)";3;135;lbs;6;;;;0;;;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Bench Press (Barbell)";4;140;lbs;6;;;;0;;;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Overhead Press (Barbell)";2;100;lbs;6;;;;0;;;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Overhead Press (Barbell)";3;100;lbs;6;;;;0;;;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Overhead Press (Barbell)";4;105;lbs;5;;;;0;;;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Bent Over Row (Barbell)";2;120;lbs;6;;;;0;;;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Bent Over Row (Barbell)";3;120;lbs;6;;;;0;;;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Bent Over Row (Barbell)";4;120;lbs;6;;;;0;;;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Squat (Barbell)";1;45;lbs;6;;;;0;"";;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Squat (Barbell)";2;65;lbs;6;;;;0;;;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Squat (Barbell)";3;75;lbs;5;;;;0;;;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Squat (Barbell)";4;75;lbs;5;;;;0;;;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Face Pull (Cable)";1;13;lbs;6;;;;0;"Probaj s disanjem gore ";;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Face Pull (Cable)";2;20;lbs;12;;;;0;;;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Face Pull (Cable)";3;27;lbs;6;;;;0;;;1h 21m
+2022-06-21 17:14:34;"Face pull 1st";"Face Pull (Cable)";4;27;lbs;6;;;;0;;;1h 21m
+2022-07-12 19:08:29;"After Covid Special";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Bench Press (Barbell)";2;120;lbs;6;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Bench Press (Barbell)";3;125;lbs;6;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Bench Press (Barbell)";4;130;lbs;6;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Overhead Press (Barbell)";2;95;lbs;5;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Overhead Press (Barbell)";3;95;lbs;6;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Overhead Press (Barbell)";4;95;lbs;5;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Bent Over Row (Barbell)";1;95;lbs;6;;;;0;"";;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Bent Over Row (Barbell)";2;100;lbs;6;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Bent Over Row (Barbell)";3;100;lbs;6;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Bent Over Row (Barbell)";4;100;lbs;6;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Squat (Barbell)";1;45;lbs;6;;;;0;"";;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Squat (Barbell)";2;55;lbs;6;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Squat (Barbell)";3;65;lbs;6;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Squat (Barbell)";4;65;lbs;7;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Face Pull (Cable)";1;20;lbs;6;;;;0;"";;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Face Pull (Cable)";2;20;lbs;6;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Face Pull (Cable)";3;20;lbs;6;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Face Pull (Cable)";4;20;lbs;6;;;;0;;;1h 9m
+2022-07-12 19:08:29;"After Covid Special";"Face Pull (Cable)";5;20;lbs;6;;;;0;;;1h 9m
+2022-07-17 18:32:47;"Polagano vraćanje";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Overhead Press (Barbell)";2;100;lbs;6;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Overhead Press (Barbell)";3;105;lbs;6;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Overhead Press (Barbell)";4;105;lbs;6;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Bench Press (Barbell)";1;120;lbs;6;;;;0;"";;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Bench Press (Barbell)";2;120;lbs;6;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Bench Press (Barbell)";3;125;lbs;6;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Bench Press (Barbell)";4;130;lbs;6;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Squat (Barbell)";1;65;lbs;6;;;;0;"";;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Squat (Barbell)";2;70;lbs;6;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Squat (Barbell)";3;70;lbs;6;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Squat (Barbell)";4;70;lbs;6;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Bent Over Row (Barbell)";1;95;lbs;6;;;;0;"";;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Bent Over Row (Barbell)";2;100;lbs;6;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Bent Over Row (Barbell)";3;105;lbs;6;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Bent Over Row (Barbell)";4;110;lbs;6;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Face Pull (Cable)";1;20;lbs;6;;;;0;"";;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Face Pull (Cable)";2;20;lbs;4;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Face Pull (Cable)";3;20;lbs;5;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Face Pull (Cable)";4;20;lbs;6;;;;0;;;1h 29m
+2022-07-17 18:32:47;"Polagano vraćanje";"Face Pull (Cable)";5;20;lbs;6;;;;0;;;1h 29m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Bench Press (Barbell)";1;125;lbs;6;;;;0;"";"";1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Bench Press (Barbell)";2;130;lbs;6;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Bench Press (Barbell)";3;135;lbs;6;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Bench Press (Barbell)";4;140;lbs;6;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Overhead Press (Barbell)";2;100;lbs;6;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Overhead Press (Barbell)";3;100;lbs;6;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Overhead Press (Barbell)";4;100;lbs;3;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Squat (Barbell)";1;60;lbs;6;;;;0;"";;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Squat (Barbell)";2;60;lbs;6;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Squat (Barbell)";3;65;lbs;6;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Squat (Barbell)";4;70;lbs;6;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Bent Over Row (Barbell)";2;115;lbs;6;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Bent Over Row (Barbell)";3;115;lbs;6;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Bent Over Row (Barbell)";4;115;lbs;6;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Face Pull (Cable)";1;20;lbs;6;;;;0;"";;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Face Pull (Cable)";2;20;lbs;6;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Face Pull (Cable)";3;20;lbs;6;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Face Pull (Cable)";4;20;lbs;6;;;;0;;;1h 18m
+2022-07-20 19:26:07;"Povratak na staro, for merman";"Face Pull (Cable)";5;20;lbs;6;;;;0;;;1h 18m
+2022-07-26 18:53:27;"Chill vjebica dok se rame ne oporavi";"Overhead Press (Barbell)";1;60;lbs;8;;;;0;"";"";39m
+2022-07-26 18:53:27;"Chill vjebica dok se rame ne oporavi";"Overhead Press (Barbell)";2;70;lbs;6;;;;0;;;39m
+2022-07-26 18:53:27;"Chill vjebica dok se rame ne oporavi";"Squat (Barbell)";1;70;lbs;6;;;;0;"";;39m
+2022-07-26 18:53:27;"Chill vjebica dok se rame ne oporavi";"Squat (Barbell)";2;70;lbs;6;;;;0;;;39m
+2022-07-26 18:53:27;"Chill vjebica dok se rame ne oporavi";"Squat (Barbell)";3;70;lbs;6;;;;0;;;39m
+2022-07-26 18:53:27;"Chill vjebica dok se rame ne oporavi";"Squat (Barbell)";4;70;lbs;6;;;;0;;;39m
+2022-07-26 18:53:27;"Chill vjebica dok se rame ne oporavi";"Squat (Barbell)";5;70;lbs;6;;;;0;;;39m
+2022-07-26 18:53:27;"Chill vjebica dok se rame ne oporavi";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;39m
+2022-07-26 18:53:27;"Chill vjebica dok se rame ne oporavi";"Bent Over Row (Barbell)";2;115;lbs;6;;;;0;;;39m
+2022-07-26 18:53:27;"Chill vjebica dok se rame ne oporavi";"Bent Over Row (Barbell)";3;115;lbs;6;;;;0;;;39m
+2022-07-26 18:53:27;"Chill vjebica dok se rame ne oporavi";"Bent Over Row (Barbell)";4;115;lbs;6;;;;0;;;39m
+2022-07-26 18:53:27;"Chill vjebica dok se rame ne oporavi";"Face Pull (Cable)";1;20;lbs;6;;;;0;"";;39m
+2022-07-26 18:53:27;"Chill vjebica dok se rame ne oporavi";"Face Pull (Cable)";2;20;lbs;6;;;;0;;;39m
+2022-08-07 17:45:01;"1/2 rame oporavak";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";"";28m
+2022-08-07 17:45:01;"1/2 rame oporavak";"Bent Over Row (Barbell)";2;115;lbs;6;;;;0;;;28m
+2022-08-07 17:45:01;"1/2 rame oporavak";"Bent Over Row (Barbell)";3;120;lbs;6;;;;0;;;28m
+2022-08-07 17:45:01;"1/2 rame oporavak";"Bent Over Row (Barbell)";4;120;lbs;6;;;;0;;;28m
+2022-08-07 17:45:01;"1/2 rame oporavak";"Squat (Barbell)";1;65;lbs;6;;;;0;"";;28m
+2022-08-07 17:45:01;"1/2 rame oporavak";"Squat (Barbell)";2;70;lbs;6;;;;0;;;28m
+2022-08-07 17:45:01;"1/2 rame oporavak";"Squat (Barbell)";3;70;lbs;6;;;;0;;;28m
+2022-08-07 17:45:01;"1/2 rame oporavak";"Squat (Barbell)";4;70;lbs;6;;;;0;;;28m
+2022-08-14 16:20:27;"rame oporavak, ban na bench i overhead";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";"";34m
+2022-08-14 16:20:27;"rame oporavak, ban na bench i overhead";"Bent Over Row (Barbell)";2;120;lbs;6;;;;0;;;34m
+2022-08-14 16:20:27;"rame oporavak, ban na bench i overhead";"Bent Over Row (Barbell)";3;120;lbs;6;;;;0;;;34m
+2022-08-14 16:20:27;"rame oporavak, ban na bench i overhead";"Bent Over Row (Barbell)";4;125;lbs;6;;;;0;;;34m
+2022-08-14 16:20:27;"rame oporavak, ban na bench i overhead";"Squat (Barbell)";1;65;lbs;6;;;;0;"";;34m
+2022-08-14 16:20:27;"rame oporavak, ban na bench i overhead";"Squat (Barbell)";2;65;lbs;6;;;;0;;;34m
+2022-08-14 16:20:27;"rame oporavak, ban na bench i overhead";"Squat (Barbell)";3;70;lbs;6;;;;0;;;34m
+2022-08-14 16:20:27;"rame oporavak, ban na bench i overhead";"Squat (Barbell)";4;75;lbs;4;;;;0;;;34m
+2022-08-14 16:20:27;"rame oporavak, ban na bench i overhead";"Overhead Press (Barbell)";1;70;lbs;8;;;;0;"";;34m
+2022-08-23 20:38:20;"rame oporavak, ban na bench, overhead veliki chill";"Overhead Press (Barbell)";1;65;lbs;8;;;;0;"";"";40m
+2022-08-23 20:38:20;"rame oporavak, ban na bench, overhead veliki chill";"Overhead Press (Barbell)";2;70;lbs;6;;;;0;;;40m
+2022-08-23 20:38:20;"rame oporavak, ban na bench, overhead veliki chill";"Overhead Press (Barbell)";3;70;lbs;6;;;;0;;;40m
+2022-08-23 20:38:20;"rame oporavak, ban na bench, overhead veliki chill";"Overhead Press (Barbell)";4;70;lbs;6;;;;0;;;40m
+2022-08-23 20:38:20;"rame oporavak, ban na bench, overhead veliki chill";"Squat (Barbell)";1;65;lbs;6;;;;0;"";;40m
+2022-08-23 20:38:20;"rame oporavak, ban na bench, overhead veliki chill";"Squat (Barbell)";2;70;lbs;6;;;;0;;;40m
+2022-08-23 20:38:20;"rame oporavak, ban na bench, overhead veliki chill";"Squat (Barbell)";3;70;lbs;6;;;;0;;;40m
+2022-08-23 20:38:20;"rame oporavak, ban na bench, overhead veliki chill";"Squat (Barbell)";4;70;lbs;6;;;;0;;;40m
+2022-08-23 20:38:20;"rame oporavak, ban na bench, overhead veliki chill";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;40m
+2022-08-23 20:38:20;"rame oporavak, ban na bench, overhead veliki chill";"Bent Over Row (Barbell)";2;115;lbs;6;;;;0;;;40m
+2022-08-23 20:38:20;"rame oporavak, ban na bench, overhead veliki chill";"Bent Over Row (Barbell)";3;115;lbs;6;;;;0;;;40m
+2022-08-23 20:38:20;"rame oporavak, ban na bench, overhead veliki chill";"Bent Over Row (Barbell)";4;115;lbs;6;;;;0;;;40m
+2022-08-27 08:47:21;"Chill rame, deadlift! Nazat kod Senseia";"Bench Press (Barbell)";1;95;lbs;12;;;;0;"";"";1h 3m
+2022-08-27 08:47:21;"Chill rame, deadlift! Nazat kod Senseia";"Bench Press (Barbell)";2;115;lbs;6;;;;0;;;1h 3m
+2022-08-27 08:47:21;"Chill rame, deadlift! Nazat kod Senseia";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;1h 3m
+2022-08-27 08:47:21;"Chill rame, deadlift! Nazat kod Senseia";"Deadlift (Barbell)";1;95;lbs;4;;;;0;"";;1h 3m
+2022-08-27 08:47:21;"Chill rame, deadlift! Nazat kod Senseia";"Deadlift (Barbell)";2;115;lbs;6;;;;0;;;1h 3m
+2022-08-27 08:47:21;"Chill rame, deadlift! Nazat kod Senseia";"Deadlift (Barbell)";3;125;lbs;6;;;;0;;;1h 3m
+2022-08-27 08:47:21;"Chill rame, deadlift! Nazat kod Senseia";"Deadlift (Barbell)";4;115;lbs;6;;;;0;;;1h 3m
+2022-08-27 08:47:21;"Chill rame, deadlift! Nazat kod Senseia";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 3m
+2022-08-27 08:47:21;"Chill rame, deadlift! Nazat kod Senseia";"Bent Over Row (Barbell)";2;125;lbs;6;;;;0;;;1h 3m
+2022-08-27 08:47:21;"Chill rame, deadlift! Nazat kod Senseia";"Bent Over Row (Barbell)";3;125;lbs;6;;;;0;;;1h 3m
+2022-09-01 17:17:33;"Chill rame, deadlift! Nazat kod Senseia";"Overhead Press (Barbell)";1;65;lbs;6;;;;0;"";"";1h 5m
+2022-09-01 17:17:33;"Chill rame, deadlift! Nazat kod Senseia";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;1h 5m
+2022-09-01 17:17:33;"Chill rame, deadlift! Nazat kod Senseia";"Squat (Barbell)";1;65;lbs;6;;;;0;"";;1h 5m
+2022-09-01 17:17:33;"Chill rame, deadlift! Nazat kod Senseia";"Squat (Barbell)";2;55;lbs;5;;;;0;;;1h 5m
+2022-09-01 17:17:33;"Chill rame, deadlift! Nazat kod Senseia";"Deadlift (Barbell)";1;115;lbs;6;;;;0;"";;1h 5m
+2022-09-01 17:17:33;"Chill rame, deadlift! Nazat kod Senseia";"Deadlift (Barbell)";2;115;lbs;4;;;;0;;;1h 5m
+2022-09-01 17:17:33;"Chill rame, deadlift! Nazat kod Senseia";"Deadlift (Barbell)";3;115;lbs;6;;;;0;;;1h 5m
+2022-09-01 17:17:33;"Chill rame, deadlift! Nazat kod Senseia";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 5m
+2022-09-01 17:17:33;"Chill rame, deadlift! Nazat kod Senseia";"Bent Over Row (Barbell)";2;115;lbs;6;;;;0;;;1h 5m
+2022-09-04 11:12:58;"LA dizanje kod Sensei, rame bolje, nije još prošlo";"Overhead Press (Barbell)";1;75;lbs;6;;;;0;"";"";2h 5m
+2022-09-04 11:12:58;"LA dizanje kod Sensei, rame bolje, nije još prošlo";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;2h 5m
+2022-09-04 11:12:58;"LA dizanje kod Sensei, rame bolje, nije još prošlo";"Bench Press (Barbell)";1;75;lbs;8;;;;0;"";;2h 5m
+2022-09-04 11:12:58;"LA dizanje kod Sensei, rame bolje, nije još prošlo";"Bench Press (Barbell)";2;85;lbs;6;;;;0;;;2h 5m
+2022-09-04 11:12:58;"LA dizanje kod Sensei, rame bolje, nije još prošlo";"Bench Press (Barbell)";3;95;lbs;6;;;;0;;;2h 5m
+2022-09-04 11:12:58;"LA dizanje kod Sensei, rame bolje, nije još prošlo";"Bench Press (Barbell)";4;105;lbs;6;;;;0;;;2h 5m
+2022-09-04 11:12:58;"LA dizanje kod Sensei, rame bolje, nije još prošlo";"Deadlift (Barbell)";1;115;lbs;6;;;;0;"";;2h 5m
+2022-09-04 11:12:58;"LA dizanje kod Sensei, rame bolje, nije još prošlo";"Deadlift (Barbell)";2;115;lbs;4;;;;0;;;2h 5m
+2022-09-04 11:12:58;"LA dizanje kod Sensei, rame bolje, nije još prošlo";"Deadlift (Barbell)";3;105;lbs;6;;;;0;;;2h 5m
+2022-09-04 11:12:58;"LA dizanje kod Sensei, rame bolje, nije još prošlo";"Deadlift (Barbell)";4;105;lbs;4;;;;0;;;2h 5m
+2022-09-04 11:12:58;"LA dizanje kod Sensei, rame bolje, nije još prošlo";"Bent Over Row (Barbell)";1;120;lbs;6;;;;0;"";;2h 5m
+2022-09-04 11:12:58;"LA dizanje kod Sensei, rame bolje, nije još prošlo";"Bent Over Row (Barbell)";2;125;lbs;6;;;;0;;;2h 5m
+2022-09-04 11:12:58;"LA dizanje kod Sensei, rame bolje, nije još prošlo";"Bent Over Row (Barbell)";3;135;lbs;6;;;;0;;;2h 5m
+2022-09-04 11:12:58;"LA dizanje kod Sensei, rame bolje, nije još prošlo";"Bent Over Row (Barbell)";4;135;lbs;5;;;;0;;;2h 5m
+2022-09-11 19:19:49;"Nazat solo, chill odmori rame";"Overhead Press (Barbell)";1;85;lbs;6;;;;0;"";"";27m
+2022-09-11 19:19:49;"Nazat solo, chill odmori rame";"Overhead Press (Barbell)";2;95;lbs;6;;;;0;;;27m
+2022-09-11 19:19:49;"Nazat solo, chill odmori rame";"Overhead Press (Barbell)";3;95;lbs;4;;;;0;;;27m
+2022-09-11 19:19:49;"Nazat solo, chill odmori rame";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";;27m
+2022-09-11 19:19:49;"Nazat solo, chill odmori rame";"Bench Press (Barbell)";2;105;lbs;6;;;;0;;;27m
+2022-09-11 19:19:49;"Nazat solo, chill odmori rame";"Bench Press (Barbell)";3;105;lbs;6;;;;0;;;27m
+2022-09-11 19:19:49;"Nazat solo, chill odmori rame";"Squat (Barbell)";1;75;lbs;6;;;;0;"";;27m
+2022-09-11 19:19:49;"Nazat solo, chill odmori rame";"Squat (Barbell)";2;75;lbs;6;;;;0;;;27m
+2022-09-11 19:19:49;"Nazat solo, chill odmori rame";"Squat (Barbell)";3;75;lbs;6;;;;0;;;27m
+2022-09-11 19:19:49;"Nazat solo, chill odmori rame";"Squat (Barbell)";4;75;lbs;6;;;;0;;;27m
+2022-10-08 19:32:47;"Povratak, laganica.";"Bench Press (Barbell)";1;45;lbs;6;;;;0;"";"";51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Bench Press (Barbell)";2;65;lbs;6;;;;0;;;51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Bench Press (Barbell)";3;85;lbs;6;;;;0;;;51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Bench Press (Barbell)";4;105;lbs;6;;;;0;;;51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Overhead Press (Barbell)";1;45;lbs;6;;;;0;"";;51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Overhead Press (Barbell)";2;65;lbs;6;;;;0;;;51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Overhead Press (Barbell)";3;75;lbs;6;;;;0;;;51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Overhead Press (Barbell)";4;75;lbs;6;;;;0;;;51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Bent Over Row (Barbell)";2;115;lbs;6;;;;0;;;51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Bent Over Row (Barbell)";3;120;lbs;5;;;;0;;;51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Bent Over Row (Barbell)";4;120;lbs;6;;;;0;;;51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Deadlift (Barbell)";1;115;lbs;5;;;;0;"";;51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Deadlift (Barbell)";2;115;lbs;4;;;;0;;;51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Deadlift (Barbell)";3;115;lbs;2;;;;0;;;51m
+2022-10-08 19:32:47;"Povratak, laganica.";"Deadlift (Barbell)";4;115;lbs;6;;;;0;;;51m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Bench Press (Barbell)";1;65;lbs;12;;;;0;"";"";1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Bench Press (Barbell)";2;85;lbs;8;;;;0;;;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Bench Press (Barbell)";3;100;lbs;6;;;;0;;;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Bench Press (Barbell)";4;110;lbs;6;;;;0;;;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Overhead Press (Barbell)";1;55;lbs;6;;;;0;"";;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Overhead Press (Barbell)";2;65;lbs;6;;;;0;;;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Overhead Press (Barbell)";3;75;lbs;6;;;;0;;;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Overhead Press (Barbell)";4;85;lbs;6;;;;0;;;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Bent Over Row (Barbell)";2;120;lbs;6;;;;0;;;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Bent Over Row (Barbell)";3;125;lbs;5;;;;0;;;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Bent Over Row (Barbell)";4;125;lbs;4;;;;0;;;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Deadlift (Barbell)";1;115;lbs;6;;;;0;"";;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Deadlift (Barbell)";2;115;lbs;6;;;;0;;;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Deadlift (Barbell)";3;115;lbs;6;;;;0;;;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Deadlift (Barbell)";4;115;lbs;5;;;;0;;;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Squat (Barbell)";1;55;lbs;6;;;;0;"";;1h 24m
+2022-10-16 18:07:01;"Laganica, rame se još oporavlja";"Squat (Barbell)";2;60;lbs;5;;;;0;;;1h 24m
+2022-10-20 17:10:47;"Oporavak i dalje, nema pretjerivanja";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";40m
+2022-10-20 17:10:47;"Oporavak i dalje, nema pretjerivanja";"Bench Press (Barbell)";2;105;lbs;6;;;;0;;;40m
+2022-10-20 17:10:47;"Oporavak i dalje, nema pretjerivanja";"Bench Press (Barbell)";3;110;lbs;6;;;;0;;;40m
+2022-10-20 17:10:47;"Oporavak i dalje, nema pretjerivanja";"Bench Press (Barbell)";4;110;lbs;6;;;;0;;;40m
+2022-10-20 17:10:47;"Oporavak i dalje, nema pretjerivanja";"Overhead Press (Barbell)";1;65;lbs;6;;;;0;"";;40m
+2022-10-20 17:10:47;"Oporavak i dalje, nema pretjerivanja";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;40m
+2022-10-20 17:10:47;"Oporavak i dalje, nema pretjerivanja";"Overhead Press (Barbell)";3;75;lbs;6;;;;0;;;40m
+2022-10-20 17:10:47;"Oporavak i dalje, nema pretjerivanja";"Overhead Press (Barbell)";4;80;lbs;6;;;;0;;;40m
+2022-10-20 17:10:47;"Oporavak i dalje, nema pretjerivanja";"Squat (Barbell)";1;65;lbs;6;;;;0;"";;40m
+2022-10-20 17:10:47;"Oporavak i dalje, nema pretjerivanja";"Squat (Barbell)";2;60;lbs;6;;;;0;;;40m
+2022-10-20 17:10:47;"Oporavak i dalje, nema pretjerivanja";"Squat (Barbell)";3;60;lbs;6;;;;0;;;40m
+2022-10-20 17:10:47;"Oporavak i dalje, nema pretjerivanja";"Squat (Barbell)";4;60;lbs;5;;;;0;;;40m
+2022-10-24 19:17:24;"Evening Workout";"Bench Press (Barbell)";1;100;lbs;6;;;;0;"";"uf slučajno izbrisao";1m
+2022-10-24 19:17:24;"Evening Workout";"Bench Press (Barbell)";2;105;lbs;6;;;;0;;;1m
+2022-10-24 19:17:24;"Evening Workout";"Bench Press (Barbell)";3;110;lbs;6;;;;0;;;1m
+2022-10-24 19:17:24;"Evening Workout";"Bench Press (Barbell)";4;115;lbs;6;;;;0;;;1m
+2022-10-24 19:17:24;"Evening Workout";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1m
+2022-10-24 19:17:24;"Evening Workout";"Bent Over Row (Barbell)";2;120;lbs;6;;;;0;;;1m
+2022-10-24 19:17:24;"Evening Workout";"Bent Over Row (Barbell)";3;125;lbs;6;;;;0;;;1m
+2022-10-24 19:17:24;"Evening Workout";"Bent Over Row (Barbell)";4;130;lbs;6;;;;0;;;1m
+2022-10-27 20:07:59;"Evening Workout";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"laganica s kolegom, ispravljao formu malo na bench";1h 16m
+2022-10-27 20:07:59;"Evening Workout";"Bench Press (Barbell)";2;105;lbs;6;;;;0;;;1h 16m
+2022-10-27 20:07:59;"Evening Workout";"Bench Press (Barbell)";3;95;lbs;6;;;;0;;;1h 16m
+2022-10-27 20:07:59;"Evening Workout";"Bench Press (Barbell)";4;95;lbs;6;;;;0;;;1h 16m
+2022-10-27 20:07:59;"Evening Workout";"Overhead Press (Barbell)";1;70;lbs;6;;;;0;"";;1h 16m
+2022-10-27 20:07:59;"Evening Workout";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;1h 16m
+2022-10-27 20:07:59;"Evening Workout";"Overhead Press (Barbell)";3;80;lbs;6;;;;0;;;1h 16m
+2022-10-27 20:07:59;"Evening Workout";"Overhead Press (Barbell)";4;80;lbs;6;;;;0;;;1h 16m
+2022-10-27 20:07:59;"Evening Workout";"Squat (Barbell)";1;60;lbs;6;;;;0;"";;1h 16m
+2022-10-27 20:07:59;"Evening Workout";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;1h 16m
+2022-10-27 20:07:59;"Evening Workout";"Bent Over Row (Barbell)";2;135;lbs;6;;;;0;;;1h 16m
+2022-10-27 20:07:59;"Evening Workout";"Bent Over Row (Barbell)";3;135;lbs;6;;;;0;;;1h 16m
+2022-10-27 20:07:59;"Evening Workout";"Bent Over Row (Barbell)";4;135;lbs;5;;;;0;;;1h 16m
+2022-10-27 20:07:59;"Evening Workout";"Deadlift (Barbell)";1;135;lbs;4;;;;0;"";;1h 16m
+2022-10-27 20:07:59;"Evening Workout";"Deadlift (Barbell)";2;135;lbs;3;;;;0;;;1h 16m
+2022-10-30 18:47:50;"2 seta of svega! Ne pretjerati";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";40m
+2022-10-30 18:47:50;"2 seta of svega! Ne pretjerati";"Bench Press (Barbell)";2;95;lbs;6;;;;0;;;40m
+2022-10-30 18:47:50;"2 seta of svega! Ne pretjerati";"Bench Press (Barbell)";3;105;lbs;6;;;;0;;;40m
+2022-10-30 18:47:50;"2 seta of svega! Ne pretjerati";"Overhead Press (Barbell)";1;65;lbs;6;;;;0;"";;40m
+2022-10-30 18:47:50;"2 seta of svega! Ne pretjerati";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;40m
+2022-10-30 18:47:50;"2 seta of svega! Ne pretjerati";"Overhead Press (Barbell)";3;80;lbs;6;;;;0;;;40m
+2022-10-30 18:47:50;"2 seta of svega! Ne pretjerati";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;40m
+2022-10-30 18:47:50;"2 seta of svega! Ne pretjerati";"Bent Over Row (Barbell)";2;135;lbs;6;;;;0;;;40m
+2022-10-30 18:47:50;"2 seta of svega! Ne pretjerati";"Deadlift (Barbell)";1;135;lbs;4;;;;0;"";;40m
+2022-10-30 18:47:50;"2 seta of svega! Ne pretjerati";"Deadlift (Barbell)";2;135;lbs;5;;;;0;;;40m
+2022-10-30 18:47:50;"2 seta of svega! Ne pretjerati";"Deadlift (Barbell)";3;135;lbs;4;;;;0;;;40m
+2022-11-03 21:55:06;"Late workout after work";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Bench Press (Barbell)";2;105;lbs;6;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Bench Press (Barbell)";3;110;lbs;6;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Bench Press (Barbell)";4;115;lbs;6;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Overhead Press (Barbell)";1;70;lbs;6;;;;0;"";;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Overhead Press (Barbell)";3;80;lbs;6;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Overhead Press (Barbell)";4;85;lbs;6;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Bent Over Row (Barbell)";2;135;lbs;6;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Bent Over Row (Barbell)";3;140;lbs;6;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Bent Over Row (Barbell)";4;145;lbs;5;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Triceps Pushdown (Cable - Straight Bar)";1;95;lbs;4;;;;0;"";;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Triceps Pushdown (Cable - Straight Bar)";2;70;lbs;10;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Triceps Pushdown (Cable - Straight Bar)";3;80;lbs;10;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Triceps Pushdown (Cable - Straight Bar)";4;90;lbs;11;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Deadlift (Barbell)";1;135;lbs;6;;;;0;"";;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Deadlift (Barbell)";2;145;lbs;6;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Deadlift (Barbell)";3;225;lbs;1;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Deadlift (Barbell)";4;225;lbs;1;;;;0;;;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Squat (Barbell)";1;65;lbs;8;;;;0;"";;1h 34m
+2022-11-03 21:55:06;"Late workout after work";"Squat (Barbell)";2;75;lbs;6;;;;0;;;1h 34m
+2022-11-06 16:59:14;"Solo Zscaler, video call s prteljima";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";54m
+2022-11-06 16:59:14;"Solo Zscaler, video call s prteljima";"Bench Press (Barbell)";2;105;lbs;6;;;;0;;;54m
+2022-11-06 16:59:14;"Solo Zscaler, video call s prteljima";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;54m
+2022-11-06 16:59:14;"Solo Zscaler, video call s prteljima";"Bench Press (Barbell)";4;125;lbs;6;;;;0;;;54m
+2022-11-06 16:59:14;"Solo Zscaler, video call s prteljima";"Overhead Press (Barbell)";1;65;lbs;6;;;;0;"";;54m
+2022-11-06 16:59:14;"Solo Zscaler, video call s prteljima";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;54m
+2022-11-06 16:59:14;"Solo Zscaler, video call s prteljima";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;54m
+2022-11-06 16:59:14;"Solo Zscaler, video call s prteljima";"Overhead Press (Barbell)";4;95;lbs;6;;;;0;;;54m
+2022-11-06 16:59:14;"Solo Zscaler, video call s prteljima";"Deadlift (Barbell)";1;135;lbs;6;;;;0;"";;54m
+2022-11-12 19:38:38;"Polago dizi, rame je bolje";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";43m
+2022-11-12 19:38:38;"Polago dizi, rame je bolje";"Bench Press (Barbell)";2;125;lbs;6;;;;0;;;43m
+2022-11-12 19:38:38;"Polago dizi, rame je bolje";"Bench Press (Barbell)";3;130;lbs;6;;;;0;;;43m
+2022-11-12 19:38:38;"Polago dizi, rame je bolje";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";;43m
+2022-11-12 19:38:38;"Polago dizi, rame je bolje";"Overhead Press (Barbell)";2;95;lbs;5;;;;0;;;43m
+2022-11-12 19:38:38;"Polago dizi, rame je bolje";"Overhead Press (Barbell)";3;95;lbs;2;;;;0;;;43m
+2022-11-12 19:38:38;"Polago dizi, rame je bolje";"Bent Over Row (Barbell)";1;135;lbs;4;;;;0;"";;43m
+2022-11-12 19:38:38;"Polago dizi, rame je bolje";"Bent Over Row (Barbell)";2;135;lbs;6;;;;0;;;43m
+2022-11-12 19:38:38;"Polago dizi, rame je bolje";"Bent Over Row (Barbell)";3;135;lbs;5;;;;0;;;43m
+2022-11-21 19:46:30;"Sa sensei opet";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 5m
+2022-11-21 19:46:30;"Sa sensei opet";"Overhead Press (Barbell)";2;95;lbs;6;;;;0;;;1h 5m
+2022-11-21 19:46:30;"Sa sensei opet";"Overhead Press (Barbell)";3;95;lbs;6;;;;0;;;1h 5m
+2022-11-21 19:46:30;"Sa sensei opet";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;1h 5m
+2022-11-21 19:46:30;"Sa sensei opet";"Bent Over Row (Barbell)";2;135;lbs;6;;;;0;;;1h 5m
+2022-11-21 19:46:30;"Sa sensei opet";"Deadlift (Barbell)";1;135;lbs;5;;;;0;"";;1h 5m
+2022-11-21 19:46:30;"Sa sensei opet";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";;1h 5m
+2022-11-21 19:46:30;"Sa sensei opet";"Bench Press (Barbell)";2;125;lbs;6;;;;0;;;1h 5m
+2022-11-21 19:46:30;"Sa sensei opet";"Bench Press (Barbell)";3;125;lbs;6;;;;0;;;1h 5m
+2022-11-21 19:46:30;"Sa sensei opet";"Bench Press (Barbell)";4;125;lbs;6;;;;0;;;1h 5m
+2022-11-23 16:37:02;"Sa sensei opet";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";1h 8m
+2022-11-23 16:37:02;"Sa sensei opet";"Bench Press (Barbell)";2;120;lbs;6;;;;0;;;1h 8m
+2022-11-23 16:37:02;"Sa sensei opet";"Bench Press (Barbell)";3;125;lbs;6;;;;0;;;1h 8m
+2022-11-23 16:37:02;"Sa sensei opet";"Bench Press (Barbell)";4;135;lbs;6;;;;0;;;1h 8m
+2022-11-23 16:37:02;"Sa sensei opet";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;1h 8m
+2022-11-23 16:37:02;"Sa sensei opet";"Bent Over Row (Barbell)";2;140;lbs;4;;;;0;;;1h 8m
+2022-11-27 13:02:59;"Sa sensei opet";"Bench Press (Barbell)";1;125;lbs;6;;;;0;"";"";55m
+2022-11-27 13:02:59;"Sa sensei opet";"Bench Press (Barbell)";2;130;lbs;6;;;;0;;;55m
+2022-11-27 13:02:59;"Sa sensei opet";"Bench Press (Barbell)";3;135;lbs;6;;;;0;;;55m
+2022-11-27 13:02:59;"Sa sensei opet";"Bench Press (Barbell)";4;140;lbs;6;;;;0;;;55m
+2022-11-27 13:02:59;"Sa sensei opet";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";;55m
+2022-11-27 13:02:59;"Sa sensei opet";"Overhead Press (Barbell)";2;100;lbs;6;;;;0;;;55m
+2022-11-27 13:02:59;"Sa sensei opet";"Overhead Press (Barbell)";3;105;lbs;5;;;;0;;;55m
+2022-11-29 20:27:24;"Zscaler gym!";"Bench Press (Barbell)";1;125;lbs;6;;;;0;"";"";37m
+2022-11-29 20:27:24;"Zscaler gym!";"Bench Press (Barbell)";2;130;lbs;6;;;;0;;;37m
+2022-11-29 20:27:24;"Zscaler gym!";"Bench Press (Barbell)";3;135;lbs;6;;;;0;;;37m
+2022-11-29 20:27:24;"Zscaler gym!";"Bench Press (Barbell)";4;135;lbs;4;;;;0;;;37m
+2022-11-29 20:27:24;"Zscaler gym!";"Overhead Press (Barbell)";1;95;lbs;1;;;;0;"";;37m
+2022-12-20 17:54:14;"Zscaler gym!";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";1h 7m
+2022-12-20 17:54:14;"Zscaler gym!";"Bench Press (Barbell)";2;120;lbs;6;;;;0;;;1h 7m
+2022-12-20 17:54:14;"Zscaler gym!";"Bench Press (Barbell)";3;120;lbs;6;;;;0;;;1h 7m
+2022-12-20 17:54:14;"Zscaler gym!";"Bench Press (Barbell)";4;120;lbs;6;;;;0;;;1h 7m
+2022-12-20 17:54:14;"Zscaler gym!";"Overhead Press (Barbell)";1;95;lbs;4;;;;0;"";;1h 7m
+2022-12-20 17:54:14;"Zscaler gym!";"Overhead Press (Barbell)";2;85;lbs;6;;;;0;;;1h 7m
+2022-12-20 17:54:14;"Zscaler gym!";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;1h 7m
+2022-12-20 17:54:14;"Zscaler gym!";"Overhead Press (Barbell)";4;85;lbs;6;;;;0;;;1h 7m
+2022-12-20 17:54:14;"Zscaler gym!";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 7m
+2022-12-20 17:54:14;"Zscaler gym!";"Bent Over Row (Barbell)";2;115;lbs;6;;;;0;;;1h 7m
+2022-12-20 17:54:14;"Zscaler gym!";"Bent Over Row (Barbell)";3;120;lbs;6;;;;0;;;1h 7m
+2022-12-20 17:54:14;"Zscaler gym!";"Bent Over Row (Barbell)";4;120;lbs;6;;;;0;;;1h 7m
+2022-12-23 18:35:38;"Zscaler gym!";"Overhead Press (Barbell)";1;45;lbs;8;;;;0;"";"";46m
+2022-12-23 18:35:38;"Zscaler gym!";"Overhead Press (Barbell)";2;65;lbs;10;;;;0;;;46m
+2022-12-23 18:35:38;"Zscaler gym!";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;46m
+2022-12-23 18:35:38;"Zscaler gym!";"Overhead Press (Barbell)";4;90;lbs;6;;;;0;;;46m
+2022-12-23 18:35:38;"Zscaler gym!";"Overhead Press (Barbell)";5;90;lbs;6;;;;0;;;46m
+2022-12-23 18:35:38;"Zscaler gym!";"Bench Press (Barbell)";1;115;lbs;8;;;;0;"";;46m
+2022-12-23 18:35:38;"Zscaler gym!";"Bench Press (Barbell)";2;120;lbs;8;;;;0;;;46m
+2022-12-23 18:35:38;"Zscaler gym!";"Bench Press (Barbell)";3;125;lbs;8;;;;0;;;46m
+2022-12-23 18:35:38;"Zscaler gym!";"Bench Press (Barbell)";4;125;lbs;7;;;;0;;;46m
+2022-12-23 18:35:38;"Zscaler gym!";"Bent Over Row (Barbell)";1;115;lbs;8;;;;0;"";;46m
+2022-12-23 18:35:38;"Zscaler gym!";"Bent Over Row (Barbell)";2;120;lbs;6;;;;0;;;46m
+2022-12-23 18:35:38;"Zscaler gym!";"Bent Over Row (Barbell)";3;125;lbs;8;;;;0;;;46m
+2022-12-23 18:35:38;"Zscaler gym!";"Bent Over Row (Barbell)";4;130;lbs;8;;;;0;;;46m
+2023-01-02 04:43:00;"Hrvatska solo, novi čudan gym";"Overhead Press (Barbell)";1;0;lbs;6;;;;0;"";"";38m
+2023-01-02 04:43:00;"Hrvatska solo, novi čudan gym";"Overhead Press (Barbell)";2;88.18;lbs;6;;;;0;;;38m
+2023-01-02 04:43:00;"Hrvatska solo, novi čudan gym";"Overhead Press (Barbell)";3;88.18;lbs;6;;;;0;;;38m
+2023-01-02 04:43:00;"Hrvatska solo, novi čudan gym";"Overhead Press (Barbell)";4;88.18;lbs;7;;;;0;;;38m
+2023-01-02 04:43:00;"Hrvatska solo, novi čudan gym";"Overhead Press (Barbell)";5;88.18;lbs;6;;;;0;;;38m
+2023-01-02 04:43:00;"Hrvatska solo, novi čudan gym";"Bent Over Row (Barbell)";1;99.21;lbs;12;;;;0;"";;38m
+2023-01-02 04:43:00;"Hrvatska solo, novi čudan gym";"Bent Over Row (Barbell)";2;106.92;lbs;8;;;;0;;;38m
+2023-01-02 04:43:00;"Hrvatska solo, novi čudan gym";"Bent Over Row (Barbell)";3;106.92;lbs;10;;;;0;;;38m
+2023-01-02 04:43:00;"Hrvatska solo, novi čudan gym";"Bent Over Row (Barbell)";4;106.92;lbs;8;;;;0;;;38m
+2023-01-06 00:16:34;"Hrvatski gym!";"Bench Press (Barbell)";1;88.18;lbs;12;;;;0;"";"";52m
+2023-01-06 00:16:34;"Hrvatski gym!";"Bench Press (Barbell)";2;110.23;lbs;9;;;;0;;;52m
+2023-01-06 00:16:34;"Hrvatski gym!";"Bench Press (Barbell)";3;110.23;lbs;9;;;;0;;;52m
+2023-01-06 00:16:34;"Hrvatski gym!";"Bench Press (Barbell)";4;110.23;lbs;10;;;;0;;;52m
+2023-01-06 00:16:34;"Hrvatski gym!";"Overhead Press (Barbell)";1;88.18;lbs;3;;;;0;"";;52m
+2023-01-06 00:16:34;"Hrvatski gym!";"Overhead Press (Barbell)";2;88.18;lbs;4;;;;0;;;52m
+2023-01-06 00:16:34;"Hrvatski gym!";"Bent Over Row (Barbell)";1;110.23;lbs;8;;;;0;"";;52m
+2023-01-06 00:16:34;"Hrvatski gym!";"Bent Over Row (Barbell)";2;110.23;lbs;9;;;;0;;;52m
+2023-01-06 00:16:34;"Hrvatski gym!";"Bent Over Row (Barbell)";3;110.23;lbs;8;;;;0;;;52m
+2023-01-06 00:16:34;"Hrvatski gym!";"Bent Over Row (Barbell)";4;110.23;lbs;11;;;;0;;;52m
+2023-01-26 18:12:15;"Novi pocetak";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";54m
+2023-01-26 18:12:15;"Novi pocetak";"Bench Press (Barbell)";2;105;lbs;6;;;;0;;;54m
+2023-01-26 18:12:15;"Novi pocetak";"Bench Press (Barbell)";3;110;lbs;6;;;;0;;;54m
+2023-01-26 18:12:15;"Novi pocetak";"Bench Press (Barbell)";4;115;lbs;6;;;;0;;;54m
+2023-01-26 18:12:15;"Novi pocetak";"Overhead Press (Barbell)";1;65;lbs;6;;;;0;"";;54m
+2023-01-26 18:12:15;"Novi pocetak";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;54m
+2023-01-26 18:12:15;"Novi pocetak";"Overhead Press (Barbell)";3;75;lbs;6;;;;0;;;54m
+2023-01-26 18:12:15;"Novi pocetak";"Overhead Press (Barbell)";4;80;lbs;6;;;;0;;;54m
+2023-01-26 18:12:15;"Novi pocetak";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;54m
+2023-01-26 18:12:15;"Novi pocetak";"Bent Over Row (Barbell)";2;115;lbs;6;;;;0;;;54m
+2023-01-26 18:12:15;"Novi pocetak";"Bent Over Row (Barbell)";3;115;lbs;6;;;;0;;;54m
+2023-01-26 18:12:15;"Novi pocetak";"Bent Over Row (Barbell)";4;115;lbs;6;;;;0;;;54m
+2023-01-26 18:12:15;"Novi pocetak";"Deadlift (Barbell)";1;115;lbs;6;;;;0;"";;54m
+2023-01-26 18:12:15;"Novi pocetak";"Deadlift (Barbell)";2;115;lbs;8;;;;0;;;54m
+2023-01-29 15:29:45;"New Start: 2";"Overhead Press (Barbell)";1;65;lbs;6;;;;0;"";"";1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Overhead Press (Barbell)";2;85;lbs;4;;;;0;;;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Overhead Press (Barbell)";3;75;lbs;6;;;;0;;;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Overhead Press (Barbell)";4;75;lbs;6;;;;0;;;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Overhead Press (Barbell)";5;80;lbs;6;;;;0;;;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Bench Press (Barbell)";1;100;lbs;6;;;;0;"";;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Bench Press (Barbell)";2;100;lbs;6;;;;0;;;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Bench Press (Barbell)";3;110;lbs;6;;;;0;;;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Bench Press (Barbell)";4;110;lbs;6;;;;0;;;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Bench Press (Barbell)";5;115;lbs;6;;;;0;;;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Bent Over Row (Barbell)";2;135;lbs;6;;;;0;;;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Bent Over Row (Barbell)";3;135;lbs;4;;;;0;;;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Bent Over Row (Barbell)";4;135;lbs;4;;;;0;;;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Bent Over Row (Barbell)";5;135;lbs;6;;;;0;;;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Deadlift (Barbell)";1;135;lbs;6;;;;0;"";;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Deadlift (Barbell)";2;135;lbs;4;;;;0;;;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Squat (Barbell)";1;65;lbs;6;;;;0;"";;1h 16m
+2023-01-29 15:29:45;"New Start: 2";"Squat (Barbell)";2;65;lbs;6;;;;0;;;1h 16m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Bench Press (Barbell)";1;105;lbs;6;;;;0;"";"";1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Bench Press (Barbell)";2;110;lbs;6;;;;0;;;1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Bench Press (Barbell)";4;115;lbs;6;;;;0;;;1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Overhead Press (Barbell)";1;65;lbs;6;;;;0;"";;1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Overhead Press (Barbell)";2;70;lbs;6;;;;0;;;1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Overhead Press (Barbell)";3;75;lbs;6;;;;0;;;1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Overhead Press (Barbell)";4;75;lbs;6;;;;0;;;1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Bent Over Row (Barbell)";2;125;lbs;6;;;;0;;;1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Bent Over Row (Barbell)";3;125;lbs;6;;;;0;;;1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Bent Over Row (Barbell)";4;125;lbs;6;;;;0;;;1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Deadlift (Barbell)";1;115;lbs;6;;;;0;"";;1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Deadlift (Barbell)";2;125;lbs;6;;;;0;;;1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Deadlift (Barbell)";3;125;lbs;6;;;;0;;;1h 6m
+2023-02-05 17:55:14;"New Start: 3 Deadlift";"Deadlift (Barbell)";4;125;lbs;6;;;;0;;;1h 6m
+2023-02-08 19:19:14;"New Start: 4 s vinkecom";"Overhead Press (Barbell)";1;66.14;lbs;6;;;;0;"";"";1h 4m
+2023-02-08 19:19:14;"New Start: 4 s vinkecom";"Overhead Press (Barbell)";2;55.12;lbs;12;;;;0;;;1h 4m
+2023-02-08 19:19:14;"New Start: 4 s vinkecom";"Overhead Press (Barbell)";3;77.16;lbs;6;;;;0;;;1h 4m
+2023-02-08 19:19:14;"New Start: 4 s vinkecom";"Overhead Press (Barbell)";4;88.18;lbs;5;;;;0;;;1h 4m
+2023-02-08 19:19:14;"New Start: 4 s vinkecom";"Overhead Press (Barbell)";5;88.18;lbs;5;;;;0;;;1h 4m
+2023-02-08 19:19:14;"New Start: 4 s vinkecom";"Bent Over Row (Barbell)";1;132.28;lbs;5;;;;0;"";;1h 4m
+2023-02-08 19:19:14;"New Start: 4 s vinkecom";"Bent Over Row (Barbell)";2;110.23;lbs;6;;;;0;;;1h 4m
+2023-02-08 19:19:14;"New Start: 4 s vinkecom";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";;1h 4m
+2023-02-12 13:15:06;"New Start: 4 kod Ivana";"Overhead Press (Barbell)";1;65;lbs;9;;;;0;"";"";1h 44m
+2023-02-12 13:15:06;"New Start: 4 kod Ivana";"Overhead Press (Barbell)";2;70;lbs;8;;;;0;;;1h 44m
+2023-02-12 13:15:06;"New Start: 4 kod Ivana";"Overhead Press (Barbell)";3;75;lbs;7;;;;0;;;1h 44m
+2023-02-12 13:15:06;"New Start: 4 kod Ivana";"Overhead Press (Barbell)";4;75;lbs;9;;;;0;;;1h 44m
+2023-02-12 13:15:06;"New Start: 4 kod Ivana";"Overhead Press (Barbell)";5;75;lbs;8;;;;0;;;1h 44m
+2023-02-12 13:15:06;"New Start: 4 kod Ivana";"Squat (Barbell)";1;65;lbs;7;;;;0;"";;1h 44m
+2023-02-12 13:15:06;"New Start: 4 kod Ivana";"Squat (Barbell)";2;65;lbs;4;;;;0;;;1h 44m
+2023-02-12 13:15:06;"New Start: 4 kod Ivana";"Squat (Barbell)";3;65;lbs;6;;;;0;;;1h 44m
+2023-02-12 13:15:06;"New Start: 4 kod Ivana";"Bent Over Row (Barbell)";1;95;lbs;6;;;;0;"";;1h 44m
+2023-02-12 13:15:06;"New Start: 4 kod Ivana";"Bent Over Row (Barbell)";2;95;lbs;9;;;;0;;;1h 44m
+2023-02-12 13:15:06;"New Start: 4 kod Ivana";"Bent Over Row (Barbell)";3;115;lbs;8;;;;0;;;1h 44m
+2023-02-12 13:15:06;"New Start: 4 kod Ivana";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";;1h 44m
+2023-02-14 19:08:17;"New Start: 5 kod Ivana";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";1h 16m
+2023-02-14 19:08:17;"New Start: 5 kod Ivana";"Bench Press (Barbell)";2;115;lbs;6;;;;0;;;1h 16m
+2023-02-14 19:08:17;"New Start: 5 kod Ivana";"Bench Press (Barbell)";3;125;lbs;6;;;;0;;;1h 16m
+2023-02-14 19:08:17;"New Start: 5 kod Ivana";"Bench Press (Barbell)";4;125;lbs;6;;;;0;;;1h 16m
+2023-02-14 19:08:17;"New Start: 5 kod Ivana";"Bench Press (Barbell)";5;125;lbs;6;;;;0;;;1h 16m
+2023-02-14 19:08:17;"New Start: 5 kod Ivana";"Overhead Press (Barbell)";1;65;lbs;8;;;;0;"";;1h 16m
+2023-02-14 19:08:17;"New Start: 5 kod Ivana";"Overhead Press (Barbell)";2;65;lbs;8;;;;0;;;1h 16m
+2023-02-14 19:08:17;"New Start: 5 kod Ivana";"Overhead Press (Barbell)";3;55;lbs;5;;;;0;;;1h 16m
+2023-02-14 19:08:17;"New Start: 5 kod Ivana";"Bent Over Row (Barbell)";1;135;lbs;1;;;;0;"";;1h 16m
+2023-02-14 19:08:17;"New Start: 5 kod Ivana";"Bent Over Row (Barbell)";2;135;lbs;4;;;;0;;;1h 16m
+2023-02-14 19:08:17;"New Start: 5 kod Ivana";"Bent Over Row (Barbell)";3;135;lbs;6;;;;0;;;1h 16m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Overhead Press (Barbell)";1;65;lbs;8;;;;0;"";"";1h 42m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Overhead Press (Barbell)";2;85;lbs;5;;;;0;;;1h 42m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Overhead Press (Barbell)";3;95;lbs;5;;;;0;;;1h 42m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Overhead Press (Barbell)";4;85;lbs;5;;;;0;;;1h 42m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Overhead Press (Barbell)";5;85;lbs;6;;;;0;;;1h 42m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";;1h 42m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Bench Press (Barbell)";2;115;lbs;8;;;;0;;;1h 42m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Bench Press (Barbell)";3;125;lbs;6;;;;0;;;1h 42m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Bench Press (Barbell)";4;135;lbs;6;;;;0;;;1h 42m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Bench Press (Barbell)";5;115;lbs;10;;;;0;;;1h 42m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;1h 42m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Bent Over Row (Barbell)";2;135;lbs;6;;;;0;;;1h 42m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Bent Over Row (Barbell)";3;135;lbs;6;;;;0;;;1h 42m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Bent Over Row (Barbell)";4;145;lbs;3;;;;0;;;1h 42m
+2023-02-20 12:19:31;"New Start: 6 kod Ivana";"Bent Over Row (Barbell)";5;145;lbs;4;;;;0;;;1h 42m
+2023-02-23 17:34:31;"New Start: 7 kod Ivana";"Bench Press (Barbell)";1;120;lbs;6;;;;0;"";"";1h 30m
+2023-02-23 17:34:31;"New Start: 7 kod Ivana";"Bench Press (Barbell)";2;135;lbs;6;;;;0;;;1h 30m
+2023-02-23 17:34:31;"New Start: 7 kod Ivana";"Bench Press (Barbell)";3;145;lbs;6;;;;0;;;1h 30m
+2023-02-23 17:34:31;"New Start: 7 kod Ivana";"Bench Press (Barbell)";4;145;lbs;5;;;;0;;;1h 30m
+2023-02-23 17:34:31;"New Start: 7 kod Ivana";"Bench Press (Barbell)";5;135;lbs;6;;;;0;;;1h 30m
+2023-02-23 17:34:31;"New Start: 7 kod Ivana";"Squat (Barbell)";1;65;lbs;6;;;;0;"";;1h 30m
+2023-02-23 17:34:31;"New Start: 7 kod Ivana";"Squat (Barbell)";2;65;lbs;6;;;;0;;;1h 30m
+2023-02-23 17:34:31;"New Start: 7 kod Ivana";"Squat (Barbell)";3;65;lbs;6;;;;0;;;1h 30m
+2023-02-23 17:34:31;"New Start: 7 kod Ivana";"Squat (Barbell)";4;65;lbs;4;;;;0;;;1h 30m
+2023-02-23 17:34:31;"New Start: 7 kod Ivana";"Overhead Press (Barbell)";1;75;lbs;8;;;;0;"";;1h 30m
+2023-02-23 17:34:31;"New Start: 7 kod Ivana";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;1h 30m
+2023-02-23 17:34:31;"New Start: 7 kod Ivana";"Overhead Press (Barbell)";3;75;lbs;6;;;;0;;;1h 30m
+2023-02-23 17:34:31;"New Start: 7 kod Ivana";"Overhead Press (Barbell)";4;75;lbs;7;;;;0;;;1h 30m
+2023-02-23 17:34:31;"New Start: 7 kod Ivana";"Overhead Press (Barbell)";5;80;lbs;4;;;;0;;;1h 30m
+2023-02-28 20:02:46;"Utorak";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";1h 4m
+2023-02-28 20:02:46;"Utorak";"Bench Press (Barbell)";2;130;lbs;6;;;;0;;;1h 4m
+2023-02-28 20:02:46;"Utorak";"Bench Press (Barbell)";3;135;lbs;6;;;;0;;;1h 4m
+2023-02-28 20:02:46;"Utorak";"Bench Press (Barbell)";4;135;lbs;5;;;;0;;;1h 4m
+2023-02-28 20:02:46;"Utorak";"Bench Press (Barbell)";5;115;lbs;6;;;;0;;;1h 4m
+2023-02-28 20:02:46;"Utorak";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;1h 4m
+2023-02-28 20:02:46;"Utorak";"Bent Over Row (Barbell)";2;135;lbs;6;;;;0;;;1h 4m
+2023-02-28 20:02:46;"Utorak";"Bent Over Row (Barbell)";3;140;lbs;6;;;;0;;;1h 4m
+2023-02-28 20:02:46;"Utorak";"Bent Over Row (Barbell)";4;140;lbs;6;;;;0;;;1h 4m
+2023-02-28 20:02:46;"Utorak";"Bent Over Row (Barbell)";5;140;lbs;6;;;;0;;;1h 4m
+2023-03-05 13:33:15;"Nedjelja";"Overhead Press (Barbell)";1;45;lbs;10;;;;0;"";"over, bent, squat";55m
+2023-03-05 13:33:15;"Nedjelja";"Overhead Press (Barbell)";2;65;lbs;10;;;;0;;;55m
+2023-03-05 13:33:15;"Nedjelja";"Overhead Press (Barbell)";3;75;lbs;8;;;;0;;;55m
+2023-03-05 13:33:15;"Nedjelja";"Overhead Press (Barbell)";4;80;lbs;8;;;;0;;;55m
+2023-03-05 13:33:15;"Nedjelja";"Overhead Press (Barbell)";5;85;lbs;5;;;;0;;;55m
+2023-03-05 13:33:15;"Nedjelja";"Bent Over Row (Barbell)";1;125;lbs;6;;;;0;"";;55m
+2023-03-05 13:33:15;"Nedjelja";"Bent Over Row (Barbell)";2;130;lbs;6;;;;0;;;55m
+2023-03-05 13:33:15;"Nedjelja";"Bent Over Row (Barbell)";3;130;lbs;6;;;;0;;;55m
+2023-03-05 13:33:15;"Nedjelja";"Bent Over Row (Barbell)";4;135;lbs;6;;;;0;;;55m
+2023-03-05 13:33:15;"Nedjelja";"Bent Over Row (Barbell)";5;135;lbs;6;;;;0;;;55m
+2023-03-07 20:41:13;"Utorak";"Bench Press (Barbell)";1;125;lbs;6;;;;0;"";"";46m
+2023-03-07 20:41:13;"Utorak";"Bench Press (Barbell)";2;130;lbs;6;;;;0;;;46m
+2023-03-07 20:41:13;"Utorak";"Bench Press (Barbell)";3;135;lbs;5;;;;0;;;46m
+2023-03-07 20:41:13;"Utorak";"Bench Press (Barbell)";4;135;lbs;4;;;;0;;;46m
+2023-03-07 20:41:13;"Utorak";"Bench Press (Barbell)";5;125;lbs;6;;;;0;;;46m
+2023-03-07 20:41:13;"Utorak";"Deadlift (Barbell)";1;115;lbs;6;;;;0;"";;46m
+2023-03-07 20:41:13;"Utorak";"Deadlift (Barbell)";2;125;lbs;6;;;;0;;;46m
+2023-03-07 20:41:13;"Utorak";"Deadlift (Barbell)";3;135;lbs;6;;;;0;;;46m
+2023-03-07 20:41:13;"Utorak";"Deadlift (Barbell)";4;135;lbs;6;;;;0;;;46m
+2023-03-09 19:44:45;"Četvrtak";"Overhead Press (Barbell)";1;65;lbs;8;;;;0;"";"over, bent, squat?";41m
+2023-03-09 19:44:45;"Četvrtak";"Overhead Press (Barbell)";2;75;lbs;6;;;;0;;;41m
+2023-03-09 19:44:45;"Četvrtak";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;41m
+2023-03-09 19:44:45;"Četvrtak";"Overhead Press (Barbell)";4;95;lbs;6;;;;0;;;41m
+2023-03-09 19:44:45;"Četvrtak";"Overhead Press (Barbell)";5;95;lbs;6;;;;0;;;41m
+2023-03-09 19:44:45;"Četvrtak";"Bent Over Row (Barbell)";1;125;lbs;6;;;;0;"";;41m
+2023-03-09 19:44:45;"Četvrtak";"Bent Over Row (Barbell)";2;130;lbs;6;;;;0;;;41m
+2023-03-09 19:44:45;"Četvrtak";"Bent Over Row (Barbell)";3;135;lbs;6;;;;0;;;41m
+2023-03-09 19:44:45;"Četvrtak";"Bent Over Row (Barbell)";4;135;lbs;6;;;;0;;;41m
+2023-03-09 19:44:45;"Četvrtak";"Bent Over Row (Barbell)";5;125;lbs;8;;;;0;;;41m
+2023-03-11 09:50:22;"Subota";"Bench Press (Barbell)";1;125;lbs;6;;;;0;"";"";46m
+2023-03-11 09:50:22;"Subota";"Bench Press (Barbell)";2;135;lbs;6;;;;0;;;46m
+2023-03-11 09:50:22;"Subota";"Bench Press (Barbell)";3;145;lbs;4;;;;0;;;46m
+2023-03-11 09:50:22;"Subota";"Bench Press (Barbell)";4;145;lbs;6;;;;0;;;46m
+2023-03-11 09:50:22;"Subota";"Bench Press (Barbell)";5;135;lbs;6;;;;0;;;46m
+2023-03-11 09:50:22;"Subota";"Squat (Barbell)";1;65;lbs;7;;;;0;"";;46m
+2023-03-11 09:50:22;"Subota";"Squat (Barbell)";2;65;lbs;6;;;;0;;;46m
+2023-03-11 09:50:22;"Subota";"Squat (Barbell)";3;65;lbs;6;;;;0;;;46m
+2023-03-11 09:50:22;"Subota";"Squat (Barbell)";4;65;lbs;6;;;;0;;;46m
+2023-03-11 09:50:22;"Subota";"Squat (Barbell)";5;0;lbs;6;;;;0;;;46m
+2023-03-14 20:16:04;"Utorak";"Overhead Press (Barbell)";1;75;lbs;8;;;;0;"";"over, bent";55m
+2023-03-14 20:16:04;"Utorak";"Overhead Press (Barbell)";2;85;lbs;6;;;;0;;;55m
+2023-03-14 20:16:04;"Utorak";"Overhead Press (Barbell)";3;95;lbs;6;;;;0;;;55m
+2023-03-14 20:16:04;"Utorak";"Overhead Press (Barbell)";4;95;lbs;6;;;;0;;;55m
+2023-03-14 20:16:04;"Utorak";"Overhead Press (Barbell)";5;95;lbs;6;;;;0;;;55m
+2023-03-14 20:16:04;"Utorak";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;55m
+2023-03-14 20:16:04;"Utorak";"Bent Over Row (Barbell)";2;140;lbs;6;;;;0;;;55m
+2023-03-14 20:16:04;"Utorak";"Bent Over Row (Barbell)";3;140;lbs;6;;;;0;;;55m
+2023-03-14 20:16:04;"Utorak";"Bent Over Row (Barbell)";4;145;lbs;5;;;;0;;;55m
+2023-03-14 20:16:04;"Utorak";"Bent Over Row (Barbell)";5;135;lbs;4;;;;0;;;55m
+2023-03-20 18:06:52;"Ponedjeljak";"Bench Press (Barbell)";1;135;lbs;6;;;;0;"";"";1h 1m
+2023-03-20 18:06:52;"Ponedjeljak";"Bench Press (Barbell)";2;145;lbs;6;;;;0;;;1h 1m
+2023-03-20 18:06:52;"Ponedjeljak";"Bench Press (Barbell)";3;150;lbs;3;;;;0;;;1h 1m
+2023-03-20 18:06:52;"Ponedjeljak";"Bench Press (Barbell)";4;150;lbs;3;;;;0;;;1h 1m
+2023-03-20 18:06:52;"Ponedjeljak";"Bench Press (Barbell)";5;135;lbs;5;;;;0;;;1h 1m
+2023-03-20 18:06:52;"Ponedjeljak";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;1h 1m
+2023-03-20 18:06:52;"Ponedjeljak";"Bent Over Row (Barbell)";2;145;lbs;6;;;;0;;;1h 1m
+2023-03-20 18:06:52;"Ponedjeljak";"Bent Over Row (Barbell)";3;150;lbs;4;;;;0;;;1h 1m
+2023-03-20 18:06:52;"Ponedjeljak";"Bent Over Row (Barbell)";4;150;lbs;4;;;;0;;;1h 1m
+2023-03-20 18:06:52;"Ponedjeljak";"Bent Over Row (Barbell)";5;135;lbs;5;;;;0;;;1h 1m
+2023-03-26 15:28:48;"Nedjelja";"Overhead Press (Barbell)";1;75;lbs;6;;;;0;"";"";47m
+2023-03-26 15:28:48;"Nedjelja";"Overhead Press (Barbell)";2;85;lbs;6;;;;0;;;47m
+2023-03-26 15:28:48;"Nedjelja";"Overhead Press (Barbell)";3;95;lbs;6;;;;0;;;47m
+2023-03-26 15:28:48;"Nedjelja";"Overhead Press (Barbell)";4;95;lbs;6;;;;0;;;47m
+2023-03-26 15:28:48;"Nedjelja";"Overhead Press (Barbell)";5;75;lbs;6;;;;0;;;47m
+2023-03-26 15:28:48;"Nedjelja";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;47m
+2023-03-26 15:28:48;"Nedjelja";"Bent Over Row (Barbell)";2;145;lbs;5;;;;0;;;47m
+2023-03-26 15:28:48;"Nedjelja";"Bent Over Row (Barbell)";3;145;lbs;5;;;;0;;;47m
+2023-03-26 15:28:48;"Nedjelja";"Bent Over Row (Barbell)";4;145;lbs;6;;;;0;;;47m
+2023-03-26 15:28:48;"Nedjelja";"Bent Over Row (Barbell)";5;135;lbs;6;;;;0;;;47m
+2023-03-28 17:59:10;"Utorak";"Bench Press (Barbell)";1;135;lbs;6;;;;0;"";"";1h 19m
+2023-03-28 17:59:10;"Utorak";"Bench Press (Barbell)";2;140;lbs;6;;;;0;;;1h 19m
+2023-03-28 17:59:10;"Utorak";"Bench Press (Barbell)";3;145;lbs;6;;;;0;;;1h 19m
+2023-03-28 17:59:10;"Utorak";"Bench Press (Barbell)";4;150;lbs;1;;;;0;;;1h 19m
+2023-03-28 17:59:10;"Utorak";"Bench Press (Barbell)";5;135;lbs;5;;;;0;;;1h 19m
+2023-03-28 17:59:10;"Utorak";"Squat (Bodyweight)";1;0;lbs;6;;;;0;"";;1h 19m
+2023-03-28 17:59:10;"Utorak";"Squat (Bodyweight)";2;0;lbs;6;;;;0;;;1h 19m
+2023-03-28 17:59:10;"Utorak";"Squat (Bodyweight)";3;0;lbs;6;;;;0;;;1h 19m
+2023-04-01 19:52:42;"Subota";"Overhead Press (Barbell)";1;85;lbs;6;;;;0;"";"";53m
+2023-04-01 19:52:42;"Subota";"Overhead Press (Barbell)";2;95;lbs;6;;;;0;;;53m
+2023-04-01 19:52:42;"Subota";"Overhead Press (Barbell)";3;100;lbs;3;;;;0;;;53m
+2023-04-01 19:52:42;"Subota";"Overhead Press (Barbell)";4;95;lbs;5;;;;0;;;53m
+2023-04-01 19:52:42;"Subota";"Overhead Press (Barbell)";5;95;lbs;5;;;;0;;;53m
+2023-04-01 19:52:42;"Subota";"Bent Over Row (Barbell)";1;140;lbs;6;;;;0;"";;53m
+2023-04-01 19:52:42;"Subota";"Bent Over Row (Barbell)";2;145;lbs;6;;;;0;;;53m
+2023-04-01 19:52:42;"Subota";"Bent Over Row (Barbell)";3;150;lbs;5;;;;0;;;53m
+2023-04-01 19:52:42;"Subota";"Bent Over Row (Barbell)";4;150;lbs;5;;;;0;;;53m
+2023-04-01 19:52:42;"Subota";"Bent Over Row (Barbell)";5;145;lbs;6;;;;0;;;53m
+2023-04-06 18:53:24;"Utorak";"Bench Press (Barbell)";1;135;lbs;5;;;;0;"";"";37m
+2023-04-06 18:53:24;"Utorak";"Bench Press (Barbell)";2;140;lbs;6;;;;0;;;37m
+2023-04-06 18:53:24;"Utorak";"Bench Press (Barbell)";3;145;lbs;6;;;;0;;;37m
+2023-04-06 18:53:24;"Utorak";"Bench Press (Barbell)";4;150;lbs;4;;;;0;;;37m
+2023-04-06 18:53:24;"Utorak";"Bench Press (Barbell)";5;135;lbs;6;;;;0;;;37m
+2023-04-06 18:53:24;"Utorak";"Squat (Bodyweight)";1;0;lbs;6;;;;0;"";;37m
+2023-04-06 18:53:24;"Utorak";"Squat (Bodyweight)";2;0;lbs;6;;;;0;;;37m
+2023-04-06 18:53:24;"Utorak";"Squat (Bodyweight)";3;0;lbs;6;;;;0;;;37m
+2023-04-08 20:21:53;"Subota";"Overhead Press (Barbell)";1;85;lbs;6;;;;0;"";"";1h 2m
+2023-04-08 20:21:53;"Subota";"Overhead Press (Barbell)";2;95;lbs;6;;;;0;;;1h 2m
+2023-04-08 20:21:53;"Subota";"Overhead Press (Barbell)";3;100;lbs;6;;;;0;;;1h 2m
+2023-04-08 20:21:53;"Subota";"Overhead Press (Barbell)";4;100;lbs;5;;;;0;;;1h 2m
+2023-04-08 20:21:53;"Subota";"Overhead Press (Barbell)";5;95;lbs;5;;;;0;;;1h 2m
+2023-04-08 20:21:53;"Subota";"Bent Over Row (Barbell)";1;140;lbs;6;;;;0;"";;1h 2m
+2023-04-08 20:21:53;"Subota";"Bent Over Row (Barbell)";2;145;lbs;6;;;;0;;;1h 2m
+2023-04-08 20:21:53;"Subota";"Bent Over Row (Barbell)";3;150;lbs;6;;;;0;;;1h 2m
+2023-04-08 20:21:53;"Subota";"Bent Over Row (Barbell)";4;150;lbs;5;;;;0;;;1h 2m
+2023-04-08 20:21:53;"Subota";"Bent Over Row (Barbell)";5;135;lbs;6;;;;0;;;1h 2m
+2023-04-11 19:20:19;"Utorak";"Bench Press (Barbell)";1;140;lbs;6;;;;0;"";"";1h 2m
+2023-04-11 19:20:19;"Utorak";"Bench Press (Barbell)";2;145;lbs;6;;;;0;;;1h 2m
+2023-04-11 19:20:19;"Utorak";"Bench Press (Barbell)";3;155;lbs;1;;;;0;;;1h 2m
+2023-04-11 19:20:19;"Utorak";"Bench Press (Barbell)";4;155;lbs;3;;;;0;;;1h 2m
+2023-04-11 19:20:19;"Utorak";"Bench Press (Barbell)";5;155;lbs;2;;;;0;;;1h 2m
+2023-04-11 19:20:19;"Utorak";"Bench Press (Barbell)";6;135;lbs;6;;;;0;;;1h 2m
+2023-04-11 19:20:19;"Utorak";"Squat (Bodyweight)";1;0;lbs;6;;;;0;"";;1h 2m
+2023-04-11 19:20:19;"Utorak";"Squat (Bodyweight)";2;0;lbs;7;;;;0;;;1h 2m
+2023-04-11 19:20:19;"Utorak";"Lying Leg Curl (Machine)";1;28;lbs;8;;;;0;"";;1h 2m
+2023-04-11 19:20:19;"Utorak";"Lying Leg Curl (Machine)";2;28;lbs;8;;;;0;;;1h 2m
+2023-04-15 14:28:40;"Subota";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";"";59m
+2023-04-15 14:28:40;"Subota";"Overhead Press (Barbell)";2;100;lbs;6;;;;0;;;59m
+2023-04-15 14:28:40;"Subota";"Overhead Press (Barbell)";3;105;lbs;5;;;;0;;;59m
+2023-04-15 14:28:40;"Subota";"Overhead Press (Barbell)";4;100;lbs;6;;;;0;;;59m
+2023-04-15 14:28:40;"Subota";"Overhead Press (Barbell)";5;95;lbs;6;;;;0;;;59m
+2023-04-15 14:28:40;"Subota";"Bent Over Row (Barbell)";1;145;lbs;6;;;;0;"";;59m
+2023-04-15 14:28:40;"Subota";"Bent Over Row (Barbell)";2;155;lbs;5;;;;0;;;59m
+2023-04-15 14:28:40;"Subota";"Bent Over Row (Barbell)";3;155;lbs;6;;;;0;;;59m
+2023-04-15 14:28:40;"Subota";"Bent Over Row (Barbell)";4;160;lbs;3;;;;0;;;59m
+2023-04-15 14:28:40;"Subota";"Bent Over Row (Barbell)";5;145;lbs;5;;;;0;;;59m
+2023-04-23 17:04:28;"Nedjelja";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";"";58m
+2023-04-23 17:04:28;"Nedjelja";"Overhead Press (Barbell)";2;105;lbs;6;;;;0;;;58m
+2023-04-23 17:04:28;"Nedjelja";"Overhead Press (Barbell)";3;115;lbs;2;;;;0;;;58m
+2023-04-23 17:04:28;"Nedjelja";"Overhead Press (Barbell)";4;115;lbs;2;;;;0;;;58m
+2023-04-23 17:04:28;"Nedjelja";"Overhead Press (Barbell)";5;105;lbs;6;;;;0;;;58m
+2023-04-23 17:04:28;"Nedjelja";"Overhead Press (Barbell)";6;95;lbs;5;;;;0;;;58m
+2023-04-23 17:04:28;"Nedjelja";"Bent Over Row (Barbell)";1;145;lbs;6;;;;0;"";;58m
+2023-04-23 17:04:28;"Nedjelja";"Bent Over Row (Barbell)";2;155;lbs;4;;;;0;;;58m
+2023-04-23 17:04:28;"Nedjelja";"Bent Over Row (Barbell)";3;155;lbs;5;;;;0;;;58m
+2023-04-23 17:04:28;"Nedjelja";"Bent Over Row (Barbell)";4;145;lbs;4;;;;0;;;58m
+2023-04-23 17:04:28;"Nedjelja";"Bent Over Row (Barbell)";5;135;lbs;5;;;;0;;;58m
+2023-04-23 17:04:28;"Nedjelja";"Squat (Bodyweight)";1;;;6;;;;0;"";;58m
+2023-04-23 17:04:28;"Nedjelja";"Squat (Bodyweight)";2;;;6;;;;0;;;58m
+2023-04-25 19:48:03;"Utorak";"Bench Press (Barbell)";1;135;lbs;6;;;;0;"";"";29m
+2023-04-25 19:48:03;"Utorak";"Bench Press (Barbell)";2;145;lbs;6;;;;0;;;29m
+2023-04-25 19:48:03;"Utorak";"Bench Press (Barbell)";3;155;lbs;4;;;;0;;;29m
+2023-04-25 19:48:03;"Utorak";"Bench Press (Barbell)";4;155;lbs;2;;;;0;;;29m
+2023-04-25 19:48:03;"Utorak";"Bench Press (Barbell)";5;145;lbs;3;;;;0;;;29m
+2023-04-25 19:48:03;"Utorak";"Bench Press (Barbell)";6;135;lbs;5;;;;0;;;29m
+2023-05-01 21:03:35;"Ponedjeljak";"Bench Press (Barbell)";1;135;lbs;6;;;;0;"";"";36m
+2023-05-01 21:03:35;"Ponedjeljak";"Bench Press (Barbell)";2;145;lbs;6;;;;0;;;36m
+2023-05-01 21:03:35;"Ponedjeljak";"Bench Press (Barbell)";3;155;lbs;5;;;;0;;;36m
+2023-05-01 21:03:35;"Ponedjeljak";"Bench Press (Barbell)";4;155;lbs;3;;;;0;;;36m
+2023-05-01 21:03:35;"Ponedjeljak";"Bench Press (Barbell)";5;145;lbs;3;;;;0;;;36m
+2023-05-01 21:03:35;"Ponedjeljak";"Bench Press (Barbell)";6;135;lbs;4;;;;0;;;36m
+2023-05-01 21:03:35;"Ponedjeljak";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;36m
+2023-05-01 21:03:35;"Ponedjeljak";"Bent Over Row (Barbell)";2;145;lbs;6;;;;0;;;36m
+2023-05-01 21:03:35;"Ponedjeljak";"Bent Over Row (Barbell)";3;155;lbs;5;;;;0;;;36m
+2023-05-01 21:03:35;"Ponedjeljak";"Bent Over Row (Barbell)";4;155;lbs;4;;;;0;;;36m
+2023-05-01 21:03:35;"Ponedjeljak";"Bent Over Row (Barbell)";5;145;lbs;5;;;;0;;;36m
+2023-05-03 20:44:09;"Srijeda";"Overhead Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 7m
+2023-05-03 20:44:09;"Srijeda";"Overhead Press (Barbell)";2;105;lbs;4;;;;0;;;1h 7m
+2023-05-03 20:44:09;"Srijeda";"Overhead Press (Barbell)";3;105;lbs;6;;;;0;;;1h 7m
+2023-05-03 20:44:09;"Srijeda";"Overhead Press (Barbell)";4;115;lbs;3;;;;0;;;1h 7m
+2023-05-03 20:44:09;"Srijeda";"Overhead Press (Barbell)";5;105;lbs;4;;;;0;;;1h 7m
+2023-05-03 20:44:09;"Srijeda";"Overhead Press (Barbell)";6;95;lbs;5;;;;0;;;1h 7m
+2023-05-03 20:44:09;"Srijeda";"Deadlift (Barbell)";1;135;lbs;6;;;;0;"";;1h 7m
+2023-05-03 20:44:09;"Srijeda";"Deadlift (Barbell)";2;135;lbs;6;;;;0;;;1h 7m
+2023-05-03 20:44:09;"Srijeda";"Deadlift (Barbell)";3;135;lbs;6;;;;0;;;1h 7m
+2023-05-07 17:54:51;"Nedjelja";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";"";24m
+2023-05-07 17:54:51;"Nedjelja";"Bent Over Row (Barbell)";2;145;lbs;6;;;;0;;;24m
+2023-05-07 17:54:51;"Nedjelja";"Bent Over Row (Barbell)";3;155;lbs;5;;;;0;;;24m
+2023-05-07 17:54:51;"Nedjelja";"Bent Over Row (Barbell)";4;155;lbs;4;;;;0;;;24m
+2023-05-07 17:54:51;"Nedjelja";"Bent Over Row (Barbell)";5;135;lbs;6;;;;0;;;24m
+2023-05-12 16:37:14;"Petak";"Bench Press (Barbell)";1;135;lbs;6;;;;0;"";"";58m
+2023-05-12 16:37:14;"Petak";"Bench Press (Barbell)";2;145;lbs;6;;;;0;;;58m
+2023-05-12 16:37:14;"Petak";"Bench Press (Barbell)";3;155;lbs;6;;;;0;;;58m
+2023-05-12 16:37:14;"Petak";"Bench Press (Barbell)";4;160;lbs;3;;;;0;;;58m
+2023-05-12 16:37:14;"Petak";"Bench Press (Barbell)";5;145;lbs;3;;;;0;;;58m
+2023-05-12 16:37:14;"Petak";"Bench Press (Barbell)";6;135;lbs;5;;;;0;;;58m
+2023-05-12 16:37:14;"Petak";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;58m
+2023-05-12 16:37:14;"Petak";"Bent Over Row (Barbell)";2;145;lbs;6;;;;0;;;58m
+2023-05-12 16:37:14;"Petak";"Bent Over Row (Barbell)";3;155;lbs;6;;;;0;;;58m
+2023-05-12 16:37:14;"Petak";"Bent Over Row (Barbell)";4;165;lbs;3;;;;0;;;58m
+2023-05-12 16:37:14;"Petak";"Bent Over Row (Barbell)";5;155;lbs;4;;;;0;;;58m
+2023-05-12 16:37:14;"Petak";"Bent Over Row (Barbell)";6;145;lbs;5;;;;0;;;58m
+2023-05-18 03:31:27;"Četvrtak";"Bench Press (Barbell)";1;132.28;lbs;6;;;;0;"";"";1h
+2023-05-18 03:31:27;"Četvrtak";"Bench Press (Barbell)";2;143.3;lbs;6;;;;0;;;1h
+2023-05-18 03:31:27;"Četvrtak";"Bench Press (Barbell)";3;154.32;lbs;6;;;;0;;;1h
+2023-05-18 03:31:27;"Četvrtak";"Bench Press (Barbell)";4;159.84;lbs;5;;;;0;;;1h
+2023-05-18 03:31:27;"Četvrtak";"Bench Press (Barbell)";5;143.3;lbs;5;;;;0;;;1h
+2023-05-18 03:31:27;"Četvrtak";"Bench Press (Barbell)";6;132.28;lbs;6;;;;0;;;1h
+2023-05-18 03:31:27;"Četvrtak";"Bent Over Row (Barbell)";1;132.28;lbs;6;;;;0;"";;1h
+2023-05-18 03:31:27;"Četvrtak";"Bent Over Row (Barbell)";2;143.3;lbs;6;;;;0;;;1h
+2023-05-18 03:31:27;"Četvrtak";"Bent Over Row (Barbell)";3;154.32;lbs;4;;;;0;;;1h
+2023-05-18 03:31:27;"Četvrtak";"Bent Over Row (Barbell)";4;143.3;lbs;6;;;;0;;;1h
+2023-05-18 03:31:27;"Četvrtak";"Bent Over Row (Barbell)";5;132.28;lbs;6;;;;0;;;1h
+2023-05-18 03:31:27;"Četvrtak";"Bent Over Row (Barbell)";6;132.28;lbs;5;;;;0;;;1h
+2023-05-21 00:04:49;"Nedjelja";"Overhead Press (Barbell)";1;88.18;lbs;6;;;;0;"";"";24m
+2023-05-21 00:04:49;"Nedjelja";"Overhead Press (Barbell)";2;99.21;lbs;5;;;;0;;;24m
+2023-05-21 00:04:49;"Nedjelja";"Overhead Press (Barbell)";3;99.21;lbs;5;;;;0;;;24m
+2023-05-21 00:04:49;"Nedjelja";"Overhead Press (Barbell)";4;99.21;lbs;6;;;;0;;;24m
+2023-05-21 00:04:49;"Nedjelja";"Overhead Press (Barbell)";5;105.82;lbs;3;;;;0;;;24m
+2023-05-21 00:04:49;"Nedjelja";"Overhead Press (Barbell)";6;88.18;lbs;6;;;;0;;;24m
+2023-05-23 12:58:03;"Utorak";"Bench Press (Barbell)";1;132.28;lbs;6;;;;0;"";"";32m
+2023-05-23 12:58:03;"Utorak";"Bench Press (Barbell)";2;143.3;lbs;6;;;;0;;;32m
+2023-05-23 12:58:03;"Utorak";"Bench Press (Barbell)";3;154.32;lbs;6;;;;0;;;32m
+2023-05-23 12:58:03;"Utorak";"Bench Press (Barbell)";4;159.84;lbs;5;;;;0;;;32m
+2023-05-23 12:58:03;"Utorak";"Bench Press (Barbell)";5;143.3;lbs;6;;;;0;;;32m
+2023-05-23 12:58:03;"Utorak";"Bench Press (Barbell)";6;143.3;lbs;5;;;;0;;;32m
+2023-06-04 18:03:15;"Nedjelja";"Overhead Press (Barbell)";1;45;lbs;6;;;;0;"";"";48m
+2023-06-04 18:03:15;"Nedjelja";"Overhead Press (Barbell)";2;45;lbs;6;;;;0;;;48m
+2023-06-04 18:03:15;"Nedjelja";"Overhead Press (Barbell)";3;65;lbs;8;;;;0;;;48m
+2023-06-04 18:03:15;"Nedjelja";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;48m
+2023-06-04 18:03:15;"Nedjelja";"Bent Over Row (Barbell)";2;135;lbs;4;;;;0;;;48m
+2023-06-04 18:03:15;"Nedjelja";"Bent Over Row (Barbell)";3;135;lbs;5;;;;0;;;48m
+2023-06-04 18:03:15;"Nedjelja";"Bent Over Row (Barbell)";4;135;lbs;4;;;;0;;;48m
+2023-06-11 13:29:50;"Nedjelja";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";44m
+2023-06-11 13:29:50;"Nedjelja";"Bench Press (Barbell)";2;115;lbs;6;;;;0;;;44m
+2023-06-11 13:29:50;"Nedjelja";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;44m
+2023-06-11 13:29:50;"Nedjelja";"Bench Press (Barbell)";4;135;lbs;6;;;;0;;;44m
+2023-06-11 13:29:50;"Nedjelja";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;44m
+2023-06-11 13:29:50;"Nedjelja";"Bent Over Row (Barbell)";2;135;lbs;6;;;;0;;;44m
+2023-06-11 13:29:50;"Nedjelja";"Bent Over Row (Barbell)";3;135;lbs;6;;;;0;;;44m
+2023-06-11 13:29:50;"Nedjelja";"Squat (Bodyweight)";1;0;lbs;6;;;;0;"";;44m
+2023-06-11 13:29:50;"Nedjelja";"Squat (Bodyweight)";2;0;lbs;6;;;;0;;;44m
+2023-06-13 19:06:48;"Utorak";"Bent Over Row (Barbell)";1;145;lbs;6;;;;0;"";"";41m
+2023-06-13 19:06:48;"Utorak";"Bent Over Row (Barbell)";2;145;lbs;6;;;;0;;;41m
+2023-06-13 19:06:48;"Utorak";"Bent Over Row (Barbell)";3;150;lbs;6;;;;0;;;41m
+2023-06-13 19:06:48;"Utorak";"Bent Over Row (Barbell)";4;150;lbs;6;;;;0;;;41m
+2023-06-13 19:06:48;"Utorak";"Bent Over Row (Barbell)";5;150;lbs;6;;;;0;;;41m
+2023-06-13 19:06:48;"Utorak";"Overhead Press (Barbell)";1;45;lbs;7;;;;0;"";;41m
+2023-06-17 16:35:18;"Subota";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";59m
+2023-06-17 16:35:18;"Subota";"Bench Press (Barbell)";2;115;lbs;6;;;;0;;;59m
+2023-06-17 16:35:18;"Subota";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;59m
+2023-06-17 16:35:18;"Subota";"Bench Press (Barbell)";4;115;lbs;6;;;;0;;;59m
+2023-06-17 16:35:18;"Subota";"Deadlift (Barbell)";1;135;lbs;4;;;;0;"";;59m
+2023-06-17 16:35:18;"Subota";"Deadlift (Barbell)";2;135;lbs;4;;;;0;;;59m
+2023-06-17 16:35:18;"Subota";"Deadlift (Barbell)";3;135;lbs;5;;;;0;;;59m
+2023-06-18 18:17:01;"Nedjelja";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";"";33m
+2023-06-18 18:17:01;"Nedjelja";"Bent Over Row (Barbell)";2;135;lbs;6;;;;0;;;33m
+2023-06-18 18:17:01;"Nedjelja";"Bent Over Row (Barbell)";3;145;lbs;5;;;;0;;;33m
+2023-06-18 18:17:01;"Nedjelja";"Bent Over Row (Barbell)";4;145;lbs;6;;;;0;;;33m
+2023-06-18 18:17:01;"Nedjelja";"Bent Over Row (Barbell)";5;135;lbs;6;;;;0;;;33m
+2023-06-18 18:17:01;"Nedjelja";"Squat (Bodyweight)";1;0;lbs;8;;;;0;"";;33m
+2023-06-18 18:17:01;"Nedjelja";"Squat (Bodyweight)";2;0;lbs;10;;;;0;;;33m
+2023-06-18 18:17:01;"Nedjelja";"Squat (Bodyweight)";3;0;lbs;8;;;;0;;;33m
+2023-06-23 18:06:55;"Petak";"Bench Press (Barbell)";1;95;lbs;8;;;;0;"";"";54m
+2023-06-23 18:06:55;"Petak";"Bench Press (Barbell)";2;115;lbs;7;;;;0;;;54m
+2023-06-23 18:06:55;"Petak";"Bench Press (Barbell)";3;135;lbs;5;;;;0;;;54m
+2023-06-23 18:06:55;"Petak";"Bench Press (Barbell)";4;135;lbs;6;;;;0;;;54m
+2023-06-23 18:06:55;"Petak";"Bench Press (Barbell)";5;135;lbs;4;;;;0;;;54m
+2023-06-23 18:06:55;"Petak";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;54m
+2023-06-23 18:06:55;"Petak";"Bent Over Row (Barbell)";2;145;lbs;6;;;;0;;;54m
+2023-06-23 18:06:55;"Petak";"Bent Over Row (Barbell)";3;145;lbs;5;;;;0;;;54m
+2023-06-23 18:06:55;"Petak";"Bent Over Row (Barbell)";4;145;lbs;6;;;;0;;;54m
+2023-06-23 18:06:55;"Petak";"Squat (Bodyweight)";1;0;lbs;6;;;;0;"";;54m
+2023-06-23 18:06:55;"Petak";"Squat (Bodyweight)";2;0;lbs;3;;;;0;;;54m
+2023-06-25 15:31:05;"Nesjelja";"Deadlift (Barbell)";1;135;lbs;6;;;;0;"";"";40m
+2023-06-25 15:31:05;"Nesjelja";"Deadlift (Barbell)";2;135;lbs;6;;;;0;;;40m
+2023-06-25 15:31:05;"Nesjelja";"Deadlift (Barbell)";3;135;lbs;6;;;;0;;;40m
+2023-06-25 15:31:05;"Nesjelja";"Deadlift (Barbell)";4;135;lbs;6;;;;0;;;40m
+2023-06-25 15:31:05;"Nesjelja";"Overhead Press (Barbell)";1;45;lbs;7;;;;0;"";;40m
+2023-06-25 15:31:05;"Nesjelja";"Overhead Press (Barbell)";2;50;lbs;7;;;;0;;;40m
+2023-06-25 15:31:05;"Nesjelja";"Overhead Press (Barbell)";3;55;lbs;6;;;;0;;;40m
+2023-07-02 19:11:03;"Petak";"Bench Press (Barbell)";1;45;lbs;15;;;;0;"";"";35m
+2023-07-02 19:11:03;"Petak";"Bench Press (Barbell)";2;95;lbs;8;;;;0;;;35m
+2023-07-02 19:11:03;"Petak";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;35m
+2023-07-02 19:11:03;"Petak";"Bench Press (Barbell)";4;115;lbs;6;;;;0;;;35m
+2023-07-09 14:37:04;"Nesjelja";"Overhead Press (Barbell)";1;45;lbs;10;;;;0;"";"";1h 24m
+2023-07-09 14:37:04;"Nesjelja";"Overhead Press (Barbell)";2;65;lbs;8;;;;0;;;1h 24m
+2023-07-09 14:37:04;"Nesjelja";"Overhead Press (Barbell)";3;75;lbs;6;;;;0;;;1h 24m
+2023-07-09 14:37:04;"Nesjelja";"Squat (Bodyweight)";1;;;10;;;;0;"";;1h 24m
+2023-07-09 14:37:04;"Nesjelja";"Squat (Bodyweight)";2;;;8;;;;0;;;1h 24m
+2023-07-09 14:37:04;"Nesjelja";"Bent Over Row (Barbell)";1;125;lbs;7;;;;0;"";;1h 24m
+2023-07-09 14:37:04;"Nesjelja";"Bent Over Row (Barbell)";2;135;lbs;8;;;;0;;;1h 24m
+2023-07-09 14:37:04;"Nesjelja";"Bench Press (Barbell)";1;95;lbs;8;;;;0;"";;1h 24m
+2023-07-09 14:37:04;"Nesjelja";"Bench Press (Barbell)";2;95;lbs;4;;;;0;;;1h 24m
+2023-07-09 14:37:04;"Nesjelja";"Bench Press (Barbell)";3;95;lbs;2;;;;0;;;1h 24m
+2023-07-15 12:57:05;"Subota";"Bench Press (Barbell)";1;45;lbs;12;;;;0;"";"";43m
+2023-07-15 12:57:05;"Subota";"Bench Press (Barbell)";2;95;lbs;8;;;;0;;;43m
+2023-07-15 12:57:05;"Subota";"Bench Press (Barbell)";3;95;lbs;6;;;;0;;;43m
+2023-07-15 12:57:05;"Subota";"Bench Press (Barbell)";4;95;lbs;6;;;;0;;;43m
+2023-07-15 12:57:05;"Subota";"Squat (Bodyweight)";1;0;lbs;6;;;;0;"";;43m
+2023-07-15 12:57:05;"Subota";"Squat (Bodyweight)";2;0;lbs;8;;;;0;;;43m
+2023-07-15 12:57:05;"Subota";"Squat (Bodyweight)";3;0;lbs;10;;;;0;;;43m
+2023-07-15 12:57:05;"Subota";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;43m
+2023-07-15 12:57:05;"Subota";"Bent Over Row (Barbell)";2;135;lbs;6;;;;0;;;43m
+2023-07-15 12:57:05;"Subota";"Bent Over Row (Barbell)";3;135;lbs;5;;;;0;;;43m
+2023-07-19 19:47:29;"Srijeda";"Overhead Press (Barbell)";1;45;lbs;10;;;;0;"";"";28m
+2023-07-19 19:47:29;"Srijeda";"Overhead Press (Barbell)";2;65;lbs;8;;;;0;;;28m
+2023-07-19 19:47:29;"Srijeda";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;28m
+2023-07-19 19:47:29;"Srijeda";"Overhead Press (Barbell)";4;85;lbs;5;;;;0;;;28m
+2023-07-19 19:47:29;"Srijeda";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;28m
+2023-07-19 19:47:29;"Srijeda";"Bent Over Row (Barbell)";2;145;lbs;6;;;;0;;;28m
+2023-07-19 19:47:29;"Srijeda";"Bent Over Row (Barbell)";3;145;lbs;6;;;;0;;;28m
+2023-07-19 19:47:29;"Srijeda";"Bent Over Row (Barbell)";4;145;lbs;4;;;;0;;;28m
+2023-07-21 17:16:38;"Petak";"Bench Press (Barbell)";1;45;lbs;8;;;;0;"";"";1h 33m
+2023-07-21 17:16:38;"Petak";"Bench Press (Barbell)";2;95;lbs;6;;;;0;;;1h 33m
+2023-07-21 17:16:38;"Petak";"Bench Press (Barbell)";3;95;lbs;6;;;;0;;;1h 33m
+2023-07-21 17:16:38;"Petak";"Bench Press (Barbell)";4;95;lbs;8;;;;0;;;1h 33m
+2023-07-21 17:16:38;"Petak";"Squat (Bodyweight)";1;0;lbs;12;;;;0;"";;1h 33m
+2023-07-21 17:16:38;"Petak";"Squat (Bodyweight)";2;0;lbs;12;;;;0;;;1h 33m
+2023-07-21 17:16:38;"Petak";"Squat (Bodyweight)";3;0;lbs;12;;;;0;;;1h 33m
+2023-08-02 20:30:39;"Petak";"Bench Press (Barbell)";1;65;lbs;8;;;;0;"";"";36m
+2023-08-02 20:30:39;"Petak";"Bench Press (Barbell)";2;95;lbs;6;;;;0;;;36m
+2023-08-02 20:30:39;"Petak";"Bench Press (Barbell)";3;95;lbs;6;;;;0;;;36m
+2023-08-02 20:30:39;"Petak";"Bench Press (Barbell)";4;95;lbs;6;;;;0;;;36m
+2023-08-02 20:30:39;"Petak";"Bent Over Row (Barbell)";1;135;lbs;6;;;;0;"";;36m
+2023-08-02 20:30:39;"Petak";"Bent Over Row (Barbell)";2;135;lbs;6;;;;0;;;36m
+2023-08-02 20:30:39;"Petak";"Bent Over Row (Barbell)";3;135;lbs;6;;;;0;;;36m
+2023-08-06 15:56:19;"Nedjelja";"Overhead Press (Barbell)";1;45;lbs;8;;;;0;"";"";30m
+2023-08-06 15:56:19;"Nedjelja";"Overhead Press (Barbell)";2;45;lbs;8;;;;0;;;30m
+2023-08-06 15:56:19;"Nedjelja";"Overhead Press (Barbell)";3;65;lbs;6;;;;0;;;30m
+2023-08-06 15:56:19;"Nedjelja";"Overhead Press (Barbell)";4;65;lbs;6;;;;0;;;30m
+2023-08-06 15:56:19;"Nedjelja";"Overhead Press (Barbell)";5;65;lbs;7;;;;0;;;30m
+2023-08-06 15:56:19;"Nedjelja";"Squat (Bodyweight)";1;0;lbs;10;;;;0;"";;30m
+2023-08-06 15:56:19;"Nedjelja";"Squat (Bodyweight)";2;0;lbs;9;;;;0;;;30m
+2023-08-06 15:56:19;"Nedjelja";"Squat (Bodyweight)";3;0;lbs;10;;;;0;;;30m
+2023-08-06 15:56:19;"Nedjelja";"Squat (Bodyweight)";4;0;lbs;8;;;;0;;;30m
+2023-08-11 21:03:58;"Petak";"Bench Press (Barbell)";1;45;lbs;6;;;;0;"";"";23m
+2023-08-11 21:03:58;"Petak";"Bench Press (Barbell)";2;65;lbs;6;;;;0;;;23m
+2023-08-11 21:03:58;"Petak";"Bench Press (Barbell)";3;65;lbs;6;;;;0;;;23m
+2023-08-11 21:03:58;"Petak";"Bench Press (Barbell)";4;95;lbs;6;;;;0;;;23m
+2023-08-11 21:03:58;"Petak";"Bench Press (Barbell)";5;105;lbs;6;;;;0;;;23m
+2023-08-11 21:03:58;"Petak";"Bench Press (Barbell)";6;105;lbs;6;;;;0;;;23m
+2023-08-13 16:20:39;"Nedjelja";"Overhead Press (Barbell)";1;45;lbs;8;;;;0;"";"";43m
+2023-08-13 16:20:39;"Nedjelja";"Overhead Press (Barbell)";2;65;lbs;8;;;;0;;;43m
+2023-08-13 16:20:39;"Nedjelja";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;43m
+2023-08-13 16:20:39;"Nedjelja";"Overhead Press (Barbell)";4;85;lbs;6;;;;0;;;43m
+2023-08-13 16:20:39;"Nedjelja";"Overhead Press (Barbell)";5;65;lbs;9;;;;0;;;43m
+2023-08-13 16:20:39;"Nedjelja";"Squat (Bodyweight)";1;0;lbs;10;;;;0;"";;43m
+2023-08-13 16:20:39;"Nedjelja";"Squat (Bodyweight)";2;0;lbs;10;;;;0;;;43m
+2023-08-13 16:20:39;"Nedjelja";"Squat (Bodyweight)";3;0;lbs;13;;;;0;;;43m
+2023-08-13 16:20:39;"Nedjelja";"Squat (Bodyweight)";4;0;lbs;10;;;;0;;;43m
+2023-08-18 20:00:16;"Petak";"Bench Press (Barbell)";1;65;lbs;8;;;;0;"";"";16m
+2023-08-18 20:00:16;"Petak";"Bench Press (Barbell)";2;95;lbs;6;;;;0;;;16m
+2023-08-18 20:00:16;"Petak";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;16m
+2023-08-18 20:00:16;"Petak";"Bench Press (Barbell)";4;115;lbs;6;;;;0;;;16m
+2023-08-18 20:00:16;"Petak";"Bench Press (Barbell)";5;115;lbs;6;;;;0;;;16m
+2023-08-21 19:21:28;"Nedjelja";"Overhead Press (Barbell)";1;45;lbs;8;;;;0;"";"";29m
+2023-08-21 19:21:28;"Nedjelja";"Overhead Press (Barbell)";2;45;lbs;6;;;;0;;;29m
+2023-08-21 19:21:28;"Nedjelja";"Overhead Press (Barbell)";3;65;lbs;6;;;;0;;;29m
+2023-08-21 19:21:28;"Nedjelja";"Overhead Press (Barbell)";4;85;lbs;6;;;;0;;;29m
+2023-08-21 19:21:28;"Nedjelja";"Overhead Press (Barbell)";5;95;lbs;4;;;;0;;;29m
+2023-08-21 19:21:28;"Nedjelja";"Squat (Bodyweight)";1;0;lbs;10;;;;0;"";;29m
+2023-08-21 19:21:28;"Nedjelja";"Squat (Bodyweight)";2;0;lbs;10;;;;0;;;29m
+2023-08-21 19:21:28;"Nedjelja";"Squat (Bodyweight)";3;0;lbs;10;;;;0;;;29m
+2023-08-21 19:21:28;"Nedjelja";"Squat (Bodyweight)";4;0;lbs;10;;;;0;;;29m
+2023-08-23 19:29:08;"Petak";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";44m
+2023-08-23 19:29:08;"Petak";"Bench Press (Barbell)";2;95;lbs;6;;;;0;;;44m
+2023-08-23 19:29:08;"Petak";"Bench Press (Barbell)";3;95;lbs;6;;;;0;;;44m
+2023-08-23 19:29:08;"Petak";"Bench Press (Barbell)";4;115;lbs;6;;;;0;;;44m
+2023-08-23 19:29:08;"Petak";"Squat (Bodyweight)";1;;;10;;;;0;"";;44m
+2023-08-23 19:29:08;"Petak";"Squat (Bodyweight)";2;;;12;;;;0;;;44m
+2023-08-23 19:29:08;"Petak";"Squat (Bodyweight)";3;;;10;;;;0;;;44m
+2023-08-23 19:29:08;"Petak";"Face Pull (Cable)";1;20;lbs;12;;;;0;"";;44m
+2023-08-23 19:29:08;"Petak";"Face Pull (Cable)";2;20;lbs;12;;;;0;;;44m
+2023-08-23 19:29:08;"Petak";"Face Pull (Cable)";3;30;lbs;10;;;;0;;;44m
+2023-08-27 17:40:00;"Nedjelja";"Overhead Press (Barbell)";1;45;lbs;6;;;;0;"";"";46m
+2023-08-27 17:40:00;"Nedjelja";"Overhead Press (Barbell)";2;65;lbs;6;;;;0;;;46m
+2023-08-27 17:40:00;"Nedjelja";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;46m
+2023-08-27 17:40:00;"Nedjelja";"Overhead Press (Barbell)";4;95;lbs;5;;;;0;;;46m
+2023-08-27 17:40:00;"Nedjelja";"Face Pull (Cable)";1;30;lbs;12;;;;0;"";;46m
+2023-08-27 17:40:00;"Nedjelja";"Face Pull (Cable)";2;30;lbs;12;;;;0;;;46m
+2023-08-27 17:40:00;"Nedjelja";"Face Pull (Cable)";3;40;lbs;12;;;;0;;;46m
+2023-08-27 17:40:00;"Nedjelja";"Face Pull (Cable)";4;40;lbs;12;;;;0;;;46m
+2023-08-27 17:40:00;"Nedjelja";"farmer carry";1;60;lbs;1;;;;0;"";;46m
+2023-08-27 17:40:00;"Nedjelja";"farmer carry";2;60;lbs;1;;;;0;;;46m
+2023-08-27 17:40:00;"Nedjelja";"farmer carry";3;60;lbs;1;;;;0;;;46m
+2023-08-27 17:40:00;"Nedjelja";"farmer carry";4;60;lbs;1;;;;0;;;46m
+2023-08-27 17:40:00;"Nedjelja";"Cycling (Indoor)";1;;;;;;mi.;300;"";;46m
+2023-09-02 17:48:15;"2";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 30m
+2023-09-02 17:48:15;"2";"Bench Press (Barbell)";2;95;lbs;6;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"Bench Press (Barbell)";4;115;lbs;6;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"Bench Press (Barbell)";5;125;lbs;6;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 30m
+2023-09-02 17:48:15;"2";"Bent Over Row (Barbell)";2;115;lbs;6;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"Bent Over Row (Barbell)";3;125;lbs;6;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"Bent Over Row (Barbell)";4;125;lbs;6;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"Bent Over Row (Barbell)";5;130;lbs;6;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"Squat (Bodyweight)";1;;;14;;;;0;"";;1h 30m
+2023-09-02 17:48:15;"2";"Squat (Bodyweight)";2;;;14;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"Squat (Bodyweight)";3;;;16;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"Squat (Bodyweight)";4;;;4;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"Face Pull (Cable)";1;20;lbs;12;;;;0;"";;1h 30m
+2023-09-02 17:48:15;"2";"Face Pull (Cable)";2;30;lbs;12;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"Face Pull (Cable)";3;30;lbs;12;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"Face Pull (Cable)";4;40;lbs;8;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"farmer carry";1;60;lbs;1;;;;0;"";;1h 30m
+2023-09-02 17:48:15;"2";"farmer carry";2;60;lbs;1;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"farmer carry";3;80;lbs;1;;;;0;;;1h 30m
+2023-09-02 17:48:15;"2";"farmer carry";4;80;lbs;1;;;;0;;;1h 30m
+2023-09-06 19:53:16;"1";"Overhead Press (Barbell)";1;45;lbs;6;;;;0;"";"";1h 20m
+2023-09-06 19:53:16;"1";"Overhead Press (Barbell)";2;65;lbs;6;;;;0;;;1h 20m
+2023-09-06 19:53:16;"1";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;1h 20m
+2023-09-06 19:53:16;"1";"Overhead Press (Barbell)";4;85;lbs;6;;;;0;;;1h 20m
+2023-09-06 19:53:16;"1";"Overhead Press (Barbell)";5;95;lbs;5;;;;0;;;1h 20m
+2023-09-06 19:53:16;"1";"Deadlift (Barbell)";1;115;lbs;6;;;;0;"";;1h 20m
+2023-09-06 19:53:16;"1";"Deadlift (Barbell)";2;115;lbs;3;;;;0;;;1h 20m
+2023-09-06 19:53:16;"1";"Deadlift (Barbell)";3;115;lbs;3;;;;0;;;1h 20m
+2023-09-06 19:53:16;"1";"Deadlift (Barbell)";4;115;lbs;3;;;;0;;;1h 20m
+2023-09-06 19:53:16;"1";"Face Pull (Cable)";1;30;lbs;12;;;;0;"";;1h 20m
+2023-09-06 19:53:16;"1";"Face Pull (Cable)";2;30;lbs;12;;;;0;;;1h 20m
+2023-09-06 19:53:16;"1";"Face Pull (Cable)";3;40;lbs;14;;;;0;;;1h 20m
+2023-09-06 19:53:16;"1";"Face Pull (Cable)";4;50;lbs;12;;;;0;;;1h 20m
+2023-09-06 19:53:16;"1";"farmer carry";1;60;lbs;1;;;;0;"";;1h 20m
+2023-09-06 19:53:16;"1";"farmer carry";2;80;lbs;1;;;;0;;;1h 20m
+2023-09-06 19:53:16;"1";"farmer carry";3;80;lbs;1;;;;0;;;1h 20m
+2023-09-06 19:53:16;"1";"farmer carry";4;100;lbs;1;;;;0;;;1h 20m
+2023-09-06 19:53:16;"1";"Cycling (Indoor)";1;;;;;;mi.;420;"";;1h 20m
+2023-09-08 20:10:31;"2";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 21m
+2023-09-08 20:10:31;"2";"Bench Press (Barbell)";2;115;lbs;4;;;;0;;;1h 21m
+2023-09-08 20:10:31;"2";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;1h 21m
+2023-09-08 20:10:31;"2";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 21m
+2023-09-08 20:10:31;"2";"Bent Over Row (Barbell)";2;125;lbs;6;;;;0;;;1h 21m
+2023-09-08 20:10:31;"2";"Bent Over Row (Barbell)";3;125;lbs;6;;;;0;;;1h 21m
+2023-09-08 20:10:31;"2";"Bent Over Row (Barbell)";4;125;lbs;6;;;;0;;;1h 21m
+2023-09-08 20:10:31;"2";"Squat (Bodyweight)";1;;;9;;;;0;"";;1h 21m
+2023-09-08 20:10:31;"2";"Squat (Bodyweight)";2;;;12;;;;0;;;1h 21m
+2023-09-08 20:10:31;"2";"Face Pull (Cable)";1;30;lbs;12;;;;0;"";;1h 21m
+2023-09-08 20:10:31;"2";"Face Pull (Cable)";2;30;lbs;12;;;;0;;;1h 21m
+2023-09-08 20:10:31;"2";"Face Pull (Cable)";3;40;lbs;12;;;;0;;;1h 21m
+2023-09-08 20:10:31;"2";"Face Pull (Cable)";4;40;lbs;8;;;;0;;;1h 21m
+2023-09-08 20:10:31;"2";"farmer carry";1;60;lbs;1;;;;0;"";;1h 21m
+2023-09-08 20:10:31;"2";"farmer carry";2;80;lbs;1;;;;0;;;1h 21m
+2023-09-08 20:10:31;"2";"farmer carry";3;80;lbs;1;;;;0;;;1h 21m
+2023-09-10 20:01:59;"1";"Overhead Press (Barbell)";1;45;lbs;8;;;;0;"";"";1h 41m
+2023-09-10 20:01:59;"1";"Overhead Press (Barbell)";2;65;lbs;6;;;;0;;;1h 41m
+2023-09-10 20:01:59;"1";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;1h 41m
+2023-09-10 20:01:59;"1";"Overhead Press (Barbell)";4;85;lbs;6;;;;0;;;1h 41m
+2023-09-10 20:01:59;"1";"Overhead Press (Barbell)";5;85;lbs;6;;;;0;;;1h 41m
+2023-09-10 20:01:59;"1";"Deadlift (Barbell)";1;115;lbs;4;;;;0;"";;1h 41m
+2023-09-10 20:01:59;"1";"Deadlift (Barbell)";2;115;lbs;3;;;;0;;;1h 41m
+2023-09-10 20:01:59;"1";"Deadlift (Barbell)";3;115;lbs;3;;;;0;;;1h 41m
+2023-09-10 20:01:59;"1";"Deadlift (Barbell)";4;115;lbs;3;;;;0;;;1h 41m
+2023-09-10 20:01:59;"1";"Deadlift (Barbell)";5;115;lbs;3;;;;0;;;1h 41m
+2023-09-10 20:01:59;"1";"Face Pull (Cable)";1;40;lbs;12;;;;0;"";;1h 41m
+2023-09-10 20:01:59;"1";"Face Pull (Cable)";2;40;lbs;12;;;;0;;;1h 41m
+2023-09-10 20:01:59;"1";"Face Pull (Cable)";3;50;lbs;12;;;;0;;;1h 41m
+2023-09-10 20:01:59;"1";"Face Pull (Cable)";4;50;lbs;12;;;;0;;;1h 41m
+2023-09-10 20:01:59;"1";"farmer carry";1;80;lbs;1;;;;0;"";;1h 41m
+2023-09-10 20:01:59;"1";"farmer carry";2;80;lbs;1;;;;0;;;1h 41m
+2023-09-10 20:01:59;"1";"farmer carry";3;80;lbs;1;;;;0;;;1h 41m
+2023-09-10 20:01:59;"1";"farmer carry";4;80;lbs;1;;;;0;;;1h 41m
+2023-09-12 20:02:28;"2";"Bench Press (Barbell)";1;95;lbs;6;;;;0;"";"";1h 28m
+2023-09-12 20:02:28;"2";"Bench Press (Barbell)";2;115;lbs;6;;;;0;;;1h 28m
+2023-09-12 20:02:28;"2";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;1h 28m
+2023-09-12 20:02:28;"2";"Bench Press (Barbell)";4;115;lbs;6;;;;0;;;1h 28m
+2023-09-12 20:02:28;"2";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 28m
+2023-09-12 20:02:28;"2";"Bent Over Row (Barbell)";2;125;lbs;6;;;;0;;;1h 28m
+2023-09-12 20:02:28;"2";"Bent Over Row (Barbell)";3;125;lbs;6;;;;0;;;1h 28m
+2023-09-12 20:02:28;"2";"Bent Over Row (Barbell)";4;125;lbs;6;;;;0;;;1h 28m
+2023-09-12 20:02:28;"2";"Squat (Bodyweight)";1;;;18;;;;0;"";;1h 28m
+2023-09-12 20:02:28;"2";"Squat (Bodyweight)";2;;;14;;;;0;;;1h 28m
+2023-09-12 20:02:28;"2";"Squat (Bodyweight)";3;;;12;;;;0;;;1h 28m
+2023-09-12 20:02:28;"2";"Squat (Bodyweight)";4;;;12;;;;0;;;1h 28m
+2023-09-12 20:02:28;"2";"Face Pull (Cable)";1;40;lbs;15;;;;0;"";;1h 28m
+2023-09-12 20:02:28;"2";"Face Pull (Cable)";2;40;lbs;12;;;;0;;;1h 28m
+2023-09-12 20:02:28;"2";"Face Pull (Cable)";3;50;lbs;10;;;;0;;;1h 28m
+2023-09-12 20:02:28;"2";"Face Pull (Cable)";4;50;lbs;12;;;;0;;;1h 28m
+2023-09-12 20:02:28;"2";"farmer carry";1;80;lbs;1;;;;0;"";;1h 28m
+2023-09-12 20:02:28;"2";"farmer carry";2;80;lbs;1;;;;0;;;1h 28m
+2023-09-12 20:02:28;"2";"farmer carry";3;80;lbs;1;;;;0;;;1h 28m
+2023-09-15 20:46:03;"1";"Overhead Press (Barbell)";1;45;lbs;8;;;;0;"";"";1h 25m
+2023-09-15 20:46:03;"1";"Overhead Press (Barbell)";2;65;lbs;6;;;;0;;;1h 25m
+2023-09-15 20:46:03;"1";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;1h 25m
+2023-09-15 20:46:03;"1";"Overhead Press (Barbell)";4;85;lbs;6;;;;0;;;1h 25m
+2023-09-15 20:46:03;"1";"Overhead Press (Barbell)";5;95;lbs;4;;;;0;;;1h 25m
+2023-09-15 20:46:03;"1";"bench band";1;;;8;;;;0;"";;1h 25m
+2023-09-15 20:46:03;"1";"bench band";2;;;8;;;;0;;;1h 25m
+2023-09-15 20:46:03;"1";"bench band";3;;;7;;;;0;;;1h 25m
+2023-09-15 20:46:03;"1";"bench band";4;;;8;;;;0;;;1h 25m
+2023-09-15 20:46:03;"1";"Deadlift (Barbell)";1;115;lbs;4;;;;0;"";;1h 25m
+2023-09-15 20:46:03;"1";"Deadlift (Barbell)";2;115;lbs;3;;;;0;;;1h 25m
+2023-09-15 20:46:03;"1";"Deadlift (Barbell)";3;115;lbs;3;;;;0;;;1h 25m
+2023-09-15 20:46:03;"1";"Face Pull (Cable)";1;40;lbs;12;;;;0;"";;1h 25m
+2023-09-15 20:46:03;"1";"Face Pull (Cable)";2;40;lbs;12;;;;0;;;1h 25m
+2023-09-15 20:46:03;"1";"Face Pull (Cable)";3;50;lbs;12;;;;0;;;1h 25m
+2023-09-15 20:46:03;"1";"farmer carry";1;80;lbs;1;;;;0;"";;1h 25m
+2023-09-15 20:46:03;"1";"farmer carry";2;80;lbs;1;;;;0;;;1h 25m
+2023-09-15 20:46:03;"1";"farmer carry";3;80;lbs;1;;;;0;;;1h 25m
+2023-09-18 19:54:39;"2";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";1h 28m
+2023-09-18 19:54:39;"2";"Bench Press (Barbell)";2;115;lbs;6;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"Bench Press (Barbell)";3;125;lbs;6;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"Bench Press (Barbell)";4;125;lbs;6;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"Bench Press (Barbell)";5;125;lbs;6;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;1h 28m
+2023-09-18 19:54:39;"2";"Bent Over Row (Barbell)";2;115;lbs;8;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"Bent Over Row (Barbell)";3;135;lbs;6;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"Bent Over Row (Barbell)";4;135;lbs;6;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"Squat (Bodyweight)";1;;;12;;;;0;"";;1h 28m
+2023-09-18 19:54:39;"2";"Squat (Bodyweight)";2;;;11;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"Squat (Bodyweight)";3;;;12;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"Squat (Bodyweight)";4;;;6;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"Face Pull (Cable)";1;50;lbs;9;;;;0;"";;1h 28m
+2023-09-18 19:54:39;"2";"Face Pull (Cable)";2;50;lbs;9;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"Face Pull (Cable)";3;40;lbs;12;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"Face Pull (Cable)";4;40;lbs;12;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"Face Pull (Cable)";5;40;lbs;10;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"farmer carry";1;80;lbs;1;;;;0;"";;1h 28m
+2023-09-18 19:54:39;"2";"farmer carry";2;100;lbs;1;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"farmer carry";3;100;lbs;1;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"farmer carry";4;80;lbs;1;;;;0;;;1h 28m
+2023-09-18 19:54:39;"2";"farmer carry";5;60;lbs;1;;;;0;;;1h 28m
+2023-09-25 18:10:58;"1";"Overhead Press (Barbell)";1;45;lbs;8;;;;0;"";"";1h 25m
+2023-09-25 18:10:58;"1";"Overhead Press (Barbell)";2;65;lbs;6;;;;0;;;1h 25m
+2023-09-25 18:10:58;"1";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;1h 25m
+2023-09-25 18:10:58;"1";"Overhead Press (Barbell)";4;85;lbs;6;;;;0;;;1h 25m
+2023-09-25 18:10:58;"1";"Overhead Press (Barbell)";5;85;lbs;6;;;;0;;;1h 25m
+2023-09-25 18:10:58;"1";"Lateral Raise (Dumbbell)";1;20;lbs;12;;;;0;"";;1h 25m
+2023-09-25 18:10:58;"1";"Lateral Raise (Dumbbell)";2;20;lbs;14;;;;0;;;1h 25m
+2023-09-25 18:10:58;"1";"Lateral Raise (Dumbbell)";3;20;lbs;13;;;;0;;;1h 25m
+2023-09-25 18:10:58;"1";"Lateral Raise (Dumbbell)";4;20;lbs;11;;;;0;;;1h 25m
+2023-09-25 18:10:58;"1";"Face Pull (Cable)";1;40;lbs;12;;;;0;"";;1h 25m
+2023-09-25 18:10:58;"1";"Face Pull (Cable)";2;40;lbs;12;;;;0;;;1h 25m
+2023-09-25 18:10:58;"1";"Face Pull (Cable)";3;40;lbs;12;;;;0;;;1h 25m
+2023-09-25 18:10:58;"1";"Face Pull (Cable)";4;50;lbs;12;;;;0;;;1h 25m
+2023-09-25 18:10:58;"1";"farmer carry";1;80;lbs;1;;;;0;"";;1h 25m
+2023-09-25 18:10:58;"1";"farmer carry";2;80;lbs;1;;;;0;;;1h 25m
+2023-09-25 18:10:58;"1";"farmer carry";3;80;lbs;1;;;;0;;;1h 25m
+2023-09-25 18:10:58;"1";"farmer carry";4;80;lbs;1;;;;0;;;1h 25m
+2023-09-25 18:10:58;"1";"Cycling (Indoor)";1;;;;;;mi.;720;"";;1h 25m
+2023-09-30 17:52:37;"2";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";49m
+2023-09-30 17:52:37;"2";"Bench Press (Barbell)";2;115;lbs;6;;;;0;;;49m
+2023-09-30 17:52:37;"2";"Bench Press (Barbell)";3;125;lbs;6;;;;0;;;49m
+2023-09-30 17:52:37;"2";"Bench Press (Barbell)";4;125;lbs;6;;;;0;;;49m
+2023-09-30 17:52:37;"2";"Bent Over Row (Barbell)";1;115;lbs;8;;;;0;"";;49m
+2023-09-30 17:52:37;"2";"Bent Over Row (Barbell)";2;125;lbs;6;;;;0;;;49m
+2023-09-30 17:52:37;"2";"Bent Over Row (Barbell)";3;125;lbs;6;;;;0;;;49m
+2023-09-30 17:52:37;"2";"Bent Over Row (Barbell)";4;125;lbs;6;;;;0;;;49m
+2023-09-30 17:52:37;"2";"Squat (Bodyweight)";1;;;10;;;;0;"";;49m
+2023-09-30 17:52:37;"2";"Squat (Bodyweight)";2;;;8;;;;0;;;49m
+2023-09-30 17:52:37;"2";"Face Pull (Cable)";1;40;lbs;12;;;;0;"";;49m
+2023-09-30 17:52:37;"2";"Face Pull (Cable)";2;40;lbs;12;;;;0;;;49m
+2023-09-30 17:52:37;"2";"Face Pull (Cable)";3;40;lbs;12;;;;0;;;49m
+2023-09-30 17:52:37;"2";"farmer carry";1;80;lbs;1;;;;0;"";;49m
+2023-09-30 17:52:37;"2";"farmer carry";2;80;lbs;1;;;;0;;;49m
+2023-10-02 19:21:14;"1";"Overhead Press (Barbell)";1;45;lbs;6;;;;0;"";"";34m
+2023-10-02 19:21:14;"1";"Overhead Press (Barbell)";2;65;lbs;6;;;;0;;;34m
+2023-10-02 19:21:14;"1";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;34m
+2023-10-02 19:21:14;"1";"Overhead Press (Barbell)";4;85;lbs;6;;;;0;;;34m
+2023-10-02 19:21:14;"1";"Lateral Raise (Dumbbell)";1;20;lbs;6;;;;0;"";;34m
+2023-10-02 19:21:14;"1";"Lateral Raise (Dumbbell)";2;20;lbs;9;;;;0;;;34m
+2023-10-04 19:27:11;"2";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";56m
+2023-10-04 19:27:11;"2";"Bench Press (Barbell)";2;115;lbs;6;;;;0;;;56m
+2023-10-04 19:27:11;"2";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;56m
+2023-10-04 19:27:11;"2";"Deadlift (Barbell)";1;120;lbs;3;;;;0;"";;56m
+2023-10-04 19:27:11;"2";"Deadlift (Barbell)";2;120;lbs;3;;;;0;;;56m
+2023-10-04 19:27:11;"2";"Deadlift (Barbell)";3;120;lbs;4;;;;0;;;56m
+2023-10-06 19:06:51;"1";"Overhead Press (Barbell)";1;45;lbs;6;;;;0;"";"";50m
+2023-10-06 19:06:51;"1";"Overhead Press (Barbell)";2;65;lbs;6;;;;0;;;50m
+2023-10-06 19:06:51;"1";"Overhead Press (Barbell)";3;85;lbs;6;;;;0;;;50m
+2023-10-06 19:06:51;"1";"Overhead Press (Barbell)";4;85;lbs;6;;;;0;;;50m
+2023-10-06 19:06:51;"1";"Overhead Press (Barbell)";5;65;lbs;6;;;;0;;;50m
+2023-10-06 19:06:51;"1";"Lateral Raise (Dumbbell)";1;20;lbs;12;;;;0;"";;50m
+2023-10-06 19:06:51;"1";"Lateral Raise (Dumbbell)";2;20;lbs;12;;;;0;;;50m
+2023-10-06 19:06:51;"1";"Lateral Raise (Dumbbell)";3;20;lbs;15;;;;0;;;50m
+2023-10-06 19:06:51;"1";"Lateral Raise (Dumbbell)";4;20;lbs;12;;;;0;;;50m
+2023-10-06 19:06:51;"1";"Lateral Raise (Dumbbell)";5;20;lbs;12;;;;0;;;50m
+2023-10-06 19:06:51;"1";"Face Pull (Cable)";1;40;lbs;12;;;;0;"";;50m
+2023-10-06 19:06:51;"1";"Face Pull (Cable)";2;40;lbs;12;;;;0;;;50m
+2023-10-06 19:06:51;"1";"Face Pull (Cable)";3;40;lbs;15;;;;0;;;50m
+2023-10-06 19:06:51;"1";"Triceps Pushdown (Cable - Straight Bar)";1;40;lbs;9;;;;0;"";;50m
+2023-10-06 19:06:51;"1";"Triceps Pushdown (Cable - Straight Bar)";2;40;lbs;10;;;;0;;;50m
+2023-10-06 19:06:51;"1";"Triceps Pushdown (Cable - Straight Bar)";3;40;lbs;12;;;;0;;;50m
+2023-10-06 19:06:51;"1";"farmer carry";1;80;lbs;1;;;;0;"";;50m
+2023-10-06 19:06:51;"1";"farmer carry";2;80;lbs;1;;;;0;;;50m
+2023-10-06 19:06:51;"1";"farmer carry";3;80;lbs;1;;;;0;;;50m
+2023-10-10 20:47:42;"2";"Bench Press (Barbell)";1;115;lbs;6;;;;0;"";"";49m
+2023-10-10 20:47:42;"2";"Bench Press (Barbell)";2;115;lbs;6;;;;0;;;49m
+2023-10-10 20:47:42;"2";"Bench Press (Barbell)";3;115;lbs;6;;;;0;;;49m
+2023-10-10 20:47:42;"2";"Bench Press (Barbell)";4;115;lbs;6;;;;0;;;49m
+2023-10-10 20:47:42;"2";"Bent Over Row (Barbell)";1;115;lbs;6;;;;0;"";;49m
+2023-10-10 20:47:42;"2";"Bent Over Row (Barbell)";2;125;lbs;6;;;;0;;;49m
+2023-10-10 20:47:42;"2";"Bent Over Row (Barbell)";3;125;lbs;6;;;;0;;;49m
+2023-10-10 20:47:42;"2";"Squat (Bodyweight)";1;;;6;;;;0;"";;49m
+2023-10-10 20:47:42;"2";"Squat (Bodyweight)";2;;;6;;;;0;;;49m
+2023-10-10 20:47:42;"2";"farmer carry";1;80;lbs;1;;;;0;"";;49m
+2023-10-10 20:47:42;"2";"farmer carry";2;80;lbs;1;;;;0;;;49m
+2023-10-10 20:47:42;"2";"Face Pull (Cable)";1;40;lbs;12;;;;0;"";;49m
+2023-10-10 20:47:42;"2";"Face Pull (Cable)";2;40;lbs;12;;;;0;;;49m
+2023-10-13 15:55:19;"1";"Overhead Press (Barbell)";1;45;lbs;8;;;;0;"";"";34m
+2023-10-13 15:55:19;"1";"Overhead Press (Barbell)";2;65;lbs;6;;;;0;;;34m
+2023-10-13 15:55:19;"1";"Overhead Press (Barbell)";3;85;lbs;5;;;;0;;;34m
+2023-10-13 15:55:19;"1";"Overhead Press (Barbell)";4;85;lbs;5;;;;0;;;34m
+2023-10-13 15:55:19;"1";"Lateral Raise (Dumbbell)";1;20;lbs;12;;;;0;"";;34m
+2023-10-13 15:55:19;"1";"Lateral Raise (Dumbbell)";2;20;lbs;16;;;;0;;;34m
+2023-10-13 15:55:19;"1";"Lateral Raise (Dumbbell)";3;20;lbs;16;;;;0;;;34m
+2023-10-13 15:55:19;"1";"Face Pull (Cable)";1;30;lbs;12;;;;0;"";;34m
+2023-10-13 15:55:19;"1";"Face Pull (Cable)";2;30;lbs;12;;;;0;;;34m
+2023-10-13 15:55:19;"1";"Face Pull (Cable)";3;30;lbs;15;;;;0;;;34m
+2023-10-13 15:55:19;"1";"farmer carry";1;80;lbs;1;;;;0;"";;34m
+2023-10-13 15:55:19;"1";"farmer carry";2;80;lbs;1;;;;0;;;34m
+2023-10-13 15:55:19;"1";"farmer carry";3;80;lbs;1;;;;0;;;34m
+2023-10-18 03:34:26;"Hrvatska";"Bench Press (Barbell)";1;110.23;lbs;8;;;;0;"";"";1h 7m
+2023-10-18 03:34:26;"Hrvatska";"Bench Press (Barbell)";2;0;lbs;8;;;;0;;;1h 7m
+2023-10-18 03:34:26;"Hrvatska";"Bench Press (Barbell)";3;110.23;lbs;6;;;;0;;;1h 7m
+2023-10-18 03:34:26;"Hrvatska";"Bench Press (Barbell)";4;110.23;lbs;7;;;;0;;;1h 7m
+2023-10-18 03:34:26;"Hrvatska";"Bench Press (Barbell)";5;110.23;lbs;6;;;;0;;;1h 7m
+2023-10-18 03:34:26;"Hrvatska";"Bent Over Row (Barbell)";1;110.23;lbs;8;;;;0;"";;1h 7m
+2023-10-18 03:34:26;"Hrvatska";"Bent Over Row (Barbell)";2;121.25;lbs;8;;;;0;;;1h 7m
+2023-10-18 03:34:26;"Hrvatska";"Bent Over Row (Barbell)";3;121.25;lbs;8;;;;0;;;1h 7m
+2023-10-18 03:34:26;"Hrvatska";"Bent Over Row (Barbell)";4;121.25;lbs;7;;;;0;;;1h 7m
+2023-10-18 03:34:26;"Hrvatska";"Deadlift (Barbell)";1;121.25;lbs;1;;;;0;"";;1h 7m
+2023-10-18 03:34:26;"Hrvatska";"Deadlift (Barbell)";2;121.25;lbs;4;;;;0;;;1h 7m
+2023-10-22 23:41:15;"Hrvatska";"Overhead Press (Barbell)";1;44.09;lbs;8;;;;0;"";"";1h 11m
+2023-10-22 23:41:15;"Hrvatska";"Overhead Press (Barbell)";2;71.65;lbs;8;;;;0;;;1h 11m
+2023-10-22 23:41:15;"Hrvatska";"Overhead Press (Barbell)";3;88.18;lbs;6;;;;0;;;1h 11m
+2023-10-22 23:41:15;"Hrvatska";"Overhead Press (Barbell)";4;99.21;lbs;3;;;;0;;;1h 11m
+2023-10-22 23:41:15;"Hrvatska";"Overhead Press (Barbell)";5;99.21;lbs;3;;;;0;;;1h 11m
+2023-10-22 23:41:15;"Hrvatska";"Overhead Press (Barbell)";6;88.18;lbs;6;;;;0;;;1h 11m
+2023-10-22 23:41:15;"Hrvatska";"Deadlift (Barbell)";1;132.28;lbs;4;;;;0;"";;1h 11m
+2023-10-22 23:41:15;"Hrvatska";"Deadlift (Barbell)";2;132.28;lbs;3;;;;0;;;1h 11m
+2023-10-22 23:41:15;"Hrvatska";"Deadlift (Barbell)";3;132.28;lbs;2;;;;0;;;1h 11m
+2023-10-22 23:41:15;"Hrvatska";"Deadlift (Barbell)";4;132.28;lbs;3;;;;0;;;1h 11m
+2023-10-22 23:41:15;"Hrvatska";"Deadlift (Barbell)";5;132.28;lbs;3;;;;0;;;1h 11m
+2023-10-22 23:41:15;"Hrvatska";"Lateral Raise (Dumbbell)";1;44.09;lbs;4;;;;0;"";;1h 11m
+2023-10-22 23:41:15;"Hrvatska";"Lateral Raise (Dumbbell)";2;26.46;lbs;15;;;;0;;;1h 11m
+2023-10-22 23:41:15;"Hrvatska";"Lateral Raise (Dumbbell)";3;26.46;lbs;12;;;;0;;;1h 11m
+2023-10-22 23:41:15;"Hrvatska";"Lateral Raise (Dumbbell)";4;26.46;lbs;12;;;;0;;;1h 11m

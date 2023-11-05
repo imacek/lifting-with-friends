@@ -12,34 +12,42 @@ import (
 	"path"
 	"path/filepath"
 	"strconv"
-	"strings"
 	"time"
 )
 
-func readCsv(fileName string, skipFirstLine bool) ([][]string, error) {
-	f, err := os.Open(fileName)
+type CsvType int64
 
+const (
+	Comma = iota
+	Semicolon
+)
+
+func readCsv(fileName string) ([][]string, CsvType, error) {
+	csvType := CsvType(Comma)
+
+	f, err := os.Open(fileName)
 	if err != nil {
-		return [][]string{}, err
+		return [][]string{}, csvType, err
 	}
 
 	defer f.Close()
 
 	r := csv.NewReader(f)
-
-	if skipFirstLine {
-		if _, err := r.Read(); err != nil {
-			return [][]string{}, err
-		}
-	}
-
 	records, err := r.ReadAll()
 
-	if err != nil {
-		return [][]string{}, err
+	if _, ok := err.(*csv.ParseError); ok {
+		f.Seek(0, 0)
+		r := csv.NewReader(f)
+		r.Comma = ';'
+		csvType = Semicolon
+		records, err = r.ReadAll()
 	}
 
-	return records, nil
+	if err != nil {
+		return [][]string{}, csvType, err
+	}
+
+	return records, csvType, nil
 }
 
 type LiftingSet struct {
@@ -54,31 +62,29 @@ func (ls LiftingSet) calcOneRepMax() float64 {
 	return ls.weight * (36 / (37 - float64(ls.reps)))
 }
 
-func (ls LiftingSet) calcNormalizedExerciseName() string {
-	return strings.Trim(strings.Replace(ls.exerciseName, "(Barbell)", "", -1), " ")
-}
-
-func parseStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
-	// Expects input headers:
-	// Date,Workout Name,Duration,Exercise Name,Set Order,Weight,Reps,Distance,Seconds,Notes,Workout Notes,RPE
-
+// Expected Apple input headers:
+// Date,Workout Name,Duration,Exercise Name,Set Order,Weight,Reps,Distance,Seconds,Notes,Workout Notes,RPE
+func parseAppleStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
 	noHeaderRecords := records[1:]
 	cleanRecords := make([]LiftingSet, len(noHeaderRecords))
 
 	for index, record := range noHeaderRecords {
 		time, err := time.Parse("2006-01-02 15:04:05", record[0])
 		if err != nil {
+			log.Println(fmt.Sprintf("Parsing Time failed at row %d", index))
 			return []LiftingSet{}, err
 		}
 
 		weight, err := strconv.ParseFloat(record[5], 64)
 		if err != nil {
-			return []LiftingSet{}, err
+			log.Println(fmt.Sprintf("Parsing Weight failed at row %d", index))
+			weight = 0
 		}
 
 		reps, err := strconv.ParseInt(record[6], 10, 32)
 		if err != nil {
-			return []LiftingSet{}, err
+			log.Println(fmt.Sprintf("Parsing Reps failed at row %d", index))
+			reps = 0
 		}
 
 		ls := LiftingSet{
@@ -88,7 +94,45 @@ func parseStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
 			reps:         int(reps),
 		}
 		ls.oneRepMax = ls.calcOneRepMax()
-		ls.exerciseName = ls.calcNormalizedExerciseName()
+
+		cleanRecords[index] = ls
+	}
+
+	return cleanRecords, nil
+}
+
+// Expected Android input headers:
+// Date;Workout Name;Exercise Name;Set Order;Weight;Weight Unit;Reps;RPE;Distance;Distance Unit;Seconds;Notes;Workout Notes;Workout Duration
+func parseAndroidStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
+	noHeaderRecords := records[1:]
+	cleanRecords := make([]LiftingSet, len(noHeaderRecords))
+
+	for index, record := range noHeaderRecords {
+		time, err := time.Parse("2006-01-02 15:04:05", record[0])
+		if err != nil {
+			log.Println(fmt.Sprintf("Parsing Time failed at row %d", index))
+			return []LiftingSet{}, err
+		}
+
+		weight, err := strconv.ParseFloat(record[4], 64)
+		if err != nil {
+			log.Println(fmt.Sprintf("Parsing Weight failed at row %d", index))
+			weight = 0
+		}
+
+		reps, err := strconv.ParseInt(record[6], 10, 32)
+		if err != nil {
+			log.Println(fmt.Sprintf("Parsing Reps failed at row %d", index))
+			reps = 0
+		}
+
+		ls := LiftingSet{
+			timestamp:    time,
+			exerciseName: record[2],
+			weight:       weight,
+			reps:         int(reps),
+		}
+		ls.oneRepMax = ls.calcOneRepMax()
 
 		cleanRecords[index] = ls
 	}
@@ -139,13 +183,19 @@ func loadStorage() {
 	userData = make(map[string]UserExerciseTimeSeries)
 
 	for _, file := range files {
-		records, err := readCsv(path.Join(storagePath, file.Name()), false)
+		records, csvType, err := readCsv(path.Join(storagePath, file.Name()))
 		if err != nil {
 			log.Println(err)
 			continue
 		}
 
-		listingSets, err := parseStrongCsvRecords(records)
+		var listingSets []LiftingSet
+		if csvType == Comma {
+			listingSets, err = parseAppleStrongCsvRecords(records)
+		} else {
+			listingSets, err = parseAndroidStrongCsvRecords(records)
+		}
+
 		if err != nil {
 			log.Println(err)
 			continue
@@ -158,15 +208,16 @@ func loadStorage() {
 func main() {
 	loadStorage()
 
-	router := gin.Default()
-	router.Use(gzip.Gzip(gzip.DefaultCompression))
+	r := gin.Default()
+	r.Use(gzip.Gzip(gzip.DefaultCompression))
+	r.MaxMultipartMemory = 10 << 20 // 10 MiB
+	r.LoadHTMLGlob("client/*.html")
 
-	router.GET("/api/data", func(c *gin.Context) {
-		c.JSON(200, userData)
+	r.GET("/api/data", func(c *gin.Context) {
+		c.JSON(http.StatusOK, userData)
 	})
 
-	router.MaxMultipartMemory = 10 << 20 // 10 MiB
-	router.POST("/upload", func(c *gin.Context) {
+	r.POST("/upload", func(c *gin.Context) {
 		username := c.PostForm("user")
 		log.Println(username)
 
@@ -179,5 +230,11 @@ func main() {
 		c.String(http.StatusOK, fmt.Sprintf("'%s' uploaded!", file.Filename))
 	})
 
-	router.Run()
+	r.Static("/assets", "client")
+
+	r.GET("/", func(c *gin.Context) {
+		c.HTML(http.StatusOK, "index.html", nil)
+	})
+
+	r.Run()
 }
