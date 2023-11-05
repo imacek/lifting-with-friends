@@ -11,6 +11,7 @@ import (
 	"os"
 	"path"
 	"path/filepath"
+	"sort"
 	"strconv"
 	"time"
 )
@@ -141,12 +142,13 @@ func parseAndroidStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
 }
 
 type ExerciseAggData struct {
-	MaxWeight    float64 `json:"maxWeight"`
-	MaxOneRepMax float64 `json:"maxOneRepMax"`
-	TotalVolume  float64 `json:"totalVolume"`
+	Timestamp    time.Time `json:"timestamp"`
+	MaxWeight    float64   `json:"maxWeight"`
+	MaxOneRepMax float64   `json:"maxOneRepMax"`
+	TotalVolume  float64   `json:"totalVolume"`
 }
 
-type UserExerciseTimeSeries = map[string]map[time.Time]ExerciseAggData
+type UserExerciseTimeSeries = map[string][]ExerciseAggData
 
 func calculateExerciseTimeSeries(liftingSets []LiftingSet) UserExerciseTimeSeries {
 	m := make(map[string]map[time.Time]ExerciseAggData)
@@ -156,18 +158,38 @@ func calculateExerciseTimeSeries(liftingSets []LiftingSet) UserExerciseTimeSerie
 			m[ls.exerciseName] = make(map[time.Time]ExerciseAggData)
 		}
 		if _, contains := m[ls.exerciseName][ls.timestamp]; !contains {
-			m[ls.exerciseName][ls.timestamp] = ExerciseAggData{}
+			m[ls.exerciseName][ls.timestamp] = ExerciseAggData{
+				Timestamp: ls.timestamp,
+			}
 		}
 
 		data := m[ls.exerciseName][ls.timestamp]
 		m[ls.exerciseName][ls.timestamp] = ExerciseAggData{
+			Timestamp:    ls.timestamp,
 			MaxWeight:    math.Max(data.MaxWeight, ls.weight),
 			MaxOneRepMax: math.Max(data.MaxOneRepMax, ls.oneRepMax),
 			TotalVolume:  data.TotalVolume + ls.weight*float64(ls.reps),
 		}
 	}
 
-	return m
+	// Drop the map
+	m2 := make(map[string][]ExerciseAggData, len(m))
+
+	for user, dataMap := range m {
+		m2[user] = make([]ExerciseAggData, len(dataMap))
+
+		index := 0
+		for _, data := range dataMap {
+			m2[user][index] = data
+			index++
+		}
+
+		sort.Slice(m2[user], func(i, j int) bool {
+			return m2[user][i].Timestamp.Before(m2[user][j].Timestamp)
+		})
+	}
+
+	return m2
 }
 
 var storagePath = "storage/"

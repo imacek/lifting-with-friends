@@ -10,49 +10,38 @@
     },
   })
     .then(response => response.json())
-    .then(response => console.log(response))
-
-  // Graphs
-  const ctx = document.getElementById('myChart')
-  // eslint-disable-next-line no-unused-vars
-  const myChart = new Chart(ctx, {
-    type: 'line',
-    data: {
-      labels: [
-        'Sunday',
-        'Monday',
-        'Tuesday',
-        'Wednesday',
-        'Thursday',
-        'Friday',
-        'Saturday'
-      ],
-      datasets: [{
-        data: [
-          15339,
-          21345,
-          18483,
-          24003,
-          23489,
-          24092,
-          12034
-        ],
-        lineTension: 0,
-        backgroundColor: 'transparent',
-        borderColor: '#007bff',
-        borderWidth: 4,
-        pointBackgroundColor: '#007bff'
-      }]
-    },
-    options: {
-      plugins: {
-        legend: {
-          display: false
+    .then(response => {
+      new Chart(document.getElementById('exerciseChart'), {
+        type: 'line',
+        data: {
+          datasets: [
+            { label: 'ivan', data: response['ivan']['Deadlift (Barbell)'] },
+            { label: 'vinko',  data: response['vinko']['Deadlift (Barbell)'] },
+            { label: 'linda', data: response['linda']['Deadlift (Barbell)'] },
+            { label: 'yomach', data: response['yomach']['Deadlift (Barbell)'] },
+          ]
         },
-        tooltip: {
-          boxPadding: 3
+        options: {
+          scales: {
+            x: {
+              type: 'time',
+            }
+          },
+          parsing: {
+            xAxisKey: 'timestamp',
+            yAxisKey: 'maxOneRepMax'
+          },
+          plugins: {
+            legend: {
+              display: true
+            },
+            tooltip: {
+              boxPadding: 3
+            }
+          }
         }
-      }
-    }
-  })
+      })
+
+    })
+
 })()
