@@ -29,8 +29,10 @@ jobs:
         
     - name: Collect artifacts into build-artifacts folder
       run: |
-        cp --parents lifting-with-friends build-artifacts/lifting-with-friends
-        cp --parents -R client/* build-artifacts/client
+        mkdir build-artifacts
+        mkdir build-artifacts/client
+        cp -v lifting-with-friends build-artifacts/lifting-with-friends
+        cp -v -R client/* build-artifacts/client
           
     - name: Upload Artifact GitHub Action
       uses: actions/upload-artifact@v2
