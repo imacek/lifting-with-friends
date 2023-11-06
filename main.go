@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/csv"
+	"flag"
 	"fmt"
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
@@ -192,10 +193,9 @@ func calculateExerciseTimeSeries(liftingSets []LiftingSet) UserExerciseTimeSerie
 	return m2
 }
 
-var storagePath = "storage/"
 var userData map[string]UserExerciseTimeSeries
 
-func loadStorage() {
+func loadFileStorage(storagePath string) {
 	files, err := os.ReadDir(storagePath)
 	if err != nil {
 		log.Fatal(err)
@@ -228,7 +228,10 @@ func loadStorage() {
 }
 
 func main() {
-	loadStorage()
+	storagePathFlag := flag.String("storage", "storage", "Path to the storage folder. Defaults to 'storage' folder in the working directory.")
+	flag.Parse()
+
+	loadFileStorage(*storagePathFlag)
 
 	r := gin.Default()
 	r.Use(gzip.Gzip(gzip.DefaultCompression))
@@ -246,7 +249,7 @@ func main() {
 		file, _ := c.FormFile("file")
 		log.Println(file.Filename)
 
-		saveFilePath := filepath.Join(storagePath, username)
+		saveFilePath := filepath.Join(*storagePathFlag, username)
 		c.SaveUploadedFile(file, saveFilePath)
 
 		c.String(http.StatusOK, fmt.Sprintf("'%s' uploaded!", file.Filename))
