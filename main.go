@@ -199,6 +199,23 @@ func calculateExerciseTimeSeries(liftingSets []LiftingSet, timeKeyFunc func(time
 
 var userData map[string][4]UserExerciseTimeSeries
 
+// Identity function
+func timeToTime(t time.Time) time.Time {
+	return t
+}
+func timeToDateStart(t time.Time) time.Time {
+	year, month, day := t.Date()
+	return time.Date(year, month, day, 0, 0, 0, 0, t.Location())
+}
+func timeToWeekStart(t time.Time) time.Time {
+	year, month, day := t.AddDate(0, 0, -int(t.Weekday())).Date()
+	return time.Date(year, month, day, 0, 0, 0, 0, t.Location())
+}
+func timeToMonthStart(t time.Time) time.Time {
+	year, month, _ := t.Date()
+	return time.Date(year, month, 1, 0, 0, 0, 0, t.Location())
+}
+
 func loadFileStorage(storagePath string) {
 	files, err := os.ReadDir(storagePath)
 	if err != nil {
@@ -227,19 +244,10 @@ func loadFileStorage(storagePath string) {
 			continue
 		}
 		userData[file.Name()] = [4]UserExerciseTimeSeries{
-			calculateExerciseTimeSeries(listingSets, func(t time.Time) time.Time { return t }),
-			calculateExerciseTimeSeries(listingSets, func(t time.Time) time.Time {
-				year, month, day := t.Date()
-				return time.Date(year, month, day, 0, 0, 0, 0, t.Location())
-			}),
-			calculateExerciseTimeSeries(listingSets, func(t time.Time) time.Time {
-				year, month, day := t.AddDate(0, 0, -int(t.Weekday())).Date()
-				return time.Date(year, month, day, 0, 0, 0, 0, t.Location())
-			}),
-			calculateExerciseTimeSeries(listingSets, func(t time.Time) time.Time {
-				year, month, _ := t.Date()
-				return time.Date(year, month, 1, 0, 0, 0, 0, t.Location())
-			}),
+			calculateExerciseTimeSeries(listingSets, timeToTime),
+			calculateExerciseTimeSeries(listingSets, timeToDateStart),
+			calculateExerciseTimeSeries(listingSets, timeToWeekStart),
+			calculateExerciseTimeSeries(listingSets, timeToMonthStart),
 		}
 	}
 }

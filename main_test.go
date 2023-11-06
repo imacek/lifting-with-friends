@@ -13,7 +13,7 @@ func TestParseAppleFormat(t *testing.T) {
 
 	log.Println(len(records), len(clean), clean[len(clean)-1])
 
-	aggData := calculateExerciseTimeSeries(clean)
+	aggData := calculateExerciseTimeSeries(clean, timeToTime)
 
 	log.Println(len(aggData), aggData["Deadlift"])
 }
@@ -26,7 +26,7 @@ func TestParseAndroidFormat(t *testing.T) {
 
 	log.Println(len(records), len(clean), clean[len(clean)-1])
 
-	aggData := calculateExerciseTimeSeries(clean)
+	aggData := calculateExerciseTimeSeries(clean, timeToTime)
 
 	log.Println(len(aggData), aggData["Deadlift"])
 }
