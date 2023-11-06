@@ -227,33 +227,51 @@ func loadFileStorage(storagePath string) {
 	}
 }
 
+func canStorageAcceptFile(storagePath string, fileName string, maxStoredFileCount int) bool {
+	files, err := os.ReadDir(storagePath)
+	if err != nil {
+		log.Fatal(err)
+		return false
+	}
+
+	for _, file := range files {
+		if file.Name() == fileName {
+			return true
+		}
+	}
+
+	return len(files) < maxStoredFileCount
+}
+
 func main() {
 	portFlag := flag.Int("port", 8080, "Port the web server will listen on. Defaults to 8080.")
-	storagePathFlag := flag.String("storage", "storage", "Path to the storage folder. Defaults to 'storage' folder in the working directory.")
+	storagePathFlag := flag.String("storage-dir", "storage", "Path to the storage folder. Defaults to 'storage' folder in the working directory.")
+	maxStoredFileSizeFlag := flag.Int64("storage-maxfsize", 2<<20, "The maximum allowed file size inside the storage directory. Used in conjunction with storage-maxfcount to control storage size.")
+	maxStoredFileCountFlag := flag.Int("storage-maxfcount", 20, "The maximum file count that can be stored inside storage directory. Used in conjunction with storage-maxfsize to control storage size.")
 	flag.Parse()
 
 	loadFileStorage(*storagePathFlag)
 
 	r := gin.Default()
 	r.Use(gzip.Gzip(gzip.DefaultCompression))
-	r.MaxMultipartMemory = 10 << 20 // 10 MiB
+	r.MaxMultipartMemory = *maxStoredFileSizeFlag
 	r.LoadHTMLGlob("client/*.html")
 
 	r.GET("/api/data", func(c *gin.Context) {
 		c.JSON(http.StatusOK, userData)
 	})
 
-	r.POST("/upload", func(c *gin.Context) {
+	r.POST("/api/upload", func(c *gin.Context) {
 		username := c.PostForm("user")
-		log.Println(username)
-
 		file, _ := c.FormFile("file")
-		log.Println(file.Filename)
 
-		saveFilePath := filepath.Join(*storagePathFlag, username)
-		c.SaveUploadedFile(file, saveFilePath)
-
-		c.String(http.StatusOK, fmt.Sprintf("'%s' uploaded!", file.Filename))
+		if canStorageAcceptFile(*storagePathFlag, username, *maxStoredFileCountFlag) {
+			c.SaveUploadedFile(file, filepath.Join(*storagePathFlag, username))
+			loadFileStorage(*storagePathFlag)
+			c.Status(http.StatusOK)
+		} else {
+			c.Status(http.StatusInsufficientStorage)
+		}
 	})
 
 	r.Static("/assets", "client")

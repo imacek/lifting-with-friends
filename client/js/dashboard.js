@@ -91,6 +91,28 @@
     showChart('Bent Over Row (Barbell)', selectedMetric, data)
   }
 
+  async function uploadExerciseCsv()
+  {
+    let userElem = document.getElementById("user-input")
+    let fileElem = document.getElementById("file-input")
+
+    let formData = new FormData();
+    formData.append("user", userElem.value);
+    formData.append("file", fileElem.files[0]);
+
+    const abortCtrl = new AbortController()
+    setTimeout(() => abortCtrl.abort(), 5000);
+
+    try {
+      let r = await fetch('/api/upload', { method: "POST", body: formData, signal: abortCtrl.signal });
+      console.log('HTTP response code:',r.status);
+    } catch(e) {
+      console.log('Huston we have problem...:', e);
+    }
+  }
+
+  document.getElementById("upload-button").onclick = uploadExerciseCsv;
+
 
   fetch('/api/data', {
     method: 'GET',
