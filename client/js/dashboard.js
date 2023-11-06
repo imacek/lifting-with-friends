@@ -3,59 +3,65 @@
 (() => {
   'use strict'
 
-  let data = null;
-  let selectedMetric = null;
+  let data = null
+  let selectedMetric = null
+  let selectedGrouping = null
 
-  const metricSelectBtnElems = document.getElementsByClassName('metric-select-btn');
+  const metricSelectBtnElems = document.getElementsByClassName('metric-select-btn')
+  const groupingSelectBtnElems = document.getElementsByClassName('grouping-select-btn')
 
-  function handleMetricSelectButtonClicked(clickedBtnElem) {
-    selectedMetric = clickedBtnElem.getAttribute('metric')
+  function handleSelectButtonClicked(btnElems, clickedBtnElem) {
+    const selectedValue = clickedBtnElem.getAttribute('value')
 
-    Array.from(metricSelectBtnElems).forEach(element => {
-      if (element.getAttribute('metric') === selectedMetric) {
+    Array.from(btnElems).forEach(element => {
+      if (element.getAttribute('value') === selectedValue) {
         element.classList.add('btn-primary')
         element.classList.remove('btn-outline-secondary')
       } else {
         element.classList.add('btn-outline-secondary')
         element.classList.remove('btn-primary')
       }
-    });
-
-    reloadCharts()
-  }
-
-  handleMetricSelectButtonClicked(Array.from(metricSelectBtnElems)[0]);
-
-  Array.from(metricSelectBtnElems).forEach(element => {
-    element.onclick = event => handleMetricSelectButtonClicked(event.target)
-  })
-
-  function deleteCharts() {
-    Array.from(document.getElementsByClassName('exercise-chart')).forEach(element => {
-      element.remove();
-    });
-  }
-
-  function showChart(exercise, metric, data) {
-
-    const canvasElem = document.createElement("canvas");
-    canvasElem.className = 'exercise-chart my-4 w-100'
-    canvasElem.width = 900
-    canvasElem.height = 380
-
-    const mainElem = document.getElementsByTagName('main')[0];
-    mainElem.insertAdjacentElement('beforeend', canvasElem)
-
-    const datasets = Object.entries(data).map(([user, userData]) => {
-      return { label: user, data: userData[exercise] }
     })
 
-    new Chart(canvasElem, {
+    return selectedValue
+  }
+
+  selectedMetric = handleSelectButtonClicked(metricSelectBtnElems, Array.from(metricSelectBtnElems)[0])
+  selectedGrouping = handleSelectButtonClicked(groupingSelectBtnElems, Array.from(groupingSelectBtnElems)[1])
+
+  Array.from(metricSelectBtnElems).forEach(element => {
+    element.onclick = event => {
+      selectedMetric = handleSelectButtonClicked(metricSelectBtnElems, event.target)
+      reloadCharts()
+    }
+  })
+  Array.from(groupingSelectBtnElems).forEach(element => {
+    element.onclick = event => {
+      selectedGrouping = handleSelectButtonClicked(groupingSelectBtnElems, event.target)
+      reloadCharts()
+    }
+  })
+
+  let chartInstances = []
+
+  function showChart(canvasIndex, exercise, metric, selectedGrouping, data) {
+    const canvasElem = document.getElementsByClassName('exercise-chart')[canvasIndex];
+
+    const datasets = Object.entries(data).map(([user, userData]) => {
+      return { label: user, data: userData[selectedGrouping][exercise] }
+    })
+
+    if (chartInstances[canvasIndex]) {
+      chartInstances[canvasIndex].destroy()
+    }
+
+    chartInstances[canvasIndex] = new Chart(canvasElem, {
       type: 'line',
       data: {
         datasets: datasets
       },
       options: {
+        animation: false,
         scales: {
           x: {
             type: 'time',
@@ -83,12 +89,11 @@
       return
     }
 
-    deleteCharts()
-    showChart('Squat (Barbell)', selectedMetric, data)
-    showChart('Deadlift (Barbell)', selectedMetric, data)
-    showChart('Bench Press (Barbell)', selectedMetric, data)
-    showChart('Overhead Press (Barbell)', selectedMetric, data)
-    showChart('Bent Over Row (Barbell)', selectedMetric, data)
+    showChart(0, 'Squat (Barbell)', selectedMetric, selectedGrouping, data)
+    showChart(1, 'Deadlift (Barbell)', selectedMetric, selectedGrouping, data)
+    showChart(2, 'Bench Press (Barbell)', selectedMetric, selectedGrouping, data)
+    showChart(3, 'Overhead Press (Barbell)', selectedMetric, selectedGrouping, data)
+    showChart(4, 'Bent Over Row (Barbell)', selectedMetric, selectedGrouping, data)
   }
 
   async function uploadExerciseCsv()

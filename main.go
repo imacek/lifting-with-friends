@@ -20,7 +20,7 @@ import (
 type CsvType int64
 
 const (
-	Comma = iota
+	Comma CsvType = iota
 	Semicolon
 )
 
@@ -64,6 +64,8 @@ func (ls LiftingSet) calcOneRepMax() float64 {
 	return ls.weight * (36 / (37 - float64(ls.reps)))
 }
 
+var losAngelesLocation, e = time.LoadLocation("America/Los_Angeles")
+
 // Expected Apple input headers:
 // Date,Workout Name,Duration,Exercise Name,Set Order,Weight,Reps,Distance,Seconds,Notes,Workout Notes,RPE
 func parseAppleStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
@@ -71,7 +73,7 @@ func parseAppleStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
 	cleanRecords := make([]LiftingSet, len(noHeaderRecords))
 
 	for index, record := range noHeaderRecords {
-		time, err := time.Parse("2006-01-02 15:04:05", record[0])
+		time, err := time.ParseInLocation("2006-01-02 15:04:05", record[0], losAngelesLocation)
 		if err != nil {
 			log.Println(fmt.Sprintf("Parsing Time failed at row %d", index))
 			return []LiftingSet{}, err
@@ -110,7 +112,7 @@ func parseAndroidStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
 	cleanRecords := make([]LiftingSet, len(noHeaderRecords))
 
 	for index, record := range noHeaderRecords {
-		time, err := time.Parse("2006-01-02 15:04:05", record[0])
+		time, err := time.ParseInLocation("2006-01-02 15:04:05", record[0], losAngelesLocation)
 		if err != nil {
 			log.Println(fmt.Sprintf("Parsing Time failed at row %d", index))
 			return []LiftingSet{}, err
@@ -151,22 +153,24 @@ type ExerciseAggData struct {
 
 type UserExerciseTimeSeries = map[string][]ExerciseAggData
 
-func calculateExerciseTimeSeries(liftingSets []LiftingSet) UserExerciseTimeSeries {
+func calculateExerciseTimeSeries(liftingSets []LiftingSet, timeKeyFunc func(time.Time) time.Time) UserExerciseTimeSeries {
 	m := make(map[string]map[time.Time]ExerciseAggData)
 
 	for _, ls := range liftingSets {
+		timeKey := timeKeyFunc(ls.timestamp)
+
 		if _, contains := m[ls.exerciseName]; !contains {
 			m[ls.exerciseName] = make(map[time.Time]ExerciseAggData)
 		}
-		if _, contains := m[ls.exerciseName][ls.timestamp]; !contains {
-			m[ls.exerciseName][ls.timestamp] = ExerciseAggData{
-				Timestamp: ls.timestamp,
+		if _, contains := m[ls.exerciseName][timeKey]; !contains {
+			m[ls.exerciseName][timeKey] = ExerciseAggData{
+				Timestamp: timeKey,
 			}
 		}
 
-		data := m[ls.exerciseName][ls.timestamp]
-		m[ls.exerciseName][ls.timestamp] = ExerciseAggData{
-			Timestamp:    ls.timestamp,
+		data := m[ls.exerciseName][timeKey]
+		m[ls.exerciseName][timeKey] = ExerciseAggData{
+			Timestamp:    timeKey,
 			MaxWeight:    math.Max(data.MaxWeight, ls.weight),
 			MaxOneRepMax: math.Max(data.MaxOneRepMax, ls.oneRepMax),
 			TotalVolume:  data.TotalVolume + ls.weight*float64(ls.reps),
@@ -193,7 +197,7 @@ func calculateExerciseTimeSeries(liftingSets []LiftingSet) UserExerciseTimeSerie
 	return m2
 }
 
-var userData map[string]UserExerciseTimeSeries
+var userData map[string][4]UserExerciseTimeSeries
 
 func loadFileStorage(storagePath string) {
 	files, err := os.ReadDir(storagePath)
@@ -202,7 +206,7 @@ func loadFileStorage(storagePath string) {
 		return
 	}
 
-	userData = make(map[string]UserExerciseTimeSeries)
+	userData = make(map[string][4]UserExerciseTimeSeries)
 
 	for _, file := range files {
 		records, csvType, err := readCsv(path.Join(storagePath, file.Name()))
@@ -222,8 +226,21 @@ func loadFileStorage(storagePath string) {
 			log.Println(err)
 			continue
 		}
-
-		userData[file.Name()] = calculateExerciseTimeSeries(listingSets)
+		userData[file.Name()] = [4]UserExerciseTimeSeries{
+			calculateExerciseTimeSeries(listingSets, func(t time.Time) time.Time { return t }),
+			calculateExerciseTimeSeries(listingSets, func(t time.Time) time.Time {
+				year, month, day := t.Date()
+				return time.Date(year, month, day, 0, 0, 0, 0, t.Location())
+			}),
+			calculateExerciseTimeSeries(listingSets, func(t time.Time) time.Time {
+				year, month, day := t.AddDate(0, 0, -int(t.Weekday())).Date()
+				return time.Date(year, month, day, 0, 0, 0, 0, t.Location())
+			}),
+			calculateExerciseTimeSeries(listingSets, func(t time.Time) time.Time {
+				year, month, _ := t.Date()
+				return time.Date(year, month, 1, 0, 0, 0, 0, t.Location())
+			}),
+		}
 	}
 }
 
