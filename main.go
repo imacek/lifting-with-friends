@@ -228,6 +228,7 @@ func loadFileStorage(storagePath string) {
 }
 
 func main() {
+	portFlag := flag.Int("port", 8080, "Port the web server will listen on. Defaults to 8080.")
 	storagePathFlag := flag.String("storage", "storage", "Path to the storage folder. Defaults to 'storage' folder in the working directory.")
 	flag.Parse()
 
@@ -261,5 +262,5 @@ func main() {
 		c.HTML(http.StatusOK, "index.html", nil)
 	})
 
-	r.Run()
+	r.Run(fmt.Sprintf(":%d", *portFlag))
 }
