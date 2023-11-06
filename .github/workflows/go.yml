@@ -32,7 +32,7 @@ jobs:
         
     - name: Collect artifacts into build-artifacts folder
       run: |
-        cp *.exe build-artifacts/
+        cp lifting-with-friends build-artifacts/lifting-with-friends
         cp -R client/* build-artifacts/client
           
     - name: Upload Artifact GitHub Action
