@@ -35,7 +35,7 @@ jobs:
         cp -v -R client/* build-artifacts/client
           
     - name: Upload Artifact GitHub Action
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with: 
         name: build-artifacts
         path: build-artifacts
