@@ -263,7 +263,12 @@ func main() {
 
 	r.POST("/api/upload", func(c *gin.Context) {
 		username := c.PostForm("user")
-		file, _ := c.FormFile("file")
+		file, err := c.FormFile("file")
+
+		if err != nil || len(username) == 0 {
+			c.Status(http.StatusBadRequest)
+			return
+		}
 
 		if canStorageAcceptFile(*storagePathFlag, username, *maxStoredFileCountFlag) {
 			c.SaveUploadedFile(file, filepath.Join(*storagePathFlag, username))

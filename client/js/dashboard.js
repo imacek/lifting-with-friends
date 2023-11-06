@@ -111,7 +111,7 @@
     }
   }
 
-  document.getElementById("upload-button").onclick = uploadExerciseCsv;
+  document.getElementById("upload-form").onsubmit = uploadExerciseCsv;
 
 
   fetch('/api/data', {

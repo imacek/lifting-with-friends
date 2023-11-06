@@ -148,7 +148,6 @@
     </ul>
 </div>
 
-
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
     <symbol id="calendar3" viewBox="0 0 16 16">
         <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
@@ -217,12 +216,22 @@
     <div class="row">
         <div class="col-md-12 ms-sm-auto col-lg-12 px-md-4">
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-top">
-                <div class="btn-toolbar mb-2 mb-md-0">
-                    <h4 class="h4">Upload New Exercise Data</h4>
-                    <input id="user-input" name="user" type="text">
-                    <input id="file-input" name="file" type="file">
-                    <button id="upload-button" type="button" class="btn btn-sm btn-primary">Upload</button>
-                </div>
+                <form id="upload-form">
+                    <div class="row g-3">
+                        <p>To have your data show in the charts - input your username, provide your <a href="https://www.strong.app/">Strong.app</a> export file and click Upload. Apple and Android app file types are supported.
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-auto">
+                            <input id="user-input" name="user" type="text" class="form-control" placeholder="Username" required>
+                        </div>
+                        <div class="col-auto">
+                            <input id="file-input" name="file" type="file" class="form-control" required>
+                        </div>
+                        <div class="col-auto">
+                            <button id="upload-button" type="submit" class="btn btn-primary">Upload</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
