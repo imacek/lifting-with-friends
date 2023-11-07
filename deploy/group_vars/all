@@ -1,6 +1,7 @@
 ---
 service_name: lifting-with-friends
 service_user: lifting-with-friends
-service_port: 80
+service_port: 8080
 lib_path: /usr/local/lib/lifting_with_friends
 storage_path: /var/lib/lifting_with_friends
+build_artifacts_path: ~/Downloads/build-artifacts.zip
