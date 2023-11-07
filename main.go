@@ -270,7 +270,7 @@ func canStorageAcceptFile(storagePath string, fileName string, maxStoredFileCoun
 
 func main() {
 	portFlag := flag.Int("port", 8080, "Port the web server will listen on. Defaults to 8080.")
-	storagePathFlag := flag.String("storage-dir", "storage", "Path to the storage folder. Defaults to 'storage' folder in the working directory.")
+	storagePathFlag := flag.String("storage", "storage", "Path to the storage folder. Defaults to 'storage' folder in the working directory.")
 	maxStoredFileSizeFlag := flag.Int64("storage-maxfsize", 2<<20, "The maximum allowed file size inside the storage directory. Used in conjunction with storage-maxfcount to control storage size.")
 	maxStoredFileCountFlag := flag.Int("storage-maxfcount", 20, "The maximum file count that can be stored inside storage directory. Used in conjunction with storage-maxfsize to control storage size.")
 	flag.Parse()

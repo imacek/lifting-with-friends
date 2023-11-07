@@ -1,0 +1,6 @@
+---
+service_name: lifting-with-friends
+service_user: lifting-with-friends
+service_port: 80
+lib_path: /usr/local/lib/lifting_with_friends
+storage_path: /var/lib/lifting_with_friends

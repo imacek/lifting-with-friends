@@ -1,0 +1,92 @@
+---
+- name: Setup firewall
+  hosts: ubuntu_server
+  become: true
+  tasks:
+  - name: Allow HTTP port
+    ufw:
+      rule: allow
+      port: "{{ service_port }}"
+
+- name: Create users & groups
+  hosts: ubuntu_server
+  become: true
+  tasks:
+  - name: Create group
+    group:
+      name: "{{ service_user }}"
+      state: present
+
+  - name: Create user
+    user:
+      name: "{{ service_user }}"
+      groups: "{{ service_user }}"
+      shell: /sbin/nologin
+      system: true
+      create_home: false
+
+- name: Create directories
+  hosts: ubuntu_server
+  become: true
+  tasks:
+  - name: Create service directory
+    file:
+      path: "{{ lib_path }}"
+      state: directory
+      recurse: yes
+      mode: o-rwx
+      owner: "{{ service_user }}"
+      group: "{{ service_user }}"
+
+  - name: Create data storage directory
+    file:
+      path: "{{ storage_path }}"
+      state: directory
+      recurse: yes
+      mode: o-rwx
+      owner: "{{ service_user }}"
+      group: "{{ service_user }}"
+
+- name: Setup service
+  hosts: ubuntu_server
+  become: true
+  tasks:
+  - name: Upload and unpack package
+    unarchive:
+      src: build_artifacts
+      dest: "{{ lib_path }}"
+      owner: "{{ service_user }}"
+      group: "{{ service_user }}"
+      mode: "0775"
+
+  - name: Install service
+    include_role:
+      name: 0x0i.systemd
+    vars:
+      unit_config:
+        - name: "{{ service_name }}"
+          Unit:
+            Description: Lifting With Friends
+            Documentation: https://github.com/IvanMacek/lifting-with-friends
+            Wants: network-online.target
+            After: network-online.target
+          Service:
+            Type: simple
+            ExecStart: "{{ lib_path }}/{{ service_name }} \
+              -port {{ service_port }} \
+              -storage {{ storage_path }}"
+            User: "{{ service_user }}"
+            Group: "{{ service_user }}"
+            StandardOutput: journal
+            StandardError: inherit
+            UMask: 0077
+            Restart: always
+            RestartSec: 5
+          Install:
+            WantedBy: multi-user.target
+
+  - name: Enable and start service
+    service:
+      name: "{{ service_name }}"
+      state: started
+      enabled: true
