@@ -29,6 +29,11 @@
   hosts: ubuntu_server
   become: true
   tasks:
+  - name: Force delete existing service directory
+    file:
+      state: absent
+      path: "{{ lib_path }}"
+
   - name: Create service directory
     file:
       path: "{{ lib_path }}"
@@ -83,7 +88,7 @@
             StandardError: inherit
             UMask: 0077
             Restart: always
-            RestartSec: 5
+            RestartSec: 3600
           Install:
             WantedBy: multi-user.target
 
