@@ -94,6 +94,19 @@
         nav {
             background-color: var(--bs-body-bg);
         }
+
+        .chart-container {
+            position: relative;
+            margin: auto;
+            height: 80vh;
+            width: 80vw;
+        }
+
+        .footer {
+            font-size: small;
+            font-style: italic;
+        }
+
     </style>
 
     <!-- Custom styles for this template -->
@@ -106,7 +119,7 @@
         <main class="col-md-12 ms-sm-auto col-lg-12 px-md-4">
             <nav class="navbar sticky-top d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                 <div class="container-fluid">
-                    <h1 class="h2">Lifting With Friends</h1>
+                    <h1 class="h2">🏋️ Lifting With Friends</h1>
                     <div class="btn-toolbar mb-2 mb-md-0">
                         <div class="btn-group me-2">
                             <button type="button" value="maxOneRepMax" class="metric-select-btn btn btn-sm btn-outline-secondary">1 Rep Max</button>
@@ -123,13 +136,24 @@
                 </div>
             </nav>
 
-            <canvas class="exercise-chart my-4 w-100" width="900" height="380"></canvas>
-            <canvas class="exercise-chart my-4 w-100" width="900" height="380"></canvas>
-            <canvas class="exercise-chart my-4 w-100" width="900" height="380"></canvas>
-            <canvas class="exercise-chart my-4 w-100" width="900" height="380"></canvas>
-            <canvas class="exercise-chart my-4 w-100" width="900" height="380"></canvas>
+            <div class="chart-container my-3 w-90">
+                <canvas class="exercise-chart"></canvas>
+            </div>
+            <div class="chart-container my-3 w-90">
+                <canvas class="exercise-chart"></canvas>
+            </div>
+            <div class="chart-container my-3 w-90">
+                <canvas class="exercise-chart"></canvas>
+            </div>
+            <div class="chart-container my-3 w-90">
+                <canvas class="exercise-chart "></canvas>
+            </div>
+            <div class="chart-container my-3 w-90">
+                <canvas class="exercise-chart"></canvas>
+            </div>
         </main>
     </div>
+
     <div class="row">
         <div class="col-md-12 ms-sm-auto col-lg-12 px-md-4">
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-top">
@@ -139,7 +163,7 @@
                     </div>
                     <div class="row g-3">
                         <div class="col-auto">
-                            <input id="user-input" name="user" type="text" class="form-control" placeholder="Username" pattern="[a-zA-Z0-9-_]+" maxlength="100" required>
+                            <input id="user-input" name="user" type="text" class="form-control" placeholder="Username" pattern="[a-zA-Z0-9-_]+" maxlength="15" required>
                         </div>
                         <div class="col-auto">
                             <input id="file-input" name="file" type="file" class="form-control" required>
@@ -149,6 +173,14 @@
                         </div>
                     </div>
                 </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="row footer">
+        <div class="col-md-12 ms-sm-auto col-lg-12 px-md-4">
+            <div class="d-flex flex-wrap flex-md-nowrap justify-content-center pt-3 pb-2 mb-3">
+                <p>No 💪 were used in making this website © 2023 Ivan Macek</p>
             </div>
         </div>
     </div>

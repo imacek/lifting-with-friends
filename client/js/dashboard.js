@@ -61,6 +61,7 @@
         datasets: datasets
       },
       options: {
+        maintainAspectRatio: false,
         animation: false,
         scales: {
           x: {
@@ -75,6 +76,10 @@
           title: {
             display: true,
             text: exercise,
+            color: '#dee2e6',
+            font: {
+              size: 22
+            }
           },
           legend: {
             display: true
