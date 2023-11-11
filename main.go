@@ -12,6 +12,7 @@ import (
 	"os"
 	"path"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strconv"
 	"time"
@@ -268,6 +269,17 @@ func canStorageAcceptFile(storagePath string, fileName string, maxStoredFileCoun
 	return len(files) < maxStoredFileCount
 }
 
+var validUsernameRegex = regexp.MustCompile(`[^a-zA-Z0-9-_]+`)
+
+func sanitizeUsername(str string) string {
+	sanitized := validUsernameRegex.ReplaceAllString(str, "")
+	if len(sanitized) < 15 {
+		return sanitized
+	} else {
+		return sanitized[:14]
+	}
+}
+
 func main() {
 	portFlag := flag.Int("port", 8080, "Port the web server will listen on. Defaults to 8080.")
 	storagePathFlag := flag.String("storage", "storage", "Path to the storage folder. Defaults to 'storage' folder in the working directory.")
@@ -287,7 +299,7 @@ func main() {
 	})
 
 	r.POST("/api/upload", func(c *gin.Context) {
-		username := c.PostForm("user")
+		username := sanitizeUsername(c.PostForm("user"))
 		file, err := c.FormFile("file")
 
 		if err != nil || len(username) == 0 {
@@ -295,13 +307,19 @@ func main() {
 			return
 		}
 
-		if canStorageAcceptFile(*storagePathFlag, username, *maxStoredFileCountFlag) {
-			c.SaveUploadedFile(file, filepath.Join(*storagePathFlag, username))
-			loadFileStorage(*storagePathFlag)
-			c.Status(http.StatusOK)
-		} else {
+		if !canStorageAcceptFile(*storagePathFlag, username, *maxStoredFileCountFlag) {
 			c.Status(http.StatusInsufficientStorage)
+			return
 		}
+
+		err = c.SaveUploadedFile(file, filepath.Join(*storagePathFlag, username))
+		if err != nil {
+			c.Status(http.StatusBadRequest)
+			return
+		}
+
+		loadFileStorage(*storagePathFlag)
+		c.Redirect(http.StatusSeeOther, "/")
 	})
 
 	r.Static("/assets", "client")

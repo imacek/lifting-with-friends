@@ -4,6 +4,7 @@
     <script src="/assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
+    <meta name="robots" content="none">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏋️</text></svg>">
     <title>Lifting With Friends</title>
@@ -132,13 +133,13 @@
     <div class="row">
         <div class="col-md-12 ms-sm-auto col-lg-12 px-md-4">
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-top">
-                <form id="upload-form">
+                <form id="upload-form" action="/api/upload" method="post" enctype="multipart/form-data">
                     <div class="row g-3">
                         <p>To have your latest data show in the charts - input your username, provide the latest <a href="https://www.strong.app/">Strong.app</a> export file and click Upload. Apple and Android app file types are supported.
                     </div>
                     <div class="row g-3">
                         <div class="col-auto">
-                            <input id="user-input" name="user" type="text" class="form-control" placeholder="Username" required>
+                            <input id="user-input" name="user" type="text" class="form-control" placeholder="Username" pattern="[a-zA-Z0-9-_]+" maxlength="100" required>
                         </div>
                         <div class="col-auto">
                             <input id="file-input" name="file" type="file" class="form-control" required>
