@@ -23,5 +23,8 @@ go.work
 # Remove JetBrains IDE folder
 .idea
 
+# Remove OSX specific files
+.DS_Store
+
 # App specific
 /storage

@@ -29,7 +29,7 @@
   hosts: ubuntu_server
   become: true
   tasks:
-  - name: Force delete existing service directory
+  - name: Wipe existing service directory
     file:
       state: absent
       path: "{{ lib_path }}"
@@ -62,7 +62,7 @@
       dest: "{{ lib_path }}"
       owner: "{{ service_user }}"
       group: "{{ service_user }}"
-      mode: o-rwx
+      mode: "0550"
 
   - name: Install service
     include_role:
@@ -86,7 +86,7 @@
             Group: "{{ service_user }}"
             StandardOutput: journal
             StandardError: inherit
-            UMask: 0077
+            UMask: "0077"
             Restart: always
             RestartSec: 3600
           Install:
