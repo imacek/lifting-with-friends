@@ -53,11 +53,11 @@
   tasks:
   - name: Upload and unpack package
     unarchive:
-      src: build_artifacts
+      src: "{{ build_artifacts_path }}" 
       dest: "{{ lib_path }}"
       owner: "{{ service_user }}"
       group: "{{ service_user }}"
-      mode: "0775"
+      mode: o-rwx
 
   - name: Install service
     include_role:
@@ -72,9 +72,11 @@
             After: network-online.target
           Service:
             Type: simple
+            WorkingDirectory: "{{ lib_path }}"
             ExecStart: "{{ lib_path }}/{{ service_name }} \
               -port {{ service_port }} \
               -storage {{ storage_path }}"
+            Environment: "GIN_MODE=release"
             User: "{{ service_user }}"
             Group: "{{ service_user }}"
             StandardOutput: journal
