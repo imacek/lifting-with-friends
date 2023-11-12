@@ -101,7 +101,7 @@
     showChart(4, 'Bent Over Row (Barbell)', selectedMetric, selectedGrouping, data)
   }
 
-  fetch('/api/datas', {
+  fetch('/api/data', {
     method: 'GET',
     headers: {
       'Accept': 'application/json',
