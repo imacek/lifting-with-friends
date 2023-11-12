@@ -30,9 +30,9 @@ jobs:
     - name: Collect artifacts into build-artifacts folder
       run: |
         mkdir build-artifacts
-        mkdir build-artifacts/client
+        mkdir build-artifacts/web
         cp -v lifting-with-friends build-artifacts/lifting-with-friends
-        cp -v -R client/* build-artifacts/client
+        cp -v -R client/* build-artifacts/web
           
     - name: Upload Artifact GitHub Action
       uses: actions/upload-artifact@v3
