@@ -4,16 +4,21 @@ import (
 	"fmt"
 	"log"
 	"strconv"
+	"strings"
 	"time"
 )
 
+func convertKilogramToPound(kilograms float64) float64 {
+	return kilograms * 2.204623
+}
+
 // Expected Strong Apple input headers:
 // Date,Workout Name,Duration,Exercise Name,Set Order,Weight,Reps,Distance,Seconds,Notes,Workout Notes,RPE
-func parseAppleStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
+func parseStrongAppleCsvRecords(records [][]string) ([]LiftingSet, error) {
 	cleanRecords := make([]LiftingSet, len(records))
 
 	for index, record := range records {
-		time, err := time.ParseInLocation("2006-01-02 15:04:05", record[0], losAngelesLocation)
+		time, err := time.ParseInLocation("2006-01-02 15:04:05", record[0], LosAngelesTimeLocation)
 		if err != nil {
 			log.Println(fmt.Sprintf("Parsing Time failed at row %d", index))
 			return []LiftingSet{}, err
@@ -33,7 +38,7 @@ func parseAppleStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
 
 		ls := LiftingSet{
 			timestamp:    time,
-			exerciseName: record[3],
+			exerciseName: mapStrongExerciseName(record[3]),
 			weight:       weight,
 			reps:         int(reps),
 		}
@@ -47,11 +52,11 @@ func parseAppleStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
 
 // Expected Strong Android input headers:
 // Date;Workout Name;Exercise Name;Set Order;Weight;Weight Unit;Reps;RPE;Distance;Distance Unit;Seconds;Notes;Workout Notes;Workout Duration
-func parseAndroidStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
+func parseStrongAndroidCsvRecords(records [][]string) ([]LiftingSet, error) {
 	cleanRecords := make([]LiftingSet, len(records))
 
 	for index, record := range records {
-		time, err := time.ParseInLocation("2006-01-02 15:04:05", record[0], losAngelesLocation)
+		time, err := time.ParseInLocation("2006-01-02 15:04:05", record[0], LosAngelesTimeLocation)
 		if err != nil {
 			log.Println(fmt.Sprintf("Parsing Time failed at row %d", index))
 			return []LiftingSet{}, err
@@ -63,6 +68,11 @@ func parseAndroidStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
 			weight = 0
 		}
 
+		unit := record[5]
+		if unit == "kg" {
+			weight = convertKilogramToPound(weight)
+		}
+
 		reps, err := strconv.ParseInt(record[6], 10, 32)
 		if err != nil {
 			log.Println(fmt.Sprintf("Parsing Reps failed at row %d", index))
@@ -71,7 +81,7 @@ func parseAndroidStrongCsvRecords(records [][]string) ([]LiftingSet, error) {
 
 		ls := LiftingSet{
 			timestamp:    time,
-			exerciseName: record[2],
+			exerciseName: mapStrongExerciseName(record[2]),
 			weight:       weight,
 			reps:         int(reps),
 		}
@@ -89,7 +99,7 @@ func parseDailyStrengthAndroidCsvRecords(records [][]string) ([]LiftingSet, erro
 	cleanRecords := make([]LiftingSet, len(records))
 
 	for index, record := range records {
-		time, err := time.ParseInLocation("2006-01-02 15:04:05", record[0], losAngelesLocation)
+		time, err := time.ParseInLocation("2006-01-02 15:04:05", record[0], LosAngelesTimeLocation)
 		if err != nil {
 			log.Println(fmt.Sprintf("Parsing Time failed at row %d", index))
 			return []LiftingSet{}, err
@@ -101,7 +111,12 @@ func parseDailyStrengthAndroidCsvRecords(records [][]string) ([]LiftingSet, erro
 			weight = 0
 		}
 
-		reps, err := strconv.ParseInt(record[6], 10, 32)
+		unit := record[8]
+		if unit == "kg" {
+			weight = convertKilogramToPound(weight)
+		}
+
+		reps, err := strconv.ParseInt(record[5], 10, 32)
 		if err != nil {
 			log.Println(fmt.Sprintf("Parsing Reps failed at row %d", index))
 			reps = 0
@@ -109,7 +124,7 @@ func parseDailyStrengthAndroidCsvRecords(records [][]string) ([]LiftingSet, erro
 
 		ls := LiftingSet{
 			timestamp:    time,
-			exerciseName: record[2],
+			exerciseName: mapDailyStrengthExerciseName(record[2]),
 			weight:       weight,
 			reps:         int(reps),
 		}
@@ -119,4 +134,21 @@ func parseDailyStrengthAndroidCsvRecords(records [][]string) ([]LiftingSet, erro
 	}
 
 	return cleanRecords, nil
+}
+
+func mapStrongExerciseName(name string) string {
+	return strings.TrimSuffix(name, " (Barbell)")
+}
+
+func mapDailyStrengthExerciseName(name string) string {
+	switch trimmed := strings.TrimPrefix(name, "Barbell "); trimmed {
+	case "Deadlifts":
+		return "Deadlift"
+	case "Bent Over Barbell Row":
+		return "Bent Over Row"
+	case "Standing Barbell Military Press":
+		return "Overhead Press"
+	default:
+		return trimmed
+	}
 }

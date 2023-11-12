@@ -35,9 +35,9 @@ func readCsvHeader(file *os.File) (DataSet, error) {
 
 	switch line := scanner.Text(); line {
 	case strongAppleCsvHeader:
-		return DataSet{',', parseAppleStrongCsvRecords, nil}, nil
+		return DataSet{',', parseStrongAppleCsvRecords, nil}, nil
 	case strongAndroidCsvHeader:
-		return DataSet{';', parseAndroidStrongCsvRecords, nil}, nil
+		return DataSet{';', parseStrongAndroidCsvRecords, nil}, nil
 	case dailyStrengthAndroidCsvHeader:
 		return DataSet{',', parseDailyStrengthAndroidCsvRecords, nil}, nil
 	}
@@ -71,7 +71,7 @@ func (ls LiftingSet) calcOneRepMax() float64 {
 	return ls.weight * (36 / (37 - float64(ls.reps)))
 }
 
-var losAngelesLocation, e = time.LoadLocation("America/Los_Angeles")
+var LosAngelesTimeLocation, e = time.LoadLocation("America/Los_Angeles")
 
 func LoadUserLiftingSets(storagePath string) map[string][]LiftingSet {
 	files, err := os.ReadDir(storagePath)

@@ -6,6 +6,8 @@ import (
 	"time"
 )
 
+var AnalysisCutoffDate = time.Date(2021, 1, 1, 0, 0, 0, 0, LosAngelesTimeLocation)
+
 type ExerciseAggData struct {
 	Timestamp    time.Time `json:"timestamp"`
 	MaxWeight    float64   `json:"maxWeight"`
@@ -20,6 +22,9 @@ func calculateExerciseTimeSeries(liftingSets []LiftingSet, timeKeyFunc func(time
 
 	for _, ls := range liftingSets {
 		timeKey := timeKeyFunc(ls.timestamp)
+		if timeKey.Before(AnalysisCutoffDate) {
+			continue
+		}
 
 		if _, contains := m[ls.exerciseName]; !contains {
 			m[ls.exerciseName] = make(map[time.Time]ExerciseAggData)

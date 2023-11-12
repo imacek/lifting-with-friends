@@ -94,11 +94,11 @@
       return
     }
 
-    showChart(0, 'Squat (Barbell)', selectedMetric, selectedGrouping, data)
-    showChart(1, 'Deadlift (Barbell)', selectedMetric, selectedGrouping, data)
-    showChart(2, 'Bench Press (Barbell)', selectedMetric, selectedGrouping, data)
-    showChart(3, 'Overhead Press (Barbell)', selectedMetric, selectedGrouping, data)
-    showChart(4, 'Bent Over Row (Barbell)', selectedMetric, selectedGrouping, data)
+    showChart(0, 'Squat', selectedMetric, selectedGrouping, data)
+    showChart(1, 'Deadlift', selectedMetric, selectedGrouping, data)
+    showChart(2, 'Bench Press', selectedMetric, selectedGrouping, data)
+    showChart(3, 'Overhead Press', selectedMetric, selectedGrouping, data)
+    showChart(4, 'Bent Over Row', selectedMetric, selectedGrouping, data)
   }
 
   fetch('/api/data', {
