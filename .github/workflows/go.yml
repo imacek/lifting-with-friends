@@ -32,7 +32,7 @@ jobs:
         mkdir build-artifacts
         mkdir build-artifacts/web
         cp -v lifting-with-friends build-artifacts/lifting-with-friends
-        cp -v -R client/* build-artifacts/web
+        cp -v -R web/* build-artifacts/web
           
     - name: Upload Artifact GitHub Action
       uses: actions/upload-artifact@v3
